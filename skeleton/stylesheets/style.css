@@ -1,0 +1,55 @@
+body {
+	font-family: "futura-pt", Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+h1, h3 {
+	font-family: "coquette", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+#top {
+	margin-top: 4em;
+}
+h2 {
+	font-family: "ff-tisa-web-pro",serif;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-indent: -.5em;
+	
+	-webkit-transform-origin: 0 0;
+    -moz-transform-origin:    0 0;
+    -ms-transform-origin:     0 0;
+    -o-transform-origin:      0 0;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+	-o-transform: rotate(-3deg);
+}
+h2:after {
+	content: ":"
+}
+.project {
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+.vcard p {
+	margin-bottom: 0;
+}
+img {
+	width: 90%;
+	margin-left: 5%;
+}
+.center {
+	text-align: center;
+}
+#bottom div {
+	margin-top: 50px;
+	padding-top: 20px;
+}
+h3 {
+	display: inline;
+}
+.year:before {
+	content: " / " 
+}
+.sixteen {
+	margin-top: 1em;
+}
