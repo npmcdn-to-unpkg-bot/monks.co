@@ -13,12 +13,6 @@ h2, h1 {
 	font-weight: 700;
 }
 
-/* specific */
-
-#me p {
-	font-size: 1.4em;
-}
-
 
 /* POSITIONING */
 /* POSITIONING */
@@ -27,27 +21,33 @@ h2, h1 {
 #top {
 	width: 100%;
 	margin-top: 4em;
-	border-bottom: 1em double black;
+	border-bottom: 4px double black;
 	padding-bottom: 2em;
 	display: block;
 }
 
 h1 {
-	margin-bottom: .5em;
+	margin-bottom: 21px;
 }
 
+.fn { display: none;}
 
 h2 {	
 	margin-top: 1em;
-	-webkit-transform-origin: 0 0;
-    -moz-transform-origin:    0 0;
-    -ms-transform-origin:     0 0;
-    -o-transform-origin:      0 0;
-	-webkit-transform: rotate(-5deg);
-	-moz-transform: rotate(-5deg);
-	-ms-transform: rotate(-5deg);
-	-o-transform: rotate(-5deg);
-	width: intrinsic;
+}
+@media not print {
+	#resume { display: none; }
+	h2 {
+		-webkit-transform-origin: 0 0;
+	    -moz-transform-origin:    0 0;
+	    -ms-transform-origin:     0 0;
+	    -o-transform-origin:      0 0;
+		-webkit-transform: rotate(-5deg);
+		-moz-transform: rotate(-5deg);
+		-ms-transform: rotate(-5deg);
+		-o-transform: rotate(-5deg);
+		width: intrinsic;
+	}
 }
 .subproject {
 	margin-left: .5em;
@@ -93,6 +93,10 @@ h3 {
 /* STYLE */
 /* STYLE */
 
+.hide {
+	display:none;
+}
+
 .center {
 	text-align: center;
 }
@@ -111,4 +115,37 @@ a {
 
 #middle img {
 	border: 4px double #444;
+}
+
+@media print {
+ * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
+	h1, body, h2 {font-family: "minion-pro",sans-serif; font-style: normal; font-weight: 400;}
+	h3 { font-family: "futura-pt"; font-style: normal; font-weight: 700;}
+	h3 {font-size: 18px; line-height: 24px; margin: 0; padding: 0; }
+	a, a:visited { color: #444 !important; text-decoration: underline; }
+	.subproject { font-style: italic; }
+	.year:before { content: " "; }
+	abbr[title]:after { content: " (" attr(title) ")"; }
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+	thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
+	tr, img { page-break-inside: avoid; }
+	h1:after {content: " \2022  R\00E9sum\00E9"}
+	img { max-width: 100% !important; }
+	#middle .four.columns { width: 440px !important;}
+	#middle .four.columns.only { width: 920px !important;}
+	.project, #top { margin: 0; border: 0; padding: 0; }
+	.noprint, .noprint * { display: none; }
+	html { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3{ page-break-after: avoid; }
+	@media not print { #resume { display: block; } }
+	h2 { 		-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+			-o-transform: rotate(0deg);}
+	.vcard p {display: inline;}
+	.vcard p:after {content: "  |  "}
+	#top .three.columns {width: 920px !important; padding-left: 0 !important;}
+	#info { font-family: "futura-pt"; font-style: normal; font-weight: 700;}
 }

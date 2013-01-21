@@ -54,21 +54,7 @@
 	<meta property="og:image:height" content="339"/>
 	<meta property="og:description" content="Andrew Monks is an artist and technologist based in Chicago, IL."/>
 	<meta name="description" content="Andrew Monks is an artist and technologist based in Chicago, IL."/>
-	
-	
-<!-- 	jquery -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	
-<!-- 	css switch -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			// red
-			$("#css-resume").click(function() {
-			$('<link>').attr({ 'rel': 'stylesheet', 'href': 'stylesheets/print.css' }).appendTo('head')
-			});
-		});
-	</script>
-	
+
 	
 <!-- 	typekit -->
 	<script type="text/javascript" src="//use.typekit.net/jnw4fdc.js"></script>
@@ -78,7 +64,7 @@
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
-	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/printstyle.css">
 
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -98,7 +84,6 @@
 		})();
 	</script>
 	
-
 </head>
 
 <body>
@@ -109,49 +94,33 @@
 		<div id="top">
 		
 <!-- 			triangle -->
-			<div id="triangle" class="four columns noprint">
+			<div id="triangle" class="four columns">
 				<img src="images/triangle.png" alt="triangular logo" />
 			</div>
 			
 <!-- 			my name -->
-			<div class="ten columns">
-				<h1 id="me">Andrew Monks</h1>
+			<div id="me" class="twelve columns">
+				<h1>Andrew Monks</h1>
 			</div>
 			
 <!-- 			subheading -->
-			<div class="eight columns noprint">
+			<div class="eight columns">
 				<p>I like to make things that explore the relationships between humans and technology. Sometimes I also make kick-ass websites.</p>
 				<p>I am currently studying Art + Technology at the School of the Art Institute of Chicago, and running my record label, <a href="http://belgianman.com">Belgian Man Records</a>.</p>
 			</div>
 			
 <!-- 			hcard -->
 			<div id="info" class="three columns vcard offset-by-one">
-				<p class="noprint"><a href="javascript:window.print()"><img src="images/printer.png" /></a> <a id="css-resume" href="#resume">R&eacute;sum&eacute;</a></p>
-				<p>Boston, MA &bull; <span class="locality">Chicago</span>, <span class="region">IL</span></p>
-				<p class="fn hide noprint">Andrew Monks</p>
-				<time class="bday hide noprint">1992-09-22</time>
+				<p class="fn">Andrew Monks</p>
 				<p class="tel">978-254-1779</p>
 				<p><a href="mailto:a@monks.co" class="email">a@monks.co</a></p>
 				<p><a href="http://monks.co" class="url">http://monks.co</a></p>
+				<p>Boston, MA &bull; Chicago, IL</p>
 			</div>
 			<div class="clear"></div>
 			
 		</div>
 		<div class="clear"></div>
-		
-		<div id="resume">
-				<div class="sixteen columns">
-					<h2>Education</h2>
-					<p>I am currently an undergraduate student at the School of the Art Institute of Chicago, where I was awarded a merit scholarship for my work with Belgian Man Records.</p>
-					<p>I graduated from Concord Carlisle Regional High School in 2010.</p>
-				</div>
-				<div class="sixteen columns">
-					<h2>Skills</h2>
-					<p>I&#8217;m extremely proficient with web technology. My websites are simple and buzzword compliant (responsive design, embedded fonts, open graph, microformats, html5), but usability is my first priority. I love handcoding HTML, CSS and JavaScript. If I need databases, nothing makes me happier than Ruby (Sinatra or Rails with haml and sass) on a LAMP stack. I use Illustrator and Photoshop for images.</p>
-					<p>For installations, video, and interactive art, I use a variety of things: a combination of Max/MSP and Processing for creative coding, though for a few years I was really into ChucK. Lately I&#8217;m all about live video projection using Jitter, CoGe, and or Quartz Composer with MadMapper.</p>
-					<p>I use Ableton Live for linear sound editing, Cinema 4D for 3d graphics, and After Effects for linear video and compositing.</p>
-				</div>
-			</div>
 	
 	
 <!-- 		main projects section -->
@@ -232,7 +201,7 @@
 				<div class="four columns noprint">
 					<a href="https://github.com/andrewjmonks/wiimote"><img src="images/wiimote.png" alt="Wiimote" /></a>
 				</div>
-				<div class="four columns only omega">
+				<div class="four columns omega">
 					<p>Max/MSP patches to easily interface with Nintendo Wiimotes and Korg Nanokontrols.</p>
 					<p>The <a href="https://github.com/andrewjmonks/wiimote">Wiimote</a> and <a href="https://github.com/andrewjmonks/nanokontrol">Nanokontrol</a> patches are available freely from Github.
 				</div>
@@ -248,7 +217,7 @@
 				<div class="eight columns alpha noprint">
 					<a href="http://choomgang.co.uk"><img src="images/choomgang.png" alt="Choom Gang" /></a>
 				</div>
-				<div class="four columns only">
+				<div class="four columns">
 					<p><a href="http://choomgang.co.uk">Barack Obama&#8217;s Choom Gang</a> is an informational website that describes Barack Obama&#8217;s relationship with marijuana, and his Hawaiian pot-smoking group, the Choom Gang.</p>
 					<p>I made it in early 2012, in preparation for the presidential election.</p>
 				</div>
@@ -314,7 +283,7 @@
 			
 		</div>
 		<div class="clear"></div>
-
+		
 		
 <!-- 		footer section -->
 		<div id="bottom">
@@ -327,10 +296,6 @@
 	
 	
 <!-- 	github banner -->
-	<span class="noprint"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: -100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" usemap="#github" />
-		<map name="github">
-			<area shape="poly" coords="20,2,57,-1,147,92,148,135" href="https://github.com/andrewjmonks" target="_blank" alt="github" >
-		</map>
-	</span>
+	<span class="noprint"><a href="https://github.com/andrewjmonks"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a></span>
 </body>
 </html>
