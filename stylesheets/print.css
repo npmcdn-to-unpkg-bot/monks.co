@@ -29,4 +29,8 @@ h2 { 		-webkit-transform: rotate(0deg);
 .vcard p {display: inline;}
 .vcard p:after {content: "  |  "}
 #top .three.columns {width: 920px !important; padding-left: 0 !important;}
-#info { font-family: "futura-pt"; font-style: normal; font-weight: 700;}
+#info { font-family: "futura-pt"; font-style: normal; font-weight: 400;}
+.center, #copy { text-align: left; }
+#bottom { height: auto; padding-top: 40px;}
+.year:before { content: " ("}
+.year:after { content: ")"}

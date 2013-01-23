@@ -38,6 +38,8 @@
 
 <!-- 	meta -->
 	<title>Andrew Monks</title>
+	<meta name="msvalidate.01" content="BE5E85044D732A5C38594A33E7FF17DB" />
+	<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=2.0; user-scalable=1;"/>
 	<meta property="og:title" content="Andrew Monks"/>
 	<meta property="og:site_name" content="Andrew Monks"/>
 	<meta property="og:type" content="public_figure"/>
@@ -102,7 +104,7 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="container hresume">
 	
 	
 <!-- 		header section -->
@@ -119,37 +121,38 @@
 			</div>
 			
 <!-- 			subheading -->
-			<div class="eight columns noprint">
+			<div class="eight columns summary noprint">
 				<p>I like to make things that explore the relationships between humans and technology. Sometimes I also make kick-ass websites.</p>
-				<p>I am currently studying Art + Technology at the School of the Art Institute of Chicago, and running my record label, <a href="http://belgianman.com">Belgian Man Records</a>.</p>
+				<p>I am currently studying Art + Technology at <abbr title="The School of the Art Institute of Chicago">SAIC</abbr>, and running my record label, <a href="http://belgianman.com">Belgian Man Records</a>.</p>
 			</div>
 			
 <!-- 			hcard -->
-			<div id="info" class="three columns vcard offset-by-one">
-				<p class="noprint"><a href="javascript:window.print()"><img src="images/printer.png" /></a> <a id="css-resume" href="#resume">R&eacute;sum&eacute;</a></p>
-				<p>Boston, MA &bull; <span class="locality">Chicago</span>, <span class="region">IL</span></p>
-				<p class="fn hide noprint">Andrew Monks</p>
+			<address id="info" class="three columns vcard offset-by-one">
+				<p class="noprint"><a href="javascript:window.print()"><img src="images/printer.png" alt="print" /></a> <a id="css-resume" href="#resume">R&eacute;sum&eacute;</a></p>
+				<p class="adr">Boston, MA &bull; <span class="locality">Chicago</span>, <span class="region">IL</span></p>
+				<p class="fn hide noprint">Andrew Monks </p>
+				<p class="org hide noprint">Belgian Man Records</p>
 				<time class="bday hide noprint">1992-09-22</time>
 				<p class="tel">978-254-1779</p>
 				<p><a href="mailto:a@monks.co" class="email">a@monks.co</a></p>
 				<p><a href="http://monks.co" class="url">http://monks.co</a></p>
-			</div>
+			</address>
 			<div class="clear"></div>
 			
 		</div>
 		<div class="clear"></div>
 		
 		<div id="resume">
-				<div class="sixteen columns">
+				<div class="sixteen columns vcalendar">
 					<h2>Education</h2>
-					<p>I am currently an undergraduate student at the School of the Art Institute of Chicago, where I was awarded a merit scholarship for my work with Belgian Man Records.</p>
-					<p>I graduated from Concord Carlisle Regional High School in 2010.</p>
+					<p class="education vevent">I am currently<span class="hide noprint dtstart">2012</span> an undergraduate student at <span class="summary vcard"><abbr class="fn org" title="The School of the Art Institute of Chicago">SAIC</abbr></span>, where I was awarded a merit scholarship for my work with Belgian Man Records.</p>
+					<p class="education vevent">I graduated from <span class="vcard"><span class="summary fn org">Concord Carlisle Regional High School</span></span> in <span class="dtstart">2010</span>.</p>
 				</div>
 				<div class="sixteen columns">
 					<h2>Skills</h2>
-					<p>I&#8217;m extremely proficient with web technology. My websites are simple and buzzword compliant (responsive design, embedded fonts, open graph, microformats, html5), but usability is my first priority. I love handcoding HTML, CSS and JavaScript. If I need databases, nothing makes me happier than Ruby (Sinatra or Rails with haml and sass) on a LAMP stack. I use Illustrator and Photoshop for images.</p>
-					<p>For installations, video, and interactive art, I use a variety of things: a combination of Max/MSP and Processing for creative coding, though for a few years I was really into ChucK. Lately I&#8217;m all about live video projection using Jitter, CoGe, and or Quartz Composer with MadMapper.</p>
-					<p>I use Ableton Live for linear sound editing, Cinema 4D for 3d graphics, and After Effects for linear video and compositing.</p>
+					<p>My websites are simple and buzzword compliant (<span class="skill">responsive design</span>, <span class="skill">embedded fonts</span>, <span class="skill">open graph</span>, <span class="skill">microformats</span>, <span class="skill">html5</span>) because usability is my first priority. I love hand-coding HTML, <span class="skill">CSS</span> and <span class="skill">JavaScript</span>. If I need databases, nothing makes me happier than <span class="skill">Ruby</span> (<span class="skill">Sinatra</span> or <span class="skill">Rails</span> with <span class="skill">haml and sass</span>) on <abbr class="skill" title="Linux, Apache, MySQL">LAM</abbr>. I use <span class="skill">Illustrator</span> and <span class="skill">Photoshop</span> for images.</p>
+					<p>For <span class="skill">installations</span>, <span class="skill">video</span>, and <span class="skill">interactive art</span>, I use a variety of tools: <span class="skill">Max/MSP</span> and <span class="skill">Processing</span> for creative coding, though for a few years I was really into <span class="skill">ChucK</span>. At the moment I&#8217;m all about live video projection using <span class="skill">Jitter</span>, <span class="skill">CoGe</span>, and or <span class="skill">Quartz Composer</span> with <span class="skill">MadMapper</span>.</p>
+					<p>I use <span class="skill">Ableton Live</span> for linear sound editing, <span class="skill">Cinema 4D</span> for 3d graphics, and <span class="skill">After Effects</span> for linear video and compositing.</p>
 				</div>
 			</div>
 	
@@ -159,15 +162,15 @@
 		
 		
 <!-- 		belgian man -->
-		<div id="middle">
-			<div class="project">
+		<div id="middle" class="vcalendar">
+			<div id="belgianman" class="project experience vevent">
 				<div class="sixteen columns">
-					<h3><a href="http://belgianman.com">Belgian Man Records</a></h3><span class="subproject">Experimental record label</span><span class="year">2007-present</span>
+					<h3 class="summary"><a href="http://belgianman.com">Belgian Man Records</a></h3><span class="subproject">Experimental record label</span><span class="year"><span class="dtstart">2007</span>-present</span>
 				</div>
 				<div class="eight columns alpha noprint">
-					<a href="http://belgianman.com"><img src="images/belgianman.png" alt="Belgian Man Records logo" /></a>
+					<a href="http://belgianman.com"><img src="images/belgianman.png" alt="Belgian Man Records" /></a>
 				</div>
-				<div class="four columns ">
+				<div class="four columns">
 					<p><a href="http://belgianman.com/">Belgian Man Records</a> is a record label I started in 2007.</p>
 					<p>In the beginning, I made a commitment to personally handle as many aspects as possible, and as a result I&#8127;m proud that my own hand has touched almost every release, be it through audio mastering, cover design, or full-on recording and production, and that I&#8127;ve personally done all the label&#8127;s promotion, web development, and management.</p>
 				</div>
@@ -180,9 +183,9 @@
 			
 			
 <!-- 			history of color -->
-			<div class="project">
+			<div id="color" class="project experience vevent" >
 				<div class="sixteen columns">
-					<h3>An Abridged History Of Color</h3><span class="subproject">Installation of color through time</span><span class="year">2012</span>
+					<h3 class="summary">An Abridged History Of Color</h3><span class="subproject">Installation of color through time</span><span class="year dtstart">2012</span>
 				</div>
 				<div class="eight columns alpha noprint">
 					<img src="images/timeline.png" alt="Color timeline" />
@@ -190,7 +193,7 @@
 				<div class="four columns">
 					<p>An Abridged History Of Color Through Time is an as-yet-uninstalled installation I created in 2012.</p>
 					<p>I wrote a script to analyze the colors used in painting from the year 1000 through 1999, using data it collected from <a href="http://artstor.org">ARTstor</a>.</p>
-					<p>This image is a visualization of this data as a timeline divided into ten columns by century, each showing the most common paint colors of that century sorted by hue.</p>
+					<p class="noprint">This image is a visualization of this data as a timeline divided into ten columns by century, each showing the most common paint colors of that century sorted by hue.</p>
 				</div>
 				<div class="four columns omega">
 					<p>For the installation, I wrote a program in Processing create live video from this data, shrinking the thousand years of painting into the installations duration. This video is projected onto a pool of water.</p>
@@ -201,9 +204,9 @@
 
 
 <!-- 			homer -->
-			<div class="project">
+			<div id="homer" class="project experience vevent">
 				<div class="sixteen columns">
-					<h3><a href="http://homer.monks.co">Homer</a></h3><span class="subproject">Online memory experiment</span><span class="year">2012</span>
+					<h3 class="summary"><a href="http://homer.monks.co">Homer</a></h3><span class="subproject">Online memory experiment</span><span class="year dtstart">2012</span>
 				</div>
 				<div class="eight columns alpha noprint">
 					<a href="http://homer.monks.co"><img src="images/homer.png" alt="Homer" /></a>
@@ -222,9 +225,9 @@
 
 
 <!-- 			max/msp maps -->
-			<div class="project">
+			<div id="maps" class="project experience vevent">
 				<div class="sixteen columns">
-					<h3>Maps</h3><span class="subproject">Wiimote and Nanokontrol in Max/MSP</span><span class="year">2012</span>
+					<h3 class="summary">Maps</h3><span class="subproject">Wiimote and Nanokontrol in Max/MSP</span><span class="year dtstart">2012</span>
 				</div>
 				<div class="eight columns alpha noprint">
 					<a href="https://github.com/andrewjmonks/nanokontrol"><img src="images/nanokontrol.png" alt="Nanokontrol" /></a>
@@ -241,9 +244,9 @@
 
 
 <!-- 			choom gang -->
-			<div class="project">
+			<div id="choomgang" class="project experience vevent">
 				<div class="sixteen columns">
-					<h3><a href="http://choomgang.co.uk">Barack Obama&#8217;s Choom Gang</a></h3><span class="subproject">Online propaganda</span><span class="year">2012</span>
+					<h3 class="summary"><a href="http://choomgang.co.uk">Barack Obama&#8217;s Choom Gang</a></h3><span class="subproject">Online propaganda</span><span class="year dtstart">2012</span>
 				</div>
 				<div class="eight columns alpha noprint">
 					<a href="http://choomgang.co.uk"><img src="images/choomgang.png" alt="Choom Gang" /></a>
@@ -257,9 +260,9 @@
 
 
 <!-- 			gentleman's standard -->
-			<div class="project">
+			<div id="standard" class="project experience vevent">
 				<div class="sixteen columns">
-					<h3><a href="http://gentleman.so">The Gentleman&#8217;s Standard</a></h3><span class="subproject">Satirical print magazine</span><span class="year">2009-2010</span>
+					<h3 class="summary"><a href="http://gentleman.so">The Gentleman&#8217;s Standard</a></h3><span class="subproject">Satirical print magazine</span><span class="year"><span class="dtstart">2009</span>-<span class="dtend">2010</span></span>
 				</div>
 				<div class="eight columns alpha noprint">
 					<a href="http://gentleman.so"><img src="images/standard.png" alt="The Gentleman&#8217;s Standard" /></a>
@@ -276,9 +279,9 @@
 
 
 <!-- 			pfe -->
-			<div class="project noprint">
+			<div id="pfe" class="project experience vevent">
 				<div class="sixteen columns">
-					<h3>Permanent Fatal Errors</h3><span class="subproject">The theatre of text</span><span class="year">2009-2010</span>
+					<h3 class="summary">Permanent Fatal Errors</h3><span class="subproject">The theatre of text</span><span class="year "><span class="dtstart">2009</span>-<span class="dtend">2010</span></span>
 				</div>
 				<div class="eight columns alpha noprint">
 					<img src="images/pfe.jpg" alt="Permanent Fatal Errors" />
@@ -296,9 +299,9 @@
 
 
 <!-- 			jcssw -->
-			<div class="project">
+			<div id="jcssw" class="project experience vevent">
 				<div class="sixteen columns">
-					<h3>Jesus Christ Super Star Wars</h3><span class="subproject">Mashup opera</span><span class="year">2009</span>
+					<h3 class="summary">Jesus Christ Super Star Wars</h3><span class="subproject">Mashup opera</span><span class="year dtstart">2009</span>
 				</div>
 				<div class="eight columns alpha noprint">
 					<img src="images/jcssw.png" alt="Jesus Christ Super Star Wars" />
@@ -314,12 +317,13 @@
 			
 		</div>
 		<div class="clear"></div>
-
+	
 		
 <!-- 		footer section -->
 		<div id="bottom">
-			<div class="sixteen columns">
-				<p>&copy; 2013 <a href="http://monks.co">Andrew Monks</a></p>
+			<div class="sixteen columns center">
+				<p class="noprint">&laquo; &there4;&int;&there4;&int;&there4;&int;&there4;&int;&diams;&int;&there4;&int;&there4;&int;&there4;&int;&there4; &raquo;</p>
+				<p id="copy">&copy; 2004-2013 <a href="http://monks.co">Andrew Monks</a></p>
 			</div>
 		</div>
 		
@@ -327,10 +331,5 @@
 	
 	
 <!-- 	github banner -->
-	<span class="noprint"><img style="position: absolute; top: 0; right: 0; border: 0; z-index: -100;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" usemap="#github" />
-		<map name="github">
-			<area shape="poly" coords="20,2,57,-1,147,92,148,135" href="https://github.com/andrewjmonks" target="_blank" alt="github" >
-		</map>
-	</span>
-</body>
+	<div class=" noprint github "><a href="http://github.com/andrewjmonks">Fork me on Github!</a></div>
 </html>
