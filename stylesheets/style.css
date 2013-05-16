@@ -56,6 +56,10 @@ h2 {
 	height: 150px;
 }
 
+#triangle img {
+	padding-top: 2em;
+}
+
 .project {
 	margin-top: 2em;
 	margin-bottom: 2em;
