@@ -60,6 +60,10 @@ h2 {
 	padding-top: 2em;
 }
 
+form, input[type="text"] {
+	width: 100%;
+}
+
 .project {
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -74,15 +78,16 @@ h2 {
 	margin-left: 5%;
 }
 */
-#middle img {
-	width: 100%;
-}
+
 h3 {
 	display: inline;
 }
 #middle .sixteen {
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+#middle img {
+	width: 100%;
 }
 
 #triangle img {
@@ -108,11 +113,11 @@ abbr {
 }
 
 h2:after {
-	content: ":"
+	content: ":";
 }
 
 .year:before {
-	content: " | " 
+	content: " | " ;
 }
 
 a {
@@ -120,10 +125,22 @@ a {
 }
 
 #middle img {
+	width: 100%;
 	border: 4px double #444;
 }
 
 html, body {padding: 0; margin: 0;}
+
+
+#middle .minigit img {
+	width: 15px;
+	height: 15px;
+	margin-left: 6px;
+	position: relative;
+	border: none;
+	display: inline;
+}
+/*
 
 .github {
 /* 	height: 149px; */
@@ -186,6 +203,7 @@ html, body {padding: 0; margin: 0;}
 	);	
 	
 }
+
 
 
 
