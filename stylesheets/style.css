@@ -21,7 +21,6 @@ h2, h1 {
 #top {
 	margin-top: 4em;
 	border-bottom: 4px double black;
-	padding-bottom: 2em;
 	display: block;
 }
 
@@ -56,8 +55,17 @@ h2 {
 	height: 150px;
 }
 
-#triangle img {
+#silhouette img {
+	width: 100%;
+	height: auto;
 	padding-top: 2em;
+	position: absolute;
+	max-width: 200px;
+	bottom: 0;
+}
+#silhouette {
+	position: relative;
+	height: 200px;
 }
 
 form, input[type="text"] {
@@ -88,11 +96,6 @@ h3 {
 }
 #middle img {
 	width: 100%;
-}
-
-#triangle img {
-	width: 100%;
-	height: auto;
 }
 
 
@@ -139,69 +142,6 @@ html, body {padding: 0; margin: 0;}
 	position: relative;
 	border: none;
 	display: inline;
-}
-/*
-
-.github {
-/* 	height: 149px; */
-/* 	width: 149px; */
-	overflow:hidden;
-	padding: 0;
-	margin: 0;
-}
-.github a{
-	
-	display: block;
-	width: 190px;
-	font-size: 14px;
-	font-family: "myriad-pro",sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	background-color: #333;
-	color: #FFF;
-	word-spacing: 2px;
-	text-decoration: none;
-	padding: 5px 15px 5px 25px;
-	
-	position:absolute;
-	right: -95px;
-	top: -37px;
-	text-align: center;
-	
-	-moz-transform-origin: 0 0 ;
-	-moz-transform:rotate(45deg);
-	-moz-box-shadow:    1px 1px 5px 1px #666;
-	
-	-webkit-transform-origin: 0 0 ;	
-	-webkit-transform:rotate(45deg);
-	-webkit-box-shadow: 1px 1px 5px 1px #666;
-	
-	-ms-transform-origin: 0 0 ;	
-	-ms-transform:rotate(45deg);
-	-ms-box-shadow: 1px 1px 5px 1px #666;
-	
-	transform-origin: 0 0 ;	
-	transform:rotate(45deg);
-	box-shadow: 1px 1px 5px 1px #666;
-	
-	background-image: linear-gradient(bottom, #000000 3%, #666666 5%, #000000 7%, #000000 93%, #666666 95%, #000000 97%);
-	background-image: -o-linear-gradient(bottom, #000000 3%, #666666 5%, #000000 7%, #000000 93%, #666666 95%, #000000 97%);
-	background-image: -moz-linear-gradient(bottom, #000000 3%, #666666 5%, #000000 7%, #000000 93%, #666666 95%, #000000 97%);
-	background-image: -webkit-linear-gradient(bottom, #000000 3%, #666666 5%, #000000 7%, #000000 93%, #666666 95%, #000000 97%);
-	background-image: -ms-linear-gradient(bottom, #000000 3%, #666666 5%, #000000 7%, #000000 93%, #666666 95%, #000000 97%);
-	
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0.03, #000000),
-		color-stop(0.05, #666666),
-		color-stop(0.07, #000000),
-		color-stop(0.93, #000000),
-		color-stop(0.95, #666666),
-		color-stop(0.97, #000000)
-	);	
-	
 }
 
 
