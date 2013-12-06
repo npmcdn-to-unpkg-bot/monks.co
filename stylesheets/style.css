@@ -14,19 +14,19 @@
 
 #star-1 {
 	top: 20px;
-	left: 170px;
+	left: 150px;
 	z-index: -1;
 }
 
 #star-2 {
 	top: 60px;
-	left: 60px;
+	left: 40px;
 	z-index: -1;
 }
 
 #star-3 {
 	top: 90px;
-	left: 150px;
+	left: 130px;
 	z-index: 1;
 }
 
