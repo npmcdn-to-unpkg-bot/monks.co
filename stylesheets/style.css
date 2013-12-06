@@ -9,8 +9,21 @@
 
 #silhouette span {
 	position: absolute;
-	top: 10;
-	left: 10;
+}
+
+#star-1 {
+	top: 20px;
+	left: 100px;
+}
+
+#star-2 {
+	top: 40px;
+	left: 60px;
+}
+
+#star-3 {
+	top: 50px;
+	left: 50px;
 }
 
 
