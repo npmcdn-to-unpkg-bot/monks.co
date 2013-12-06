@@ -9,25 +9,29 @@
 
 #silhouette span {
 	position: absolute;
+	color: white;
 }
 
 #star-1 {
 	top: 20px;
-	left: 100px;
+	left: 170px;
+	z-index: -1;
 }
 
 #star-2 {
 	top: 40px;
 	left: 60px;
+	z-index: -1;
 }
 
 #star-3 {
 	top: 50px;
-	left: 50px;
+	left: 150px;
+	z-index: 1;
 }
 
 #logo {
-	z-index: -1;
+	z-index: 0;
 }
 
 
