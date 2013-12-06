@@ -26,6 +26,10 @@
 	left: 50px;
 }
 
+#logo {
+	z-index: -1;
+}
+
 
 body, h3 {
 	font-family: "futura-pt", Futura, "Century Gothic", AppleGothic, sans-serif;
