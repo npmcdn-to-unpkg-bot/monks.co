@@ -42,4 +42,14 @@ function oldskoolaFonts() {
 		var s = document.getElementsByTagName('script')[0];
 		s.parentNode.insertBefore(wf, s);
 	})();
+
+	changeFontsTo("h1", "'IM Fell DW Pica', cursive")
+
+}
+
+function changeFontsTo(element, font){
+	var h1Elements = document.getElementsByTagName(element);
+	for(var i = 0; i < h1Elements.length; i++) {
+		h1Elements[i].style.fontFamily = font;
+	}
 }
