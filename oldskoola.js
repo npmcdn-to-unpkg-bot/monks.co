@@ -8,13 +8,16 @@
 // 3. change background to old paper
 
 
-// include pixastic library
-var pixasticJSCode = document.createElement('script');
-pixasticJSCode.setAttribute('src', 'https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js');
-document.body.appendChild(pixasticJSCode);
-
-
 // do the thing
+loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", oldskoola() );
+
+// // include pixastic library
+// var pixasticJSCode = document.createElement('script');
+// pixasticJSCode.setAttribute('src', 'https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js');
+// document.body.appendChild(pixasticJSCode);
+
+
+// function to do the thing
 function oldskoola() {
 	oldskoolaBackground();
 	oldskoolaFonts();
@@ -23,6 +26,24 @@ function oldskoola() {
 	// setTimeout(function(){oldskoolaImages()}, 3000);
 }
 
+// function to load a script with a callback function once it loads
+// from http://stackoverflow.com/questions/950087/how-to-include-a-javascript-file-in-another-javascript-file
+function loadScript(url, callback)
+{
+    // Adding the script tag to the head as suggested before
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+
+    // Then bind the event to the callback function.
+    // There are several events for cross browser compatibility.
+    script.onreadystatechange = callback;
+    script.onload = callback;
+
+    // Fire the loading
+    head.appendChild(script);
+}
 
 // function to change background to old paper texture
 function oldskoolaBackground() {
