@@ -17,7 +17,7 @@ document.body.appendChild(pixasticJSCode);
 
 oldskoolaBackground();
 oldskoolaFonts();
-setTimeout(oldskoolaImages(), 5000);
+setTimeout(function(){oldskoolaImages()}, 5000);
 
 
 
