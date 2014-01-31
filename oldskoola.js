@@ -8,12 +8,6 @@
 // 3. change background to old paper
 
 
-// // include pixastic library
-// var pixasticJSCode = document.createElement('script');
-// pixasticJSCode.setAttribute('src', 'https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js');
-// document.body.appendChild(pixasticJSCode);
-
-
 // function to do the thing
 function oldskoola() {
 	oldskoolaBackground();
