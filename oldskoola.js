@@ -81,8 +81,11 @@ function oldskoolaImages() {
 
 
 	// iterate through images
-	console.log(images);
+	console.log(images.length);
+	console.log("start loop");
 	for (var i = 0; i < length; i++) {
+		console.log("loop iteration");
+		console.log(images.length);
 		console.log(i);
 		Pixastic.process(images[i], 'sepia');
 		// images[i].src = img.imageurl
