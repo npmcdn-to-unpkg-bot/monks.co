@@ -25,6 +25,7 @@ function oldskoola() {
 
 
 // this seems not to work
+// // function to load a script with a callback function once it loads
 // // do the thing
 // loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", myPrettyCode );
 // 
