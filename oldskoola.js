@@ -9,7 +9,7 @@
 
 
 // do the thing
-loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", oldskoola() );
+loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", myPrettyCode );
 
 // // include pixastic library
 // var pixasticJSCode = document.createElement('script');
@@ -18,7 +18,7 @@ loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixast
 
 
 // function to do the thing
-function oldskoola() {
+var myPrettyCode = function oldskoola() {
 	oldskoolaBackground();
 	oldskoolaFonts();
 	oldskoolaImages();
