@@ -74,24 +74,27 @@ function oldskoolaImages() {
 
 
 	// get images from page
-	console.log(document.getElementsByTagName("img").length);
 	var images = document.getElementsByTagName("img");
 	var length = images.length;
-	console.log(length);
 
 
 	// iterate through images
-	console.log(images.length);
-	console.log("start loop");
-	for (var i = 0; i < length; i++) {
-		console.log("loop iteration");
-		console.log(images.length);
-		console.log(length);
-		console.log(i);
-		// var workingImage = images[i];
+	while(images.length > 0){
 		Pixastic.process(images[0], 'sepia');
-		// images[i].src = img.imageurl
-		console.log(images[0].src);
-		console.log(images[i].src);
 	}
+
+
+	// console.log(images.length);
+	// console.log("start loop");
+	// for (var i = 0; i < length; i++) {
+	// 	console.log("loop iteration");
+	// 	console.log(images.length);
+	// 	console.log(length);
+	// 	console.log(i);
+	// 	// var workingImage = images[i];
+	// 	Pixastic.process(images[0], 'sepia');
+	// 	// images[i].src = img.imageurl
+	// 	console.log(images[0].src);
+	// 	console.log(images[i].src);
+	// }
 }
