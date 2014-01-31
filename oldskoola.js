@@ -12,10 +12,11 @@ function oldskoolaImages() {
 	// pixastic library; sepia component only
 
 	// via include
+	while(Pixastic != true){
 	 	var pixasticJSCode = document.createElement('script');
 		pixasticJSCode.setAttribute('src', 'https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js');
 		document.body.appendChild(pixasticJSCode);
-
+	}
 	// // full source inclusion
 	// 		/*
 	// 	* Pixastic - JavaScript Image Processing Library
