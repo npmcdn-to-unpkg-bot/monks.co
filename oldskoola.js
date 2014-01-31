@@ -15,7 +15,7 @@
 
 
 // function to do the thing
-var myPrettyCode = function oldskoola() {
+function oldskoola() {
 	oldskoolaBackground();
 	oldskoolaFonts();
 	oldskoolaImages();
@@ -24,29 +24,27 @@ var myPrettyCode = function oldskoola() {
 }
 
 
-// do the thing
-loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", myPrettyCode );
+// this seems not to work
+// // do the thing
+// loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", myPrettyCode );
+// 
+// // function to load a script with a callback function once it loads
+// // from http://stackoverflow.com/questions/950087/how-to-include-a-javascript-file-in-another-javascript-file
+// function loadScript(url, callback) {
+//     // Adding the script tag to the head as suggested before
+//     var head = document.getElementsByTagName('head')[0];
+//     var script = document.createElement('script');
+//     script.type = 'text/javascript';
+//     script.src = url;
 
+//     // Then bind the event to the callback function.
+//     // There are several events for cross browser compatibility.
+//     script.onreadystatechange = callback;
+//     script.onload = callback;
 
-
-// function to load a script with a callback function once it loads
-// from http://stackoverflow.com/questions/950087/how-to-include-a-javascript-file-in-another-javascript-file
-function loadScript(url, callback)
-{
-    // Adding the script tag to the head as suggested before
-    var head = document.getElementsByTagName('head')[0];
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = url;
-
-    // Then bind the event to the callback function.
-    // There are several events for cross browser compatibility.
-    script.onreadystatechange = callback;
-    script.onload = callback;
-
-    // Fire the loading
-    head.appendChild(script);
-}
+//     // Fire the loading
+//     head.appendChild(script);
+// }
 
 // function to change background to old paper texture
 function oldskoolaBackground() {
