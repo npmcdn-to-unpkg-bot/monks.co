@@ -23,16 +23,6 @@ oldskoolaImages();
 }
 
 
-// function to convert images to sepia
-function oldskoolaImages() {
-
-	// iterate through images
-	var images = document.getElementsByTagName("img");
-	while(images.length > 0){
-		Pixastic.process(images[0], 'sepia');
-	}
-}
-
 // function to change background to old paper texture
 function oldskoolaBackground() {
 	document.body.style.backgroundImage="url('https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/paper.jpg')";
@@ -72,3 +62,15 @@ function oldskoolaFonts() {
 	}
 }
 
+
+
+
+// function to convert images to sepia
+function oldskoolaImages() {
+
+	// iterate through images
+	var images = document.getElementsByTagName("img");
+	while(images.length > 0){
+		Pixastic.process(images[0], 'sepia');
+	}
+}
