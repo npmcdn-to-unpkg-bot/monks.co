@@ -22,38 +22,41 @@ function oldskoolaImages() {
 	}
 }
 
+// change background to old paper texture
 function oldskoolaBackground() {
 	document.body.style.backgroundImage="url('https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/paper.jpg')";
 }
 
-
+// change fonts to oldish looking google fonts
 function oldskoolaFonts() {
-	WebFontConfig = {
-		google: {
-			families: ['IM+Fell+DW+Pica:400,400italic:latin', 'Pinyon+Script::latin', 'Germania+One::latin', 'Miltonian::latin', 'Fruktur::latin']
-		}
-	};
-	(function () {
-		var wf = document.createElement('script');
-		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-		wf.type = 'text/javascript';
-		wf.async = 'true';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(wf, s);
-	})();
+	// js pasted from google fonts:
+		WebFontConfig = {
+			google: {
+				families: ['IM+Fell+DW+Pica:400,400italic:latin', 'Pinyon+Script::latin', 'Germania+One::latin', 'Miltonian::latin', 'Fruktur::latin']
+			}
+		};
+		(function () {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})();
 
+	// change fonts for elements
 	changeFontsTo("h1", "'Fruktur', serif")
 	changeFontsTo("body", "'Pinyon Script', cursive")
 	changeFontsTo("h2", "'IM Fell DW Pica', serif")
 	changeFontsTo("h3", "'IM Fell DW Pica', serif")
 	changeFontsTo("h4", "'IM Fell DW Pica', serif")
-
-}
-
-function changeFontsTo(element, font){
-	var h1Elements = document.getElementsByTagName(element);
-	for(var i = 0; i < h1Elements.length; i++) {
-		h1Elements[i].style.fontFamily = font;
+	// function to change an element's font
+	function changeFontsTo(element, font){
+		var h1Elements = document.getElementsByTagName(element);
+		for(var i = 0; i < h1Elements.length; i++) {
+			h1Elements[i].style.fontFamily = font;
+		}
 	}
 }
+
