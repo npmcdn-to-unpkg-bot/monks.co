@@ -74,9 +74,10 @@ function oldskoolaImages() {
 
 
 	// get images from page
-
+	console.log(document.getElementsByTagName("img").length);
 	var images = document.getElementsByTagName("img");
 	var length = images.length;
+	console.log(length);
 
 
 	// iterate through images
