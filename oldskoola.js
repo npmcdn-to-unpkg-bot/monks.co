@@ -49,7 +49,6 @@ function oldskoola() {
 // function to change background to old paper texture
 function oldskoolaBackground() {
 	document.body.style.backgroundImage="url('https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/paper.jpg')";
-	document.style.backgroundImage="url('https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/paper.jpg')";
 }
 
 // function to change fonts to oldish looking google fonts
