@@ -80,7 +80,7 @@ function oldskoolaImages() {
 
 
 	// iterate through images
-
+	console.log(images);
 	for (var i = 0; i < length; i++) {
 		console.log(i);
 		Pixastic.process(images[i], 'sepia');
