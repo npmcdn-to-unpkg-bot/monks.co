@@ -21,3 +21,5 @@ function oldskoolaImages() {
 	}
 
 }
+
+oldskoolaImages();
