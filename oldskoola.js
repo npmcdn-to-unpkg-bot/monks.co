@@ -8,9 +8,6 @@
 // 3. change background to old paper
 
 
-// do the thing
-loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", myPrettyCode );
-
 // // include pixastic library
 // var pixasticJSCode = document.createElement('script');
 // pixasticJSCode.setAttribute('src', 'https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js');
@@ -25,6 +22,12 @@ var myPrettyCode = function oldskoola() {
 	// oldskoolaImages only works if pixastic is loaded...
 	// setTimeout(function(){oldskoolaImages()}, 3000);
 }
+
+
+// do the thing
+loadScript("https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js", myPrettyCode );
+
+
 
 // function to load a script with a callback function once it loads
 // from http://stackoverflow.com/questions/950087/how-to-include-a-javascript-file-in-another-javascript-file
