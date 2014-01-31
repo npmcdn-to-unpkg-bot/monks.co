@@ -14,11 +14,13 @@ document.body.appendChild(pixasticJSCode);
 
 
 // do the thing
-
+function oldskoola() {
 oldskoolaBackground();
 oldskoolaFonts();
-setTimeout(function(){oldskoolaImages()}, 3000);
-
+oldskoolaImages();
+// oldskoolaImages only works if pixastic is loaded...
+// setTimeout(function(){oldskoolaImages()}, 3000);
+}
 
 
 // function to convert images to sepia
