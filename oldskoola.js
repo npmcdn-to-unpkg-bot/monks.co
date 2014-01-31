@@ -7,7 +7,6 @@
 // 2. change fonts
 // 3. change background to old paper
 
-setTimeout(function(){oldskoola()}, 2000);
 
 // include pixastic library
 var pixasticJSCode = document.createElement('script');
