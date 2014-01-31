@@ -72,6 +72,7 @@ function oldskoolaFonts() {
 	// change fonts for elements
 	changeFontsTo("h1", "'Fruktur', serif")
 	changeFontsTo("body", "'Pinyon Script', cursive")
+	changeFontsTo("p", "'Pinyon Script', cursive")
 	changeFontsTo("h2", "'IM Fell DW Pica', serif")
 	changeFontsTo("h3", "'IM Fell DW Pica', serif")
 	changeFontsTo("h4", "'IM Fell DW Pica', serif")
