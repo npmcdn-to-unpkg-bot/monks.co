@@ -14,9 +14,10 @@ document.body.appendChild(pixasticJSCode);
 
 
 // do the thing
-oldskoolaFonts();
-oldskoolaImages();
+
 oldskoolaBackground();
+oldskoolaFonts();
+setTimeout(oldskoolaImages(), 500);
 
 
 
