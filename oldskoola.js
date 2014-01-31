@@ -88,7 +88,7 @@ function oldskoolaImages() {
 		console.log(images.length);
 		console.log(length);
 		console.log(i);
-		Pixastic.process(images[i], 'sepia');
+		// Pixastic.process(images[i], 'sepia');
 		// images[i].src = img.imageurl
 		console.log(images[i].src);
 	}
