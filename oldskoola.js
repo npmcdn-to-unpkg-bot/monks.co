@@ -12,7 +12,15 @@ var pixasticJSCode = document.createElement('script');
 pixasticJSCode.setAttribute('src', 'https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/pixastic.sepia.js');
 document.body.appendChild(pixasticJSCode);
 
-// convert images to sepia
+
+// do the thing
+oldskoolaFonts();
+oldskoolaImages();
+oldskoolaBackground();
+
+
+
+// function to convert images to sepia
 function oldskoolaImages() {
 
 	// iterate through images
@@ -22,12 +30,12 @@ function oldskoolaImages() {
 	}
 }
 
-// change background to old paper texture
+// function to change background to old paper texture
 function oldskoolaBackground() {
 	document.body.style.backgroundImage="url('https://raw2.github.com/amonks/algorithms-ai/master/oldskoola/paper.jpg')";
 }
 
-// change fonts to oldish looking google fonts
+// function to change fonts to oldish looking google fonts
 function oldskoolaFonts() {
 	// js pasted from google fonts:
 		WebFontConfig = {
@@ -51,6 +59,7 @@ function oldskoolaFonts() {
 	changeFontsTo("h2", "'IM Fell DW Pica', serif")
 	changeFontsTo("h3", "'IM Fell DW Pica', serif")
 	changeFontsTo("h4", "'IM Fell DW Pica', serif")
+
 	// function to change an element's font
 	function changeFontsTo(element, font){
 		var h1Elements = document.getElementsByTagName(element);
