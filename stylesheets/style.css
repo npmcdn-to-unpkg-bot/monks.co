@@ -131,6 +131,7 @@ h3 {
 }
 
 h5 {
+	font-size: inherit;
 	font-weight: 700;
 }
 #middle .sixteen {
