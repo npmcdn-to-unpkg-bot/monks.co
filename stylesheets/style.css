@@ -43,7 +43,7 @@
 }
 
 
-body, h3 {
+body, h3, h5 {
 	font-family: "futura-pt", Futura, "Century Gothic", AppleGothic, sans-serif;
 }
 h2, h1 {
@@ -128,6 +128,10 @@ form, input[type="text"] {
 
 h3 {
 	display: inline;
+}
+
+h5 {
+	font-weight: 700;
 }
 #middle .sixteen {
 	margin-top: 1em;
