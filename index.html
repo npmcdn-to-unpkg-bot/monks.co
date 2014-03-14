@@ -918,10 +918,14 @@
     </div>
 
     <script type="text/javascript">
-        $('#silhouette').css( 'min-height', Math.max( ($('#id').height() + $('#bio').height()) , $("#logo").height() ) );
+        setImageHeight();
         $( window ).resize(function() {
-            $('#silhouette').css( 'min-height', Math.max( ($('#id').height() + $('#bio').height()) , $("#logo").height() ) );
+            setImageHeight();
         });
+
+        function setImageHeight() {
+            $('#silhouette').css( 'min-height', Math.max( ($('#id').height() + $('#bio').height()) , $("#logo").height() ) );
+        }
     </script>
 
 </body>
