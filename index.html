@@ -917,6 +917,9 @@
 
     <script type="text/javascript">
         $('#silhouette').css('height',$('#top').height());
+        $( window ).resize(function() {
+            $('#silhouette').css('height',$('#top').height());
+        });
     </script>
 
 </body>
