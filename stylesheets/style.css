@@ -59,10 +59,8 @@ h2 {
 
 #silhouette * {
 	width: 100%;
-	height: auto;
 	padding-top: 2em;
 	position: absolute;
-	max-width: 200px;
 	bottom: 0;
 }
 #silhouette {
