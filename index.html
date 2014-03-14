@@ -918,9 +918,9 @@
     </div>
 
     <script type="text/javascript">
-        $('#silhouette').css( 'min-height',$('#id').height() + $('#bio').height() );
+        $('#silhouette').css( 'min-height', Math.max( ($('#id').height() + $('#bio').height()) , $("#logo").height() ) );
         $( window ).resize(function() {
-            $('#silhouette').css( 'min-height', Math.max( ($('#id').height() + $('#bio').height()) , $("#logo").height() );
+            $('#silhouette').css( 'min-height', Math.max( ($('#id').height() + $('#bio').height()) , $("#logo").height() ) );
         });
     </script>
 
