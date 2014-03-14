@@ -137,13 +137,13 @@
             </div>
             <div id='rightheader'>
                 <!-- 			my name -->
-                <div class="ten columns 3dwrapper">
+                <div class="ten columns" id="name">
                     <h1 id="me">Andrew Monks</h1>
                     <!-- <p class="3dname"><iframe src="http://yungfuture.com/monks.gif.html" width="100%" height="55px"></iframe></p> -->
                 </div>
 
                 <!-- 			subheading -->
-                <div class="eight columns summary noprint">
+                <div class="eight columns summary noprint" id="bio">
                     <p>I like to make cool stuff with computers. I study <abbr title="Sample classes: Database-driven Art, The Art Of Data Visualization, Algorithms + Artificial Intelligence, Fabricating For Motion">Art + Technology</abbr> at <abbr title="The School of the Art Institute of Chicago">SAIC</abbr>, and run <a href="http://belgianman.com">Belgian Man Records</a>. You can catch me at <a href="https://twitter.com/xmonksx">@xmonksx</a> or on the <a href="http://facebook.com/andrewmonks">Book</a>. I occasionally write about how I make things at <a href="http://endurativemod.es">endurativemod.es</a>. I even less frequently write about hip-hop at <a href="http://youwouldntstealacar.com">youwouldntstealacar.com</a>.</p>
                     <p>I don&#8217;t ever leave the <a href="http://greeenha.us">GREEENHAU$</a>.</p>
                 </div>
@@ -918,9 +918,9 @@
     </div>
 
     <script type="text/javascript">
-        $('#silhouette').css('height',$('#rightheader').height());
+        $('#silhouette').css( 'height',$('#id').height() + $('#bio').height() );
         $( window ).resize(function() {
-            $('#silhouette').css('height',$('#rightheader').height());
+            $('#silhouette').css( 'height',$('#id').height() + $('#bio').height() );
         });
     </script>
 
