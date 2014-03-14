@@ -22,7 +22,6 @@ h2, h1 {
 /* POSITIONING */
 
 #top {
-	margin-top: 4em;
 	border-bottom: 4px double black;
 	display: block;
 }
