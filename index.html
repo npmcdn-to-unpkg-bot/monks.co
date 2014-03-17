@@ -924,7 +924,11 @@
 
         $(document).ready(function() {
             setImageHeight();
-            $('.bttrlazyloading').bttrlazyloading();
+            $('.bttrlazyloading').bttrlazyloading({
+                threshold: 400,
+                placeholder: 'test',
+                animation: fadeInUp
+            });
         })
 
         $( window ).resize(function() {
