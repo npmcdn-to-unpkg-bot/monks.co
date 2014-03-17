@@ -924,7 +924,9 @@
 
         $(document).ready(function() {
             setImageHeight();
-            $('.bttrlazyloading').bttrlazyloading();
+            $('.bttrlazyloading').bttrlazyloading({
+                transition: 'fadeIn'
+            });
         })
 
         $( window ).resize(function() {
