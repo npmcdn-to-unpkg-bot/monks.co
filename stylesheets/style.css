@@ -122,7 +122,7 @@ h5 {
     margin-top: 56.25%;
 }
 
-.aspect iframe:after {
+.aspect:after {
     content: '';
     display: block;
 }
