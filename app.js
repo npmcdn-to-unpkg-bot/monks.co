@@ -53,7 +53,9 @@ $(document).ready(function() {
 		$html = $('html, body');
 
 
-	$menu.mmenu();
+	$menu.mmenu({
+		background: #ffffff;
+	});
 	$menu.find( 'li > a' ).on(
 		'click',
 		function()
