@@ -126,7 +126,7 @@ h5 {
     margin-bottom: 62.5%;
 }
 
-.oneone:after, .fourthree:after, .sixteennine:after .sixteenten:after {
+.oneone:after, .fourthree:after, .sixteennine:after, .sixteenten:after {
     content: '';
     display: block;
 }
