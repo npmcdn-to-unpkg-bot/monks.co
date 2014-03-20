@@ -122,7 +122,11 @@ h5 {
     margin-bottom: 56.25%;
 }
 
-.oneone:after, .fourthree:after, .sixteennine:after {
+.sixteenten:after {
+    margin-bottom: 62.5%;
+}
+
+.oneone:after, .fourthree:after, .sixteennine:after .sixteenten:after {
     content: '';
     display: block;
 }
