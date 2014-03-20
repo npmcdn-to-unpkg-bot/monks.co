@@ -13,13 +13,17 @@
 //     });
 // })
 
-// $( window ).resize(function() {
-//     setImageHeight();
-// });
 
-// function setImageHeight() {
-//     $('#silhouette').css( 'min-height', Math.max( ($('#name').height() + $('#bio').height()) , $("#logo").height() ) );
-// }
+
+// image height setter
+
+$( window ).resize(function() {
+    setImageHeight();
+});
+
+function setImageHeight() {
+    $('#silhouette').css( 'min-height', Math.max( ($('#name').height() + $('#bio').height()) , $("#logo").height() ) );
+}
 
 
 
