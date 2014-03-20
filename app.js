@@ -33,7 +33,6 @@ $(document).ready(function() {
 
 // lazy loader
 
-<script type="text/javascript">
 $(document).ready(function() {
     setImageHeight();
     $('.bttrlazyloading').bttrlazyloading({
