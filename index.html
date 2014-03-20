@@ -61,36 +61,24 @@
 
 
     <!-- 	jquery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- smooth scroller -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.ba-bbq/1.2.1/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.4.13/jquery.smooth-scroll.min.js"></script>
 
     <!-- doger.js -->
-    <script src="doger.js"></script>
+    <script type="text/javascript"  src="doger.js"></script>
 
     <!-- lazy loader -->
-    <script src="jquery.bttrlazyloading.min.js"></script>
+    <script type="text/javascript"  src="jquery.bttrlazyloading.min.js"></script>
     <link rel="stylesheet" href="stylesheets/bttrlazyloading.min.css">
 
-    <!-- 	css switch -->
-    <script type="text/javascript">
-    $(document).ready(function() {
-        // red
-        $("#css-resume").click(function() {
-            $('<link>').attr({
-                'rel': 'stylesheet',
-                'href': 'stylesheets/print.css'
-            }).appendTo('head')
-        });
-    });
-    </script>
-
-
-    <!-- 	typekit -->
+    <!-- typekit -->
     <script type="text/javascript" src="//use.typekit.net/jnw4fdc.js"></script>
-    <script type="text/javascript">
-    try {
-        Typekit.load();
-    } catch (e) {}
-    </script>
+
+    <!-- custom -->
+    <script type="text/javascript" src="app.js"></script>
 
     <!-- 	css -->
     <link rel="stylesheet" href="stylesheets/base.css">
@@ -102,24 +90,6 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-
-    <!-- 	analytics -->
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-    var pluginUrl =
-        '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-    _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-    _gaq.push(['_setAccount', 'UA-37834146-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript';
-        ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-    </script>
 
 
 </head>
@@ -945,26 +915,6 @@
         </div>
 
     </div>
-
-    <script type="text/javascript">
-
-        $(document).ready(function() {
-            setImageHeight();
-            $('.bttrlazyloading').bttrlazyloading({
-                backgroundcolor: '#ffffff',
-                threshold: 600,
-                animation: "fadeIn"
-            });
-        })
-
-        $( window ).resize(function() {
-            setImageHeight();
-        });
-
-        function setImageHeight() {
-            $('#silhouette').css( 'min-height', Math.max( ($('#name').height() + $('#bio').height()) , $("#logo").height() ) );
-        }
-    </script>
 
 </body>
 
