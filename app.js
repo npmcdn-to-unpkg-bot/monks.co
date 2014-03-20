@@ -44,6 +44,10 @@ $(document).ready(function() {
 		$('#menu').append(  "<li><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
 	})
 
+	
+	var $menu = $('nav#menu'),
+		$html = $('html, body');
+
 	$menu.mmenu();
 	$menu.find( 'li > a' ).on(
 		'click',
