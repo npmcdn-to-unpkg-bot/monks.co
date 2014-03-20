@@ -86,6 +86,7 @@ h2 {
 #silhouette {
 	position: relative;
 	height: 200px;
+	min-height: 220px;
 }
 
 form, input[type="text"] {
