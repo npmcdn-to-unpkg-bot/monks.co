@@ -25,6 +25,10 @@ function setImageHeight() {
     $('#silhouette').css( 'min-height', Math.max( ($('#name').height() + $('#bio').height()) , $("#logo").height() ) );
 }
 
+$(document).ready(function() {
+	setImageHeight();
+})
+
 
 
 // css switcher
@@ -53,7 +57,9 @@ $(document).ready(function() {
 		$html = $('html, body');
 
 
-	$menu.mmenu();
+	$menu.mmenu({
+
+	});
 	$menu.find( 'li > a' ).on(
 		'click',
 		function()
