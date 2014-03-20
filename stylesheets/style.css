@@ -24,6 +24,8 @@ h2, h1 {
 #hamburger, #hamburger a {
 	font-size: 2em;
 	text-decoration: none;
+	z-index: 5;
+	line-height: 2em;
 }
 
 #hamburger a:before {
