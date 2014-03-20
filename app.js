@@ -89,21 +89,6 @@ $(document).ready(function() {
 
 
 
-// navigation scroll watcher
-
-$("navlink").each(function() {
-	var t = $("#anchor-point").offset().top;
-
-	$(document).scroll(function(){
-	    if($(this).scrollTop() > t)
-	    {   
-	        $(this).addClass('mm-selected');
-	    }
-	});
-})
-
-
-
 // google analyzer
 
 var _gaq = _gaq || [];
