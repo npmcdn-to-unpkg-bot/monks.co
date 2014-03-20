@@ -45,7 +45,9 @@ $(document).ready(function() {
 	})
 
 
-	var $menu = $('#menu');
+	var $menu = $('#menu'),
+		$html = $('html, body');
+
 
 	$menu.mmenu();
 	$menu.find( 'li > a' ).on(
