@@ -26,6 +26,10 @@ h2, h1 {
 	text-decoration: none;
 }
 
+#hamburger a:before {
+	background: #f3f3f3;
+}
+
 #top {
 	border-bottom: 4px double black;
 	display: block;
