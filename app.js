@@ -14,7 +14,6 @@
 // })
 
 
-
 // image height setter
 
 $( window ).resize(function() {
@@ -49,7 +48,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('h3.summary').each(function(i) {
-		$('#navlist').append(  "<li><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
+		$('#navlist').append(  "<li class="navlink"><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
 	})
 
 
@@ -88,6 +87,20 @@ $(document).ready(function() {
 	);
 });
 
+
+
+// navigation scroll watcher
+
+$("navlink").each(function() {
+	var t = $("#anchor-point").offset().top;
+
+	$(document).scroll(function(){
+	    if($(this).scrollTop() > t)
+	    {   
+	        $(this).addClass('mm-selected');
+	    }
+	});
+})
 
 
 
