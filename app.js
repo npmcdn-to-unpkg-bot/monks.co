@@ -66,22 +66,46 @@ $(document).ready(function() {
 
 
 
-// typekit loader
-
-try {
-    Typekit.load();
-} catch (e) {}
-
-
-
 // navigation maker
 
 $(document).ready(function() {
-	$('h3.summary a').each(function(i) {
-		var current = $(this);
-		#navigation.append("<p><a href='" + current.attr('id') + "' >" + current.parent().children('.project').attr('id'));
+	$('h3.summary').each(function(i) {
+		$('#navigation').append("<li><a href='#" + $(this).text() + "' >" + $(this).parent().children('.project').first.attr('id') );
 	})
-};
+
+
+	var $menu = $('nav#navigation'),
+		$html = $('html, body');
+
+	$menu.mmenu();
+	$menu.find( 'li > a' ).on(
+		'click',
+		function()
+		{
+			var href = $(this).attr( 'href' );
+
+			//	if the clicked link is linked to an anchor, scroll the page to that anchor 
+			if ( href.slice( 0, 1 ) == '#' )
+			{
+				$menu.one(
+					'closed.mm',
+					function()
+					{
+						setTimeout(
+							function()
+							{
+								$html.animate({
+									scrollTop: $( href ).offset().top
+								});	
+							}, 10
+						);	
+					}
+				);						
+			}
+		}
+	);
+});
+
 
 
 

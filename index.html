@@ -63,10 +63,6 @@
     <!-- 	jquery -->
     <script type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-    <!-- smooth scroller -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.ba-bbq/1.2.1/jquery.ba-bbq.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.4.13/jquery.smooth-scroll.min.js"></script>
-
     <!-- doger.js -->
     <script type="text/javascript"  src="doger.js"></script>
 
@@ -76,6 +72,14 @@
 
     <!-- typekit -->
     <script type="text/javascript" src="//use.typekit.net/jnw4fdc.js"></script>
+    <script>
+    try {
+        Typekit.load();
+    } catch (e) {}
+    </script>
+
+    <!-- fancy menu -->
+    <script type="text/javascript" src="jquery.mmenu.min.js"></script>
 
     <!-- custom -->
     <script type="text/javascript" src="app.min.js"></script>
@@ -98,7 +102,6 @@
     <div class="container hresume">
         <div id="page">
             <div class="logo"></div>
-            <ul></ul>
         </div>
 
         <!-- 		header section -->
@@ -204,8 +207,10 @@
 
 
         <!-- 		main projects section -->
-        
-        <div id="navigation"></div>
+
+        <nav>
+            <ul id="navigation"></ul>
+        </nav>
 
 
         <div class="sixteen columns">
@@ -366,7 +371,7 @@
 
 
             <!-- 		CTA Visualization -->
-            <div id="CTA Visualization" class="project experience vevent">
+            <div id="cta" class="project experience vevent">
                 <div class="sixteen columns">
                     <h3 class="summary"><a href="http://amonks.github.io">CTA Ridership Visualizations</a>
                     </h3>
@@ -619,7 +624,7 @@
 
 
             <!-- 		Sknom Werdna -->
-            <div id="belgianman" class="project experience vevent">
+            <div id="sknom" class="project experience vevent">
                 <div class="sixteen columns">
                     <h3 class="summary"><a href="https://facekov.herokuapp.com/">Sknom Werdna</a>
                     </h3>
