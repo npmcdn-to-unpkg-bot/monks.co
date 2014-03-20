@@ -48,7 +48,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('h3.summary').each(function(i) {
-		$('#navlist').append(  "<li class="navlink"><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
+		$('#navlist').append(  "<li class='navlink'><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
 	})
 
 
