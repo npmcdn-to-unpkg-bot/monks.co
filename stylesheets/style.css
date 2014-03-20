@@ -110,19 +110,19 @@ h5 {
     width: 100%;
 }
 
-.1-1:before {
+.oneone:after {
 	margin-bottom: 100%;
 }
 
-.4-3:before{
+.fourthree:after{
     margin-bottom: 75%;
 }
 
-.sixteen-by-nine:before {
+.sixteennine:after {
     margin-bottom: 56.25%;
 }
 
-.aspect:after {
+.oneone:after .fourthree:after .sixteennine:after {
     content: '';
     display: block;
 }
