@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('h3.summary').each(function(i) {
-		$('#menu').append(  "<li><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
+		$('#navlist').append(  "<li><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
 	})
 
 
