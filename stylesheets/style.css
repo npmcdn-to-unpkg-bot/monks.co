@@ -21,7 +21,7 @@ h2, h1 {
 /* POSITIONING */
 /* POSITIONING */
 
-#hamburger {
+#hamburger, #hamburger a {
 	font-size: 2em;
 	text-decoration: none;
 }
