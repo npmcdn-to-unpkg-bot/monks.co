@@ -4,22 +4,22 @@
 
 // lazy loader
 
-$(document).ready(function() {
-    setImageHeight();
-    $('.bttrlazyloading').bttrlazyloading({
-        backgroundcolor: '#ffffff',
-        threshold: 600,
-        animation: "fadeIn"
-    });
-})
+// $(document).ready(function() {
+//     setImageHeight();
+//     $('.bttrlazyloading').bttrlazyloading({
+//         backgroundcolor: '#ffffff',
+//         threshold: 600,
+//         animation: "fadeIn"
+//     });
+// })
 
-$( window ).resize(function() {
-    setImageHeight();
-});
+// $( window ).resize(function() {
+//     setImageHeight();
+// });
 
-function setImageHeight() {
-    $('#silhouette').css( 'min-height', Math.max( ($('#name').height() + $('#bio').height()) , $("#logo").height() ) );
-}
+// function setImageHeight() {
+//     $('#silhouette').css( 'min-height', Math.max( ($('#name').height() + $('#bio').height()) , $("#logo").height() ) );
+// }
 
 
 
