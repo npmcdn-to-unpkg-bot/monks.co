@@ -210,7 +210,7 @@ a {
 	border: 4px double #444;
 }
 
-html, body {padding: 0; margin: 0;}
+html, body {padding: 0; margin: 0; zoom: 3;}
 
 
 #middle .minigit img {
