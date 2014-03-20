@@ -21,6 +21,12 @@ h2, h1 {
 /* POSITIONING */
 /* POSITIONING */
 
+#hamburger {
+	font-size: 2em;
+	position: fixed;
+	top: 5px;
+	left: 5px;
+}
 
 #top {
 	border-bottom: 4px double black;
