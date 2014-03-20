@@ -41,12 +41,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('h3.summary').each(function(i) {
-		$('#navigation').append("<li><a href='#" + $(this).text() + "' >" + $(this).parent().children('.project').first.attr('id') );
+		$('#navigation').append(  "<li><a href='#" + $(this).parent().parent().attr('id') + "'> " + $(this).text() );
 	})
-
-
-	var $menu = $('nav#navigation'),
-		$html = $('html, body');
 
 	$menu.mmenu();
 	$menu.find( 'li > a' ).on(

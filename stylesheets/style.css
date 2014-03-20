@@ -23,7 +23,7 @@ h2, h1 {
 
 #hamburger {
 	font-size: 20em;
-	position: absolute;
+	position: fixed;
 	top: 5px;
 	left: 5px;
 }
