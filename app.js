@@ -74,6 +74,17 @@ try {
 
 
 
+// navigation maker
+
+$(document).ready(function() {
+	$('h3.summary a').each(function(i) {
+		var current = $(this);
+		#navigation.append("<p><a href='" + current.attr('id') + "' >" + current.parent().children('.project').attr('id'));
+	})
+};
+
+
+
 // google analyzer
 
 var _gaq = _gaq || [];
