@@ -45,7 +45,7 @@ $(document).ready(function() {
 	})
 
 
-	var $menu = $('nav#menu');
+	var $menu = $('#menu');
 
 	$menu.mmenu();
 });
