@@ -85,7 +85,7 @@ $(document).ready(function() {
 	);
 
 	// $('[title!=""]').qtip({
-	$('li.navlink').qtip'({
+	$('li.navlink').qtip({
 	    position: {
 	        my: 'left center',  // Position my top left...
 	        at: 'right center', // at the bottom right of...
