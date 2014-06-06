@@ -55,8 +55,8 @@
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="392" />
     <meta property="og:image:height" content="339" />
-    <meta property="og:description" content="Andrew Monks is an artist and technologist based in Chicago, IL. He founded Belgian Man Records." />
-    <meta name="description" content="Andrew Monks is an artist and technologist based in Chicago, IL. He founded Belgian Man Records." />
+    <meta property="og:description" content="Andrew Monks makes things in Chicago, IL. He founded Belgian Man Records." />
+    <meta name="description" content="Andrew Monks makes things in Chicago, IL. He founded Belgian Man Records." />
 
  
     <!-- typekit -->
@@ -64,29 +64,12 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 
-    <!-- 	jquery -->
-    <script type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- 	javascript -->
+    <script type="text/javascript"  src="lib/js.min.js"></script>
 
-    <!-- doger.js -->
-    <script type="text/javascript"  src="doger.js"></script>
-
-    <!-- lazy loader -->
-    <!-- <script type="text/javascript"  src="jquery.bttrlazyloading.min.js"></script>-->
-    <!-- <link rel="stylesheet" href="stylesheets/bttrlazyloading.min.css"> -->
-
-    <!-- fancy menu -->
-    <link rel="stylesheet" href="jquery.mmenu.all.css">
-    <link rel="stylesheet" href="jquery.mmenu.themes.css">
-    <script type="text/javascript" src="jquery.mmenu.min.js"></script>
-
-    <!-- custom -->
-    <script type="text/javascript" src="app.js"></script>
 
     <!-- 	css -->
-    <link rel="stylesheet" href="stylesheets/base.css">
-    <link rel="stylesheet" href="stylesheets/skeleton.css">
-    <link rel="stylesheet" href="stylesheets/layout.css">
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="lib/css.min.css" />
 
     <!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -256,6 +239,37 @@
             <div class="clear"></div>
 
 
+            <!--        Where At? -->
+            <div id="divvy" class="project experience vevent">
+                <div class="sixteen columns">
+                    <h3 class="summary"><a href="http://www.where.kim/">Where At?</a>
+                    </h3>
+                    <span class="noprint minigit">
+                        <a href="https://github.com/amonks/where-at">
+                            <img src="images/github.png" alt="github" class="minigit" />
+                        </a>
+                    </span>
+                    <span class="subproject">Collaborative Mapping</span>
+                    <span class="year">
+                        <span class="dtstart">2014</span>
+                    </span>
+                </div>
+                <div class="eight columns alpha noprint">
+                    <a href='http://www.where.kim'>
+                        <img class="bttrlazyloading" src="images/where.png"  alt="Where At?" />
+                    </a>
+                </div>
+                <div class="four columns ">
+                    <p><a href="http://www.where.kim">Where At?</a> is a simple tool for annotating, sharing, and collaborating on maps.</p>
+                    <p>My apartment is a bit hard to find: I&#8127;m in the rear of my building, and you have to enter from an alley rather than from the main street. Normal Google Maps directions to my address end up at the wrong place, but there&#8127;s no way within Google Maps to draw your own route and send it to someone. With Where At?, you can.</p>
+                </div>
+                <div class="four columns">
+                    <p></p>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+
             <!--        It&#8127;s Cloudy? -->
             <div id="cloudy" class="project experience vevent">
                 <div class="sixteen columns">
@@ -277,7 +291,7 @@
                     </a>
                 </div>
                 <div class="four columns ">
-                    <p><a href="http://amonks.github.io/weather">It&#8127;s Cloudy?</a> is a weather visualization I made to experiement with the idea of 'truthiness' in data. If you put something in a graph, it looks sciencey, even truthy. People tend to believe graphs: computers don&#8127;t lie!</p>
+                    <p><a href="http://amonks.github.io/weather">It&#8127;s Cloudy?</a> is a weather visualization I made to experiment with the idea of 'truthiness' in data. If you put something in a graph, it looks sciencey, even truthy. People tend to believe graphs: computers don&#8127;t lie!</p>
                     <p>This is a frequently-exploited aspect of human nature, if you want to convince people something&#8127;s true, make a chart. But what about the converse? If you take real data and display it in a non-sciencey way, does it still seem true?</p>
                 </div>
                 <div class="four columns">
@@ -482,8 +496,8 @@
                 </div>
 
                 <div class="four columns only">
-                    <p><a href="https://vimeo.com/84020611">NetCam</a> is a RaspberryPi-based streaming security camera. A classic case of scratching my own itch, I made it because the intercom/buzzer system at my apartment was really inconsistant.</p>
-                    <p>Mounted inside my front door, the camera automatically connects to my wifi network and serves up a live feed of whatever&#8127;s going on outside. If someone buzzes into the building, the other tennants or I can simply visit the camera&#8127;s website for a live video stream.</p>
+                    <p><a href="https://vimeo.com/84020611">NetCam</a> is a RaspberryPi-based streaming security camera. A classic case of scratching my own itch, I made it because the intercom/buzzer system at my apartment was really inconsistent.</p>
+                    <p>Mounted inside my front door, the camera automatically connects to my wifi network and serves up a live feed of whatever&#8127;s going on outside. If someone buzzes into the building, the other tenants or I can simply visit the camera&#8127;s website for a live video stream.</p>
                 </div>
             </div>
             <div class="clear"></div>
@@ -652,7 +666,7 @@
                     <form method="post" class="noprint" action="http://lyrics.gy/">
                         <input type="text" name="artist" id="artist" value="Try any musical artist" onfocus="this.value=''" />
                     </form>
-                    <p>I made it in May 2013 as a Lil&#8127; B song generator. Because B speaks in non-sequiturs and frequently doesn&#8127;t incorporate rhymes into his lyrics, it seemed like a good opportunity for generative text.</p>
+                    <p>I made it in May 2013 as a Lil&#8127; B song generator. Because B speaks in non-sequitur and frequently doesn&#8127;t incorporate rhymes into his lyrics, it seemed like a good opportunity for generative text.</p>
                 </div>
             </div>
             <div class="clear"></div>
@@ -762,7 +776,7 @@
                 </div>
                 <div class="four columns only omega">
                     <p><a href="https://github.com/amonks/maxkit">Maxkit</a> is a collection of Max/MSP patches to help Max users more easily interface with hardware including Nintendo Wiimotes, Korg Nanokontrols, and Arduinos.</p>
-                    <p>The patches are available freely from <a href="https://github.com/amonks/maxkit">Github</a>.</p>
+                    <p>The patches are available freely from <a href="https://github.com/amonks/maxkit">GitHub</a>.</p>
                 </div>
             </div>
             <div class="clear"></div>
@@ -892,7 +906,7 @@
                     </a>
                 </div>
                 <div class="four columns">
-                    <p><a href="http://gentleman.so">The Gentleman&#8217;s Standard De l&#8217;Acad&eacute;mie</a> is a print magazine I cofounded with Andrew Zarins, Dante Pilkington, and Alex Milona. The concept was to include a variety of essays, discussing current events, politics, memoir, and fiction, all written from the hypothetical perspective of extremely conservative (by modern standards) aristocratic 19th century gentlemen.</p>
+                    <p><a href="http://gentleman.so">The Gentleman&#8217;s Standard De l&#8217;Acad&eacute;mie</a> is a print magazine I co-founded with Andrew Zarins, Dante Pilkington, and Alex Milona. The concept was to include a variety of essays, discussing current events, politics, memoir, and fiction, all written from the hypothetical perspective of extremely conservative (by modern standards) aristocratic 19th century gentlemen.</p>
                 </div>
                 <div class="four columns omega">
                     <p>Through this lens, we were able to exercise our creative writing skills and satirize modern political conservatives in a light-hearted humorous way.</p>
