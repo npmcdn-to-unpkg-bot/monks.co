@@ -37,7 +37,7 @@ $(document).ready(function() {
     $("#css-resume").click(function() {
         $('<link>').attr({
             'rel': 'stylesheet',
-            'href': 'stylesheets/print.css'
+            'href': 'lib/print.min.css'
         }).appendTo('head')
     });
 });
