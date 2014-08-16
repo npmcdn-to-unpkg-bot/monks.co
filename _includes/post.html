@@ -1,0 +1,25 @@
+<!-- {{post.slug}} -->
+<article id="{{ post.slug }}" class="project experience vevent">
+  <div class="sixteen columns">
+    <h3 class="summary"><a href="{{ post.website }}">{{ post.title }}</a>
+    </h3>
+    {% if post.github %}
+      <span class="noprint minigit">
+        <a href="{{ post.github }}">
+          <img src="/images/github.png" alt="github" class="minigit" />
+        </a>
+      </span>
+    {% endif %}
+    <span class="subproject">{{ post.tagline }}</span>
+    <span class="year">
+      {% if post.start %}
+        <span class="dtstart">{{ post.start }}</span>&ndash;&thinsp;{{post.end}}
+      {% else %}
+        <span class="dtstart">{{ post.year }}</span>
+      {% endif %}
+
+    </span>
+  </div>
+  {{ post.content }}
+</article>
+<div class="clear"></div>

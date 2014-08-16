@@ -1,0 +1,37 @@
+{% include head.html %}
+
+<body>
+  <div id="hamburger" class="mm-fixed-top">
+    <a href="#menu">&#9776;</a>
+  </div>
+  <nav id="menu">
+    <ul id="navlist">
+      <li class="navlink"><a href="#logo">Andrew Monks</a></li>
+    </ul>
+  </nav>
+
+  <div class="container hresume">
+    {% include header.html %}
+
+    <!-- {% include resume.html %} -->
+
+
+    <!--    main projects section -->
+    {{ content }}
+
+    <div class="clear"></div>
+
+
+    <!--    footer section -->
+    <div id="bottom">
+      <div class="sixteen columns center">
+        <p class="noprint">&laquo; &there4;&int;&there4;&int;&there4;&int;&there4;&int;&diams;&int;&there4;&int;&there4;&int;&there4;&int;&there4; &raquo;</p>
+        <p id="copy">2005&ndash;2014</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

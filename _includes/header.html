@@ -1,0 +1,27 @@
+<!--    header section -->
+<div id="top">
+
+  <!--      silhouette -->
+  <div id="silhouette" class="four columns noprint">
+    <img src="/images/andrew-monks.png" id="logo" alt="Andrew; photo by Sal Gutierrez" title="Photo by Sal Gutierrez" />
+  </div>
+
+  <!--      my name -->
+  <div class="ten columns" id="name">
+    <h1 id="me">{{ site.name }}</h1>
+    <!-- <p class="3dname"><iframe src="http://yungfuture.com/monks.gif.html" width="100%" height="55px"></iframe></p> -->
+  </div>
+
+  <!--      subheading -->
+  <div class="eight columns summary noprint" id="bio">
+    {{ site.bio | markdownify }}
+  </div>
+
+  <!--      hcard -->
+  {% include address.html %}
+  <div class="clear"></div>
+
+  <div class="clear"></div>
+
+</div>
+<div class="clear"></div>

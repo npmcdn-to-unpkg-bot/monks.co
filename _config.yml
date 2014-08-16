@@ -1,0 +1,22 @@
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://monks.co" # the base hostname & protocol for your site
+
+permalink: ":slug"
+
+name: "Andrew Monks"
+
+# Build settings
+markdown: "kramdown"
+paginate: 700
+
+bio: |+
+  I like to make cool stuff with computers. I study <abbr title="Sample
+  classes: Database-driven Art, The Art Of Data Visualization, Algorithms +
+  Artificial Intelligence, Fabricating For Motion">Art + Technology</abbr> at
+  <abbr title="The School of the Art Institute of Chicago.">SAIC</abbr>, and run
+  [Belgian Man Records](http://belgianman.com). You can catch me at
+  [@xmonksx](https://twitter.com/xmonksx) or on the
+  [Book](http://facebook.com/andrewmonks). I occasionally write about how I make
+  things at [endurativemod.es](http://endurativemod.es). I even less frequently
+  write about hip-hop at
+  [youwouldntstealacar.com](http://youwouldntstealacar.com).
