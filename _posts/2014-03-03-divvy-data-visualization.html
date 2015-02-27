@@ -6,16 +6,10 @@ year: "2014"
 github: "https://github.com/amonks/divvy-json"
 website:    "http://divvy.needsyourhelp.org"
 tagline:    "Good Lookin' Bike Theft"
+image:  "/images/divvy.png"
+col1: |+
+  I made these visualizations in 2014 from data released for the <a href="https://divvybikes.com/datachallenge">Divvy Data Challenge</a>. By exploring and annotating the data, I was able to uncover information about the theft and damage of bicycles in the Divvy bikeshare system.
+col2: |+
+  I started out by throwing the data into <abbr title="A Popular Open-Source Database">Postgres</abbr>. Then, I fired up Ruby and started exploratorially looping through my tables, adding annotations as I went. I made the final graphs using a combination of heatmap.js and d3.
 ---
-
-<div class="eight columns alpha noprint">
-  <a href='http://divvy.needsyourhelp.org'>
-    <img class="bttrlazyloading" src="/images/divvy.png"  alt="Divvy Data Visualization" />
-  </a>
-</div>
-<div class="four columns ">
-  <p>I made these visualizations in 2014 from data released for the <a href="https://divvybikes.com/datachallenge">Divvy Data Challenge</a>. By exploring and annotating the data, I was able to uncover information about the theft and damage of bicycles in the Divvy bikeshare system.</p>
-</div>
-<div class="four columns">
-  <p>I started out by throwing the data into <abbr title="A Popular Open-Source Database">Postgres</abbr>. Then, I fired up Ruby and started exploratorially looping through my tables, adding annotations as I went. I made the final graphs using a combination of heatmap.js and d3.</p>
-</div>
+{% include 2-1-1.html %}
