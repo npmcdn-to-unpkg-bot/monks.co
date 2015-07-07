@@ -1,27 +1,28 @@
-<!-- this is the title and link stuff that is the same for every post -->
-
-<!-- {{post.slug}} -->
-<article id="{{ post.slug }}" class="project experience vevent">
-  <div class="sixteen columns">
-    <h3 class="summary"><a href="{{ post.website }}">{{ post.title }}</a>
-    </h3>
-    {% if post.github %}
-      <span class="noprint minigit">
-        <a href="{{ post.github }}">
-          <img src="/images/github.png" alt="github" class="minigit" />
-        </a>
-      </span>
+<!-- {{page.slug}} -->
+<article id="{{ page.slug }}">
+  <ul>
+    {% if page.website %}
+      <li><a href="{{ page.website }}">{{page.website}}</a></li>
     {% endif %}
-    <span class="subproject">{{ post.tagline }}</span>
-    <span class="year">
-      {% if post.start %}
-        <span class="dtstart">{{ post.start }}</span>&ndash;&thinsp;{{post.end}}
-      {% else %}
-        <span class="dtstart">{{ post.year }}</span>
-      {% endif %}
-    </span>
-  </div>
-  <!-- this post.content renders one of the numbered includes -->
-  {{ post.content }}
+
+    {% if page.github %}
+      <li>
+        <a href="{{ page.github }}">
+          <img src="/images/github.png" alt="github" />
+        </a>
+      </li>
+    {% endif %}
+
+    {% if page.tagline %}
+      <li><span class="subproject">{{ page.tagline }}</span></li>
+    {% endif %}
+  </ul>
+
+  {% if page.vimeo %}
+    <div class="aspect fourthree">
+      <iframe src="http://player.vimeo.com/video/{{page.vimeo}}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
+  {% endif %}
+  {{ content }}
+  {{ page.content }}
 </article>
-<div class="clear"></div>

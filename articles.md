@@ -1,15 +1,4 @@
-
-vim save read only https://gist.github.com/amonks/74f4b34a051d9b367353
-
-vi paste mode https://gist.github.com/amonks/b2e228f817fb7b74233b
-
-osx non standard shell https://gist.github.com/amonks/9e1227c79a40cd474a6b
-
 vimrc https://gist.github.com/amonks/95fe76e4f843c2355736
-
-random from array https://gist.github.com/amonks/08010d21033005deb8f7
-
-bookmarklet https://gist.github.com/amonks/9363267
 
 db gh pages https://gist.github.com/amonks/9231121
 
@@ -25,6 +14,11 @@ cloud my library https://gist.github.com/amonks/962994
 
 
 
+bookmarklet https://gist.github.com/amonks/9363267
+
+vim save read only https://gist.github.com/amonks/74f4b34a051d9b367353
+
+osx non standard shell https://gist.github.com/amonks/9e1227c79a40cd474a6b
 
 dream tattoo https://gist.github.com/amonks/8573369
 

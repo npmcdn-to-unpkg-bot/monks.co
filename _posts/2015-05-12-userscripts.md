@@ -7,12 +7,11 @@ date: 2015-05-12
 website:    "https://gist.github.com/amonks/b68fe6fc0c447719f2a9"
 tagline:    "Intro To User Scripting"
 ---
-
 # User Scripts
 
 Above is a browser user script to skip the annoying interstitial ad pages on Project Free TV. The ones where you have to wait 10 seconds before seeing your video.
 
-Below are [installation instructions](#installation), a detailed description of how I wrote it, and an introduction to user scripts in general. 
+Below are [installation instructions](#installation), a detailed description of how I wrote it, and an introduction to user scripts in general.
 
 ## Contents
 
@@ -91,9 +90,9 @@ The only part of that tag we care about is the `href="url"` part. It tells the b
 
 To find every link with the word `interstitial` in the `href=` part, we can use a jQuery selector:
 
-```javascript
+{% highlight javascript %}
 $("a[href*='interstitial']");
-```
+{% endhighlight %}
 
 ### Then we need to run a function on all those links
 
@@ -101,10 +100,10 @@ $("a[href*='interstitial']");
 
 jQuery's `map()` takes two arguments: a collection and a function. It goes through each item in the collection, and calls the function with that collection item as an argument.
 
-```javascript
+{% highlight javascript %}
 var interstitialLinks = $("a[href*='interstitial']");
 $.map( interstitialLinks, linkChangerFunction );
-```
+{% endhighlight %}
 
 ### And we need to write that function
 
@@ -112,36 +111,36 @@ We don't have a linkChangerFunction yet, so I guess that's our next step.
 
 linkChangerFunction needs to take an `a` tag as an argument, and change the `href` of that `a` tag from the URL of the interstitial page to the URL of the player page.
 
-```javascript
+{% highlight javascript %}
 var linkChangerFunction = function(a) {
   // change the link
 }
 var interstitialLinks = $("a[href*='interstitial']");
 $.map( interstitialLinks, linkChangerFunction );
-```
+{% endhighlight %}
 
 ### It should take the old href value, and set a new href value
 
 In jQuery, when we want to change a tag's attribute, we can use the `attr()` function:
 
-```javascript
+{% highlight javascript %}
 var linkChangerFunction = function(a) {
   a.attr( 'href', 'new href value' );
 }
 var interstitialLinks = $("a[href*='interstitial']");
 $.map( interstitialLinks, linkChangerFunction );
-```
+{% endhighlight %}
 
 We want to construct a new href value from the old href value. Handily, to get the old href value, we can also use the `attr()` function but without the second argument. Let's log a list of old href values and make sure it's working:
 
-```javascript
+{% highlight javascript %}
 var linkChangerFunction = function(a) {
   var oldHrefValue = a.attr( 'href' );
   console.log( oldHrefValue );
 }
 var interstitialLinks = $("a[href*='interstitial']");
 $.map( interstitialLinks, linkChangerFunction );
-```
+{% endhighlight %}
 
 ![it doesn't work](https://s3.amazonaws.com/f.cl.ly/items/233r3G2j17091U2c2z2Q/Screen%20Shot%202015-05-10%20at%2011.17.53%20PM.png)
 
@@ -149,14 +148,14 @@ It isn't!
 
 `a` doesn't have an `attr()` function. `a` is an element, but we need to convert it into a jQuery object. It's easy! We just have to feed it into the jQuery `$` function.
 
-```javascript
+{% highlight javascript %}
 var linkChangerFunction = function(a) {
   var oldHrefValue = $(a).attr( 'href' );
   console.log( oldHrefValue );
 }
 var interstitialLinks = $("a[href*='interstitial']");
 $.map( interstitialLinks, linkChangerFunction );
-```
+{% endhighlight %}
 
 Now it works. We get a huge list of href attributes logged to the console.
 
@@ -180,15 +179,15 @@ There are a bunch of good ways to do that. Since the part we're removing doesn't
 
 Putting the slice and the decodeURIComponent together, we get the following:
 
-```javascript
+{% highlight javascript %}
 var newHrefValue = decodeURIComponent(oldHrefValue).slice(24, -1);
-```
+{% endhighlight %}
 
 ### Now let's put it together.
 
 Combining everything we have so far, here's our complete script:
 
-```javascript
+{% highlight javascript %}
 var linkChangerFunction = function(a) {
   var oldHrefValue = $(a).attr( 'href' );
   var newHrefValue = decodeURIComponent(oldHrefValue).slice(24, -1);
@@ -196,31 +195,31 @@ var linkChangerFunction = function(a) {
 }
 var interstitialLinks = $("a[href*='interstitial']");
 $.map( interstitialLinks, linkChangerFunction );
-```
+{% endhighlight %}
 
 Since we're only using `interstitialLinks` and `linkChangerFunction` once each, we can stick them right into `$.map()` instead of defining them separately. We get this:
 
-```javascript
+{% highlight javascript %}
 $.map( $("a[href*='interstitial']"), function(a) {
   var oldHrefValue = $(a).attr( 'href' );
   var newHrefValue = decodeURIComponent(oldHrefValue).slice(24, -1);
   $(a).attr( 'href', newHrefValue );
 } );
-```
+{% endhighlight %}
 
 We can do the same with `oldHrefValue` and `newHrefValue`:
 
-```javascript
+{% highlight javascript %}
 $.map( $("a[href*='interstitial']"), function(a) {
   $(a).attr( 'href', decodeURIComponent( $(a).attr( 'href' ) ).slice(24, -1); );
 } );
-```
+{% endhighlight %}
 
 ### We'll have to load it into the browser, though...
 
 User Scripts have a standard header with a bit of information about the script:
 
-```javascript
+{% highlight javascript %}
 // ==UserScript==
 // @name         Skip Interstitial Ad Pages on Project Free TV
 // @namespace    https://gist.github.com/amonks/b68fe6fc0c447719f2a9
@@ -234,7 +233,7 @@ User Scripts have a standard header with a bit of information about the script:
 $.map( $("a[href*='interstitial']"), function(a) {
   $(a).attr( 'href', decodeURIComponent( $(a).attr( 'href' ) ).slice(24, -1); );
 } );
-```
+{% endhighlight %}
 
 That's our final, complete script.
 

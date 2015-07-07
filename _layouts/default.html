@@ -1,26 +1,21 @@
+<!DOCTYPE html>
+<html>
 {% include head.html %}
 
 <body>
+  <div id="info" class="container">
+    <section class="col-sm-4">
+      {% include header.html %}
+      {% include nav.html %}
+    </section>
 
-  <div class="container hresume">
-    {% include header.html %}
+    <section id="page" class="col-sm-6 col-md-offset-2">
+      {% include post.html %}
+    </section>
 
-    <!--    main projects section -->
-    {{ content }}
-
-    <div class="clear"></div>
-
-
-    <!--    footer section -->
-    <div id="bottom">
-      <div class="sixteen columns center">
-        <p class="noprint">&laquo; &there4;&int;&there4;&int;&there4;&int;&there4;&int;&diams;&int;&there4;&int;&there4;&int;&there4;&int;&there4; &raquo;</p>
-        <p id="copy">2005&ndash;2015</p>
-      </div>
-    </div>
-
+    <section id="bottom" class="col-xs-12">
+      {% include bottom.html %}
+    </section>
   </div>
-
 </body>
-
 </html>

@@ -5,7 +5,11 @@ slug:     "bookmarklets"
 year: "2014"
 date: 2014-03-05
 ---
-```javascript
+
+Here's a quick intro to bookmarklets.
+
+{% highlight javascript %}
+
 // bookmarklets work because when you click link that starts with `javascript:`,
 // instead of following the link, the browser executes the javascript.
 javascript:
@@ -44,4 +48,5 @@ bodyTag.appendChild(script);
 script.onload = script.onreadystatechange = function() {
     $('img').attr("src","http://monks.co/images/andrew-monks.png");
 };
-```
+
+{% endhighlight %}
