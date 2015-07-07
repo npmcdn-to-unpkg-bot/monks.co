@@ -1,3 +1,5 @@
+<!-- this is the title and link stuff that is the same for every post -->
+
 <!-- {{post.slug}} -->
 <article id="{{ post.slug }}" class="project experience vevent">
   <div class="sixteen columns">
@@ -17,9 +19,9 @@
       {% else %}
         <span class="dtstart">{{ post.year }}</span>
       {% endif %}
-
     </span>
   </div>
+  <!-- this post.content renders one of the numbered includes -->
   {{ post.content }}
 </article>
 <div class="clear"></div>

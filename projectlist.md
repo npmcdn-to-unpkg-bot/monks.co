@@ -2,16 +2,10 @@
 
 ## on github
 
-* gravity
-* stereo
-* vjjs
 * ghd
 * pfordrawing
-* fftjs
-* baton
 * nabu
 * listener
-* bouncer
 * mixtape
 * hip-hop-analysis
 * painter
@@ -22,6 +16,12 @@
 
 ## on website
 
+* bouncer
+* gravity
+* stereo
+* fftjs
+* baton
+* vjjs
 * belgian man
 * cutcam
 * wafelijzer
