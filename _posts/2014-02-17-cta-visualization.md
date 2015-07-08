@@ -10,7 +10,7 @@ website:    "http://amonks.github.io/ctadailyridership"
 tagline:    "Seeing Traffic"
 images:
   -
-    url: "/images/cta2010.png"
+    url: "/images/cta2001.png"
   -
     url: "/images/ctatimeline.png"
 ---
