@@ -1,0 +1,11 @@
+<!--  javascript -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js"></script>
+<script src="//amonks.github.io/mintype/lib/mintype.min.js"></script>
+<script>
+$(document).pjax('a', '#page', {push: false, fragment: "#page"});
+var ntypediv = document.getElementById("ntype");
+var ntype = new NType(ntypediv);
+ntype.begin("monks");
+</script>
