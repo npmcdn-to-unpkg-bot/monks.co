@@ -18,21 +18,18 @@
   <h5>{{ include.thing.tagline | markdownify }}</h5>
 {% endif %}
 
-
-{% if include.thing.website %}
-  {% if include.thing.image %}
+{% if include.thing.image %}
+  {% if include.thing.website %}
     <a href="{{ include.thing.website }}">
-      <img src="{{include.thing.image.url}}" alt="{{include.thing.image.url}}" class="img-responsive" />
+      {% include image.html url=include.thing.image.url alt=include.thing.title %}
     </a>
+  {% else %}
+    {% include image.html url=include.thing.image.url alt=include.thing.title %}
   {% endif %}
-{% else %}
-  <img src="{{include.thing.image.url}}" alt="{{include.thing.image.url}}" class="img-responsive" />
 {% endif %}
 
 {% if include.thing.vimeo %}
-  <div class="aspect fourthree">
-    <iframe src="http://player.vimeo.com/video/{{include.thing.vimeo}}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-  </div>
+  {% include vimeo.html vimeo=include.thing.vimeo 16by9=include.thing.16by9 %}
 {% endif %}
 
 {% if include.thing.images %}
