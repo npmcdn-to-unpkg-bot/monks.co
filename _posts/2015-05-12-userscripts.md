@@ -9,7 +9,7 @@ year: "2015"
 date: 2015-05-12
 tagline:    "Intro To User Scripting"
 ---
-{% gist amonks/b68fe6fc0c447719f2a9 0-pftv-skip-interstitial-ads.user.js %}
+<script src="https://gist.github.com/b68fe6fc0c447719f2a9.js?file=0-pftv-skip-interstitial-ads.user.js" type="text/javascript"></script>
 
 Above is a browser user script to skip the annoying interstitial ad pages on Project Free TV. The ones where you have to wait 10 seconds before seeing your video.
 
