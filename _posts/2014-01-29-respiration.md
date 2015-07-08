@@ -1,16 +1,17 @@
 ---
+category: writing
 layout: default
 title:  "Respiration"
 slug:     "blackstar"
 year: "2014"
 date: 2014-1-29
-tagline:    "hip hop analysis"
+tagline:    "Some thoughts on Black Star's *Respiration*"
+image:
+  url: http://i118.photobucket.com/albums/o116/oldnangry/skeme-crime_in_the_city-lrg.jpg
 ---
-# Some thoughts on Black Star's *Respiration*
-
-## Intro
-
 Black Star's classic single *Respiration* deals with city life, both in New York, as told my Mos Def and Talib Kweli, and in Chicago, as told by Common. Like the other classics on *…Are Black Star*, Respiration was produced by Hi-Tek using a sample from *The Fox*, by Don Randi.
+
+<!--more-->
 
 ## Context
 
@@ -18,10 +19,10 @@ Black Star's classic single *Respiration* deals with city life, both in New York
 
 The track follows *Yo Yeah* on the record, a somewhat odd J Rawls interlude which concludes with some spoken words from an older gentleman:
 
->	"3:30 in the morning with not a soul in sight /
->	We sat four deep at a traffic light /
->	Talking about how dumb and brainwashed some of our brothers and sisters are /
->	While we waited for a green light to tell us when to go"
+> "3:30 in the morning with not a soul in sight /
+> We sat four deep at a traffic light /
+> Talking about how dumb and brainwashed some of our brothers and sisters are /
+> While we waited for a green light to tell us when to go"
 
 I normally wouldn't talk about the previous song in a song analysis, but in this case, I think how it sets off the first 9 tracks from the last 3 makes it function somewhat like an intro, funneling the focus of the album down from broad politicized themes of pan-Africanism, black unity, and nonviolence down to explication of personal experience. I'm not sure how well *Thieves In The Night* fits in with this 'funnel'-reading, but for the purposes of this essay I'm just gonna kinda hand-wave that away.
 

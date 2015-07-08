@@ -1,14 +1,12 @@
 ---
+category: writing
 layout: default
 title:  "Straight Outta Compton"
 slug:     "NWA"
 year: "2014"
 date: 2014-02-25
-tagline:    "hip hop analysis"
+tagline:    "Some thoughts on NWA's *Straight Outta Compton*"
 ---
-# Some thoughts on NWA's *Straight Outta Compton*
-
-## Intro
 
 *Straight Outta Compton* was the lead single off NWA's debut album of the same name. The track features a beat by Dr. Dre (co-produced by groupmember DJ Yella), and verses performed by Ice Cube, MC Ren, and Eazy-E. It was released in 1988.
 
@@ -17,6 +15,8 @@ tagline:    "hip hop analysis"
 By his second solo album, Ice Cube adopted a violently racist, afrocentric-to-the-point-of-black-separatist politicalism, merging the dissatisfaction and desire for change of conscious rap with gangsta rap attitute/perspective. *Straight Outta Compton*' lacks that determined lyrical focus (and the Bomb Squad production that so elevated *AmeriKKKa*).
 
 Fortunately, what *Straight Outta Compton* lacks in lyrical strength, it makes up for in sanity. Cube doesn't hate everyone yet, he just hates the police. And the systematic oppression that was so pervasively affecting his life and the lives of his peers. It's easy to see his humanness here: a 19-year-old kid, lashing back against the world that held him down. The title track, however, is all lash and no system-of-oppression. The lyrics are insubstantial; violent braggadocio (which, remember, was kinda new at the time).
+
+<!--more-->
 
 ## Song
 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+  <div class="container-fluid">
+    {% include section-info.html %}
+      {% include header.html %}
+      {% include nav.html %}
+    </section>
+
+    {% include section-main.html %}
+      <h2>{{page.title}} <span class="small">{{ site.categories.[page.category] | size }} posts</span></h2>
+      <ul>
+        {% for post in site.categories.[page.category] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a> | {{post.year}}</li>
+        {% endfor %}
+      </ul>
+      {% include bottom.html %}
+    </section>
+  </div>
+</body>
+</html>

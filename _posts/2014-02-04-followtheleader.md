@@ -1,17 +1,12 @@
 ---
+category: writing
 layout: default
 title:  "Follow The Leader"
 slug:     "Rakim"
 year: "2014"
 date: 2014-02-04
-tagline:    "hip hop analysis"
+tagline:    "Some thoughts on Eric B and Rakim's *Follow The Leader*"
 ---
-# Some thoughts on Eric B and Rakim's *Follow The Leader*
-
-## Intro
-
-Eric B and Rakim's *Follow The Leader* is an anthem of movement. Every piece of the song comes together to convey a forward-moving, desperately urgent feeling, as if R is running through the streets (or, you know, "around the universe") and we're frantically chasing him. Following his words and his rhythms.
-
 ## Eric B's Part
 
 ### Rhythm Section
@@ -19,6 +14,8 @@ Eric B and Rakim's *Follow The Leader* is an anthem of movement. Every piece of 
 In my opinion, *Follow The Leader* is completely carried by a standout beat by Eric B. It opens with a beautiful, kinda-TB-303-sounding bassline that the New York Times at the time called, ["Space Age"](http://www.nytimes.com/1988/09/09/arts/sounds-around-town-851988.html). The line (and the song) are unusually fast for hip-hop, clocking in at a steady 110bpm. The bassline uses two sequences of short 16th notes, first from the 1 to the 2, then from the 3 to the 4. The quick repeated notes give the bassline a driving quality, further emphasized by the short length of the looped pattern.
 
 The beat comes in quickly, with single bar intro that transitions elegantly into a looped percussion sample from Coke Escovedo's *I Wouldn't Change A Thing*. The sample features heavy use of open high hats, twice per bar, first between 1 and 2, then between 3 and 4. This interfaces well with the repeated bass loop, further emphasizing the forward drive of the fast beat.
+
+<!--more-->
 
 ### Samples
 

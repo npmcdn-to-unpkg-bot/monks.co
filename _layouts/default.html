@@ -3,17 +3,14 @@
 {% include head.html %}
 
 <body>
-  <div id="info" class="container">
-    <section class="col-sm-4">
+  <div class="container-fluid">
+    {% include section-info.html %}
       {% include header.html %}
       {% include nav.html %}
     </section>
 
-    <section id="page" class="col-sm-6 col-md-offset-2">
-      {% include post.html %}
-    </section>
-
-    <section id="bottom" class="col-xs-12">
+    {% include section-main.html %}
+      {% include post.html thing=page %}
       {% include bottom.html %}
     </section>
   </div>

@@ -1,12 +1,15 @@
 ---
+category: writing
 layout: default
 title:  "Death Certificate"
 slug:     "icecube"
 year: "2013"
 date: 2013-03-08
-tagline:    "hip hop analysis"
+tagline:    "Some thoughts on Ice Cube's *Death Certificate*"
 ---
 Ice Cube released his hugely successful second album, *Death Certifcate*, in 1991. The album combines hard gangster rap with angry, highly politicized themes. The album debuted at number two on the Billboard 200 in 1991, following Ice Cube’s split from N.W.A and before his first solo album, *AmeriKKKa’s Most Wanted*, was released and then certified platinum two months later. Ice Cube’s highly offensive, politically divisive content sparked immediate outrage and controversy, notably for anti-Korean themes only months before the 1992 Los Angeles riots. (The album was divided into two sides: *The Light Side*’s gangsta posturing and violence represent Cube’s perception of American culture of the day, while *The Death Side* explores his view for the future, featuring angry and political topics. By merging the dissatisfaction and desire for change of conscious rap with gangsta rap perspective, Cube managed to funnel his powerful ingrained contempt into a complex hip-hop epic, seizing the public eye.
+
+<!--more-->
 
 Coming out of N.W.A, Ice Cube manifests an abraisive, gangsta ethos, and the first half of *Death Certificate* embodies the gangsta rap genre. Chock full of tales of Cube’s badassery and hardness, *The Death Side* establishes Ice Cube’s credibility as a founder of gangster rap with N.W.A. Cube brings the listener into his world: *The Wrong Nigga To Fuck Wit* is a bombastic example of pure gangsta posturing and braggadocio, *Givin’ Up The Nappy Dug Out* tells of sexual conquest, and Steady Mobbin’ combines the two. *The Death Side* uses Ice’s consistently ferocious lyrical ability to demonstrate a seriousness and focus that was lacking from his work with N.W.A. On top of Ice’s flow, Sir Jinx’s beats go quite nearly as hard as the Bomb Squad production did on *AmeriKKKa’s*. All in all, *The Death Side* would pull in any (and there were many) fan of Cube’s work with N.W.A. Once they’re in, *The Light Side* introduces a dramatic change of tone.
 

@@ -1,26 +1,14 @@
 <!--    header section -->
 <div id="top">
-
   <!--      silhouette -->
-  <div id="silhouette" class="four columns noprint">
-    <img src="/images/andrew-monks.png" id="logo" alt="Andrew; photo by Sal Gutierrez" title="Photo by Sal Gutierrez" />
-  </div>
+  <img src="/images/andrew-monks.png" id="logo" alt="Andrew; photo by Sal Gutierrez" title="Photo by Sal Gutierrez" class="img-responsive" />
 
   <!--      my name -->
-  <div class="ten columns" id="name">
-    <h1 id="me">{{ site.name }}</h1>
-  </div>
+  <h1 id="me">{{ site.name }}</h1>
 
   <!--      subheading -->
-  <div class="eight columns summary noprint" id="bio">
-    {{ site.bio | markdownify }}
-  </div>
+  {{ site.bio | markdownify }}
 
   <!--      hcard -->
   {% include address.html %}
-  <div class="clear"></div>
-
-  <div class="clear"></div>
-
 </div>
-<div class="clear"></div>

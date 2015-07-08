@@ -1,4 +1,5 @@
 ---
+category: project
 layout: default
 title:  "Oblique Strategies API"
 slug:     "obliquestrategies"

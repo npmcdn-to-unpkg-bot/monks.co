@@ -1,4 +1,5 @@
 ---
+category: project
 layout: default
 title:  "It's Cloudy?"
 slug:     "cloudy"
@@ -7,7 +8,7 @@ date: 2014-03-27
 github: "https://github.com/amonks/weather"
 website:    "http://amonks.github.io/weather"
 tagline:    "Falsey Data Visualization"
-image: 
+image:
   url: "/images/cloudy.png"
 ---
 <a href="http://amonks.github.io/weather">It&#8127;s Cloudy?</a> is a weather visualization I made to experiment with the idea of 'truthiness' in data. If you put something in a graph, it looks sciencey, even truthy. People tend to believe graphs: computers don&#8127;t lie!

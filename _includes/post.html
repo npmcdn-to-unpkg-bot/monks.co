@@ -1,28 +1,12 @@
-<!-- {{page.slug}} -->
-<article id="{{ page.slug }}">
-  <ul>
-    {% if page.website %}
-      <li><a href="{{ page.website }}">{{page.website}}</a></li>
+<article>
+  {% include metadata.html thing=include.thing %}
+  {% if page.shorten %}
+    {{ include.thing.excerpt | markdownify }}
+    {% if post.content contains '<!--more-->' %}
+      <a href="{{include.thing.url}}">read more...</a>
     {% endif %}
-
-    {% if page.github %}
-      <li>
-        <a href="{{ page.github }}">
-          <img src="/images/github.png" alt="github" />
-        </a>
-      </li>
-    {% endif %}
-
-    {% if page.tagline %}
-      <li><span class="subproject">{{ page.tagline }}</span></li>
-    {% endif %}
-  </ul>
-
-  {% if page.vimeo %}
-    <div class="aspect fourthree">
-      <iframe src="http://player.vimeo.com/video/{{page.vimeo}}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    </div>
+  {% else %}
+    {{ include.thing.content | markdownify }}
   {% endif %}
-  {{ content }}
-  {{ page.content }}
 </article>
+

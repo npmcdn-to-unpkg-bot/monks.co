@@ -1,4 +1,5 @@
 ---
+category: project
 layout: default
 title:  "CTA Ridership Visualizations"
 slug:     "cta"
@@ -8,9 +9,9 @@ github: "https://github.com/amonks/ctadailyridership"
 website:    "http://amonks.github.io/ctadailyridership"
 tagline:    "Seeing Traffic"
 images:
-  1:
+  -
     url: "/images/cta2010.png"
-  2:
+  -
     url: "/images/ctatimeline.png"
 ---
 I made these <a href="http://amonks.github.io/ctadailyridership">CTA Data Visualizations</a> in 2014 from <a href="https://data.cityofchicago.org/Transportation/CTA-Ridership-Daily-Boarding-Totals/6iiy-9s97">data</a> put out by the city of Chicago. They graph the <abbr class="initialism" title="Chicago Transit Authority">CTA</abbr>&#8127;s ridership over time.

@@ -1,4 +1,5 @@
 ---
+category: project
 layout: default
 title:  "The Gentleman's Standard"
 slug:     "standard"

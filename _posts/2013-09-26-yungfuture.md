@@ -1,4 +1,5 @@
 ---
+category: project
 layout: default
 title:  "Yung Future"
 slug:     "yungfuture"

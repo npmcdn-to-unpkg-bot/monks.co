@@ -1,18 +1,18 @@
 ---
+category: writing
 layout: default
 title:  "Trust God Fuck 12"
 slug:     "young-thug"
 year: "2014"
 date: 2014-05-18
-tagline:    "hip hop analysis"
+tagline: "Some thoughts on Gucci Mane and Rich Homie Quan's *Trust God Fuck 12*, plus some additional thoughts on Young Thug."
 ---
-# Some thoughts on Gucci Mane and Rich Homie Quan's *Trust God Fuck 12*, plus some additional thoughts on Young Thug.
-
-## Intro
 
 Gucci Mane released Trust God Fuck 12 on October 17, 2013, under the name The Big Homie Gucci with upcoming Atlanta native Rich Homie Quan. At the time we chose our paper topics, it was his most recent release. He's since put out *Young Thugga Maine LaFlare*, with Young Thug (who I'll mention later).
 
 It's not his most popular release: it wasn't even included in his discography on Wikipedia until I just added it. However, it's one of his strongest recent releases. *Vibe* said, "Gucci sounds a little bit more coherent on this project, than on 2012's I'm Up and some of his World War 3 tapes. Actually, better than he has in awhile." The mixtape prominently features production by Zaytoven and Lex Luger, who made four tracks each for the album. It also boasts three and two tracks respectively with up-and-comers Young Thug and Young Scooter.
+
+<!--more-->
 
 ## Gucci
 

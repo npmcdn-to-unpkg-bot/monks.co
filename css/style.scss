@@ -1,0 +1,31 @@
+---
+---
+
+@import "bootstrap";
+@import "highlight";
+
+#bottom {
+    text-align: center;
+}
+
+p img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: $screen-sm-min) {
+  #info {
+    position: fixed;
+    overflow-y: scroll;
+    height: 100%;
+  }
+}
+
+article {
+  margin-bottom: 4em;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}

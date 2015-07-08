@@ -5,18 +5,19 @@ permalink: "/:title/index.html"
 
 name: "Andrew Monks"
 
-# Build settings
-markdown: "kramdown"
+excerpt_separator: <!--more-->
 
-paginate: 2
+# Build settings
+markdown:    redcarpet
+highlighter: pygments
+
+sass:
+  sass_dir: _sass
+
+paginate: 3
 
 bio: |+
   I try to help non-technical people engage meaningfully and productively with
   computers. I enjoy writing both code and prose.
 
-  I'm also the proprietor of [Belgian Man Records](http://belgianman.com). I
-  draw from 8 years of experience building an active community around Belgian
-  Man.
-
-  I was born in Ithaca, NY, raised around Concord, MA, and educated at the
-  School of the Art Institute of Chicago.
+  I live in Chicago, IL.

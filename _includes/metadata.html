@@ -1,0 +1,33 @@
+<h1>
+  {% if include.thing.website %}
+    <a href="{{ include.thing.website }}">{{include.thing.title}}</a>
+  {% else %}
+    <a href="{{include.thing.url}}">{{include.thing.title}}</a>
+  {% endif %}
+  {% if include.thing.github %}
+    <span class="small">
+      <a href="{{ include.thing.github }}">
+        <img src="/images/github.png" alt="github" />
+      </a>
+    </span>
+  {% endif %}
+</h1>
+
+
+{% if include.thing.tagline %}
+  <h5>{{ include.thing.tagline | markdownify }}</h5>
+{% endif %}
+
+{% if include.thing.image %}
+  <img src="{{include.thing.image.url}}" alt="{{include.thing.image.url}}" class="img-responsive" />
+{% endif %}
+
+{% if include.thing.vimeo %}
+  <div class="aspect fourthree">
+    <iframe src="http://player.vimeo.com/video/{{include.thing.vimeo}}?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+{% endif %}
+
+{% if include.thing.images %}
+  {% include carousel.html images=include.thing.images %}
+{% endif %}

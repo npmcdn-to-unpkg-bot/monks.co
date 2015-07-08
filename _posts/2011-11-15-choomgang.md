@@ -1,4 +1,5 @@
 ---
+category: project
 layout: default
 title:  "Choom Gang"
 slug:     "choomgang"

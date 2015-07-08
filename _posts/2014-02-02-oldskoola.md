@@ -1,4 +1,5 @@
 ---
+category: project
 layout: default
 title:  "Oldskoola Bookmarklet"
 slug:     "oldskoola"
@@ -6,8 +7,8 @@ year: "2014"
 date: 2014-02-22
 github: "https://github.com/amonks/oldskoola.js"
 tagline:    "Exploring the oldernet"
-image: 
-  url:"/images/oldskoola.png"
+image:
+  url: "/images/oldskoola.png"
 ---
 With physical documents, we have an ingrained cultural language of visual artifacts that show &lsquo;oldness&rsquo;: weathering, print techniques, type of paper, style. But in the internet era of constantly-updating content, what does &lsquo;old&rsquo; look like? &lt;blink&gt; tags?
 
