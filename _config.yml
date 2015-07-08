@@ -8,7 +8,7 @@ name: "Andrew Monks"
 # Build settings
 markdown: "kramdown"
 
-paginate: 5
+paginate: 2
 
 bio: |+
   I try to help non-technical people engage meaningfully and productively with
