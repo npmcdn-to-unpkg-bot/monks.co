@@ -18,7 +18,14 @@
   <h5>{{ include.thing.tagline | markdownify }}</h5>
 {% endif %}
 
-{% if include.thing.image %}
+
+{% if include.thing.website %}
+  {% if include.thing.image %}
+    <a href="{{ include.thing.website }}">
+      <img src="{{include.thing.image.url}}" alt="{{include.thing.image.url}}" class="img-responsive" />
+    </a>
+  {% endif %}
+{% else %}
   <img src="{{include.thing.image.url}}" alt="{{include.thing.image.url}}" class="img-responsive" />
 {% endif %}
 
