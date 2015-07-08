@@ -88,7 +88,9 @@ First we have to find all the links to interstitial pages. A good way to program
 
 We want to find every link that has `interstitial` in it. In HTML, every link is an `<a>` tag. It stands for anchor. Here's an example:
 
-    <a onclick="visited(2187218)" href="/interstitial2.html?lnk=%2Fplayer%2Fmovshare.php%3Fid%3D24b12c34773a9&amp;ttl=Game+of+Thrones+Season+3+Episode+10" target="_blank"> [a bunch of stuff] </a>
+```html
+<a onclick="visited(2187218)" href="/interstitial2.html?lnk=%2Fplayer%2Fmovshare.php%3Fid%3D24b12c34773a9&amp;ttl=Game+of+Thrones+Season+3+Episode+10" target="_blank"> [a bunch of stuff] </a>
+```
 
 The only part of that tag we care about is the `href="url"` part. It tells the browser what url to open when the link is clicked.
 
