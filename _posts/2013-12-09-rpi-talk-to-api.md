@@ -20,38 +20,44 @@ Here's a shell script by Dave Conroy that uses alsa te record speech, converts i
 
 stt.sh:
 
-	#DaveConroy.com
-	#10/29/13
-	#stt.sh
-	#modified by Andrew Monks
+```bash
+#DaveConroy.com
+#10/29/13
+#stt.sh
+#modified by Andrew Monks
 
-	mkdir -p stt-output
+mkdir -p stt-output
 
-	echo "Recording your Speech (Ctrl+C to Transcribe)"
-	arecord -D plughw:0,0  -f cd -t wav -d 0 -q -r 16000 stt-output/stt-recording.wav &
-	PID=$!
-	#set duration of recording
-	sleep 5s
-	kill $PID
-	sleep 1s
+echo "Recording your Speech (Ctrl+C to Transcribe)"
+arecord -D plughw:0,0  -f cd -t wav -d 0 -q -r 16000 stt-output/stt-recording.wav &
+PID=$!
+#set duration of recording
+sleep 5s
+kill $PID
+sleep 1s
 
-	echo "Converting speech to FLAC"
-	flac -5 -s -f --best --sample-rate 16000 -o stt-output/stt-recording.flac stt-output/stt-recording.wav
+echo "Converting speech to FLAC"
+flac -5 -s -f --best --sample-rate 16000 -o stt-output/stt-recording.flac stt-output/stt-recording.wav
 
-	echo "Converting Speech to Text..."
-	wget -q -U "Mozilla/5.0" --post-file stt-output/stt-recording.flac --header "Content-Type: audio/x-flac; rate=16000" -O - "http://www.google.com/speech-api/v1/recognize?lang=en-us&client=chromium" | cut -d\" -f12 > stt-output/stt-text.txt
+echo "Converting Speech to Text..."
+wget -q -U "Mozilla/5.0" --post-file stt-output/stt-recording.flac --header "Content-Type: audio/x-flac; rate=16000" -O - "http://www.google.com/speech-api/v1/recognize?lang=en-us&client=chromium" | cut -d\" -f12 > stt-output/stt-text.txt
 
-	echo "You Said:"
-	value=`cat stt-output/stt-text.txt`
-	echo "$value"
+echo "You Said:"
+value=`cat stt-output/stt-text.txt`
+echo "$value"
+```
 
 then make it executable
 
-	sudo chmod +x stt.sh
+```bash
+sudo chmod +x stt.sh
+```
 
 You'll need `flac` installed. Use
 
-	apt-get install flac
+```bash
+apt-get install flac
+```
 
 ## api
 
@@ -65,23 +71,25 @@ It's also live at [http://gentle-inlet-8461.herokuapp.com/](http://gentle-inlet-
 
 Here's the sinatra code to make it happen:
 
-	# Require the bundler gem and then call Bundler.require to load in all gems
-	# listed in Gemfile.
-	require 'bundler'
-	Bundler.require
+```ruby
+# Require the bundler gem and then call Bundler.require to load in all gems
+# listed in Gemfile.
+require 'bundler'
+Bundler.require
 
-	# set up string array to keep sayings in
-	data = Array.new
+# set up string array to keep sayings in
+data = Array.new
 
-	# serve pages
-	get '/' do
-	  data.to_s
-	end
+# serve pages
+get '/' do
+  data.to_s
+end
 
-	get '/newtext/*' do
-	  data.push(params[:splat])
-	  redirect '/'
-	end
+get '/newtext/*' do
+  data.push(params[:splat])
+  redirect '/'
+end
+```
 
 ### host it
 
@@ -107,10 +115,12 @@ A big reason why I use sinatra so much is free hosting on Heroku. Here's how to 
 
 I added the following to my shell script to make it send results to the server on heroku. You'll get a different domain name in your heroku setup.
 
-	echo "put to server"
-	url="http://gentle-inlet-8461.herokuapp.com/newtext/$value"
-	echo "$url"
-	wget -qO- "$url" &> /dev/null
+```bash
+echo "put to server"
+url="http://gentle-inlet-8461.herokuapp.com/newtext/$value"
+echo "$url"
+wget -qO- "$url" &> /dev/null
+```
 
 
 ### credits
