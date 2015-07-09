@@ -1,10 +1,10 @@
 {% case include.category %}
-  {% when 'project' %} <i class="fa {{ include.class }} fa-star"></i>
-  {% when 'website' %} <i class="fa {{ include.class }} fa-laptop"></i>
-  {% when 'writing' %} <i class="fa {{ include.class }} fa-pencil"></i>
-  {% when 'howto' %} <i class="fa {{ include.class }} fa-question"></i>
-  {% when 'physical' %} <i class="fa {{ include.class }} fa-cube"></i>
-  {% when 'graphic' %} <i class="fa {{ include.class }} fa-camera"></i>
-  {% when 'music' %} <i class="fa {{ include.class }} fa-music"></i>
-  {% when 'video' %} <i class="fa {{ include.class }} fa-video-camera"></i>
+  {% when 'project' %} {% include icon.html class=include.class icon="star" %}
+  {% when 'website' %} {% include icon.html class=include.class icon="laptop" %}
+  {% when 'writing' %} {% include icon.html class=include.class icon="pencil" %}
+  {% when 'howto' %} {% include icon.html class=include.class icon="question" %}
+  {% when 'physical' %} {% include icon.html class=include.class icon="cube" %}
+  {% when 'graphic' %} {% include icon.html class=include.class icon="camera" %}
+  {% when 'music' %} {% include icon.html class=include.class icon="music" %}
+  {% when 'video' %} {% include icon.html class=include.class icon="video-camera" %}
 {% endcase %}

@@ -1,6 +1,6 @@
 <h1>
   {% if include.thing.website %}
-    <a href="{{ include.thing.website }}">{{include.thing.title}}</a>
+    <a href="{{ include.thing.website }}">{{include.thing.title}}<!-- {% include icon.html icon="long-arrow-right" %} --></a>
   {% else %}
     {{include.thing.title}}
   {% endif %}

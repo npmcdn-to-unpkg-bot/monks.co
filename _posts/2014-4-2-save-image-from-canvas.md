@@ -7,10 +7,10 @@ year: 2013
 The Canvas object includes a `toDataURL` method that returns a dataURI (a really *really* long URI that contains a base64-encoded version of the image)
 
 ```js
-  canvas = $('<canvas>');
-  ...
+canvas = $('<canvas>');
+...
 
-  superLongURI = canvas.toDataURL("image/png");
+superLongURI = canvas.toDataURL("image/png");
 ```
 
 This is super handy if you want to to generate images from javascript.
