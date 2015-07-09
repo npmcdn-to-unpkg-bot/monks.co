@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Using pitch-shift.js ++ what's NPM?
+github: https://github.com/amonks/pitch-shift-installation
 categories:
   - howto
   - writing
@@ -11,6 +12,8 @@ The problem with pitch-shift is the examples. The super-bare-bones minimal examp
 The online demo requires 2 packages that aren't required by pitch-shift itself, so if you try to run its `index.html` locally without installing those first, it throws hella errors.
 
 Here I'll take you through both install processes: how to install the non-functional super-bare-bones minimal pitch-shift example, and how to install the working demo. Here goes.
+
+<!--more-->
 
 ## browserify
 
