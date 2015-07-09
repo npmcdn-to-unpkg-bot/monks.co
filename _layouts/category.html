@@ -9,7 +9,7 @@
     </section>
 
     {% include section-main.html %}
-      <h2>{% include category-title.html category=page.category %} <span class="small">{{ site.categories.[page.category] | size }} posts</span></h2>
+      <h1>{% include category-title.html category=page.category %} <span class="small">{{ site.categories.[page.category] | size }} posts</span></h1>
       <ul>
         {% for post in site.categories.[page.category] %}
           {% include post-li.html post=post %}
