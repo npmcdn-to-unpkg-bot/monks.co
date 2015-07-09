@@ -5,14 +5,14 @@
   <!-- TODO: add threejs fallback -->
   <!-- <h1 id="me">{{ site.name }}</h1> -->
 
-  <div class="hidden-xs">
-    {{ site.bio | markdownify }}
-  </div>
+  {{ site.bio | markdownify }}
+
+  <p class="tel">978-254-1779</p>
+  <p><a href="mailto:a@monks.co" class="email">a@monks.co</a></p>
 
   <div class="hidden-xs">
     <!-- nav! -->
     {% include nav.html %}
   </div>
 
-  {% include address.html %}
 </div>
