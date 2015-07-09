@@ -12,6 +12,8 @@ categories:
 ---
 Here are some pretty rad phone sounds I generated using [ChucK](http://chuck.cs.princeton.edu/).
 
+<!--more-->
+
 ### [alert](/files/alert.m4r)
 
 source code:

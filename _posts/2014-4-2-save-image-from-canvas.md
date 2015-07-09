@@ -21,6 +21,8 @@ The problem comes if you want to link to the image, or if the user tries to save
 
 The solution is to convert the super-long URI to a blob, and link to that blob's URI rather than the really-long dataURI.
 
+<!--more-->
+
 ## usage
 
 ```js

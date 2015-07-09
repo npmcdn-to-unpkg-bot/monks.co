@@ -4,7 +4,9 @@ title: Install openELEC on RaspberryPi
 category: howto
 year: 2013
 ---
-OpenELEC is a media-center-specific distribution that runs well on the raspberry pi. It includes built in for things like
+OpenELEC is a media-center-specific distribution that runs well on the raspberry pi. We'll learn about how to get it up and running.
+
+<!--more-->
 
 ## setup sd card
 

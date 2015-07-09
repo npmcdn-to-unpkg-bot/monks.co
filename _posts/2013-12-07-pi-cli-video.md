@@ -17,6 +17,8 @@ Omxplayer is cool because it uses the GPU (rad for 1080p). It's uncool because i
 
     omxplayer ./video.mkv
 
+<!--more-->
+
 ## options
 
     Usage: omxplayer [OPTIONS] [FILE]

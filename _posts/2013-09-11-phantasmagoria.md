@@ -10,6 +10,8 @@ I've been thinking a lot lately about Phantasmagoria. Developed in France in the
 
 Phantasmagoria can be thought of as a sort of evolution on the séance, an earlier form of entertainment in which entertainers would use extremely inventive techniques to create the illusion of communication with ghosts. Séance performers studied optics and invented the image projector, which while an extremely effective tool for creating apparitions and visions, required viewers to face a single screen area rather than sit in a circle as in the traditional séance, and thus the Phantasmagoria show was born.
 
+<!--more-->
+
 Performers combined the traditional mechanical innovations of séances with optical inventions, sound effects, smoke, mirrors, psychology — all the resources they had access to in order to enhance the experience of their audience. Not only did technology advance for the sake of art, but art advanced as well. Phantasmagoria performers were some of the first true intermedia artists; breaking down walls between media, to harness every power at their disposal.
 
 My personal approach to art has always been to gain basic familiarity with as many distinct tools and practices as possible, because I believe that while there are a ton of people trying to be the best at any particular tool; creative combinations can be a lot more effective.

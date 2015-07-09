@@ -10,6 +10,8 @@ We used the command line to control that script, and we set it to loop infinitel
 
 First we'll edit the shell script, then we'll make a python script to listen for the button, and launch the shell script.
 
+<!--more-->
+
 ## edit the shell script
 
 We want to take out the stuff about looping. We're left with the following:

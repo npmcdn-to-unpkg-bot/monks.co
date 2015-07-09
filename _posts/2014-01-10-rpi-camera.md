@@ -24,6 +24,8 @@ You should see a super cool video feed!
 
 The aforelinked raspberrypi foundation guide suggests streaming by setting up a connection with `nc` and then piping `raspivid` directly into it. It works pretty well, except you have to start the client listening before starting the camera—you can't just leave the camera running and connect to it as-needed (as would be ideal for a security camera). We're gonna stream differently, but it's a good way to test things out.
 
+<!--more-->
+
 You'll need mplayer installed on your client machine. I'm using a mac, and I installed it with `brew install mplayer`. (if you don't have [homebrew (the osx package manager)](http://brew.sh/) you'll need to install that too)
 
 On the client computer, start listening with `nc -l 5001 | mplayer -cache 1024 -`. The `-l` means "listen". You're listening to (arbitrarily chosen) port 5001, and then piping the output of that to mplayer.

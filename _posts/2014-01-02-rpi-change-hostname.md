@@ -14,6 +14,8 @@ My version of raspi-setup doesn't seem to support hostname changing, but I'm tol
 
 	raspi-setup
 
+<!--more-->
+
 ## Hard(er) way
 
 Edit the last line of `/etc/hosts`, replacing `raspberrypi` with whatever you'd like.

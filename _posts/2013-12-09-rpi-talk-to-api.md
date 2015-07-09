@@ -14,6 +14,8 @@ It's possible to accomplish this by serving the website directly from the pi; bu
 
 In this example, I'm going to use a mic hooked up to the pi to record speech and convert it to text using the google traslate API. Then, I'll send that text to a server to display the last thing I've said.
 
+<!--more-->
+
 ## google translate shell script
 
 Here's a shell script by Dave Conroy that uses alsa te record speech, converts it to flac, sends it to google, and prints the response to a text file.
