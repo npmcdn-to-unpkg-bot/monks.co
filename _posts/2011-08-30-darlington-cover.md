@@ -3,8 +3,10 @@ layout: default
 title:  Darlington cover
 year: 2011
 category: graphic
-bandcamp: 3744730925
-tagline:    "Cover Art"
+bandcamp:
+  type: album
+  id: 3744730925
+tagline: Cover Art
 ---
 Having not released any music in a while, Judd and I decided to knock down their creative wall by challenging ourselves to fully create a mixtape in under an hour. This is that mixtape. Everything from writing to beatmaking to the album cover was done within a 1-hour span.
 

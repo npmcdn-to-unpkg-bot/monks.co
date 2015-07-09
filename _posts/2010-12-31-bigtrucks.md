@@ -5,7 +5,9 @@ year: 2010
 categories:
   - music
   - writing
-bandcamp: "888146188"
+bandcamp:
+  type: album
+  id: 888146188
 tagline:    "Do Holiday $pirit Whil​$​t Gho​$​triding The Whip"
 ---
 “The Big Trucks are not a band”. I’m always careful to make this point clear. “We’re a collective of *traveling minstrels*.” As usual, this clarification receives only a slightly baffled expression as acknowledgement. “And we don’t play songs, we create unique sonic experiences. Who do you think we are?”
