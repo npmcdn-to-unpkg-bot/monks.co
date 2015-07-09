@@ -2,7 +2,7 @@
 layout: default
 title: How to save an image to disk from a canvas
 category: howto
-year: 2013
+year: 2014
 ---
 The Canvas object includes a `toDataURL` method that returns a dataURI (a really *really* long URI that contains a base64-encoded version of the image)
 

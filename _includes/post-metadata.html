@@ -31,6 +31,10 @@
   {% include bandcamp.html bandcamp=include.thing.bandcamp %}
 {% endif %}
 
+{% if include.thing.soundcloud %}
+  {% include soundcloud.html soundcloud=include.thing.soundcloud %}
+{% endif %}
+
 {% if include.thing.images %}
   {% include carousel.html images=include.thing.images %}
 {% endif %}

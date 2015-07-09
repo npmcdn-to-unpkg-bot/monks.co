@@ -1,9 +1,12 @@
 ---
 layout: default
-title:  "iPhone Alert Sounds in ChucK"
-year:   "2012"
+title: iPhone Alert Sounds in ChucK
+year: 2012
 github: https://github.com/amonks/Ding
-tagline:    "Beep!"
+tagline: Beep!
+soundcloud:
+  type: playlist
+  id: 123694262
 categories:
   - music
 ---
