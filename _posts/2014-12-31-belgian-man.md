@@ -5,7 +5,7 @@ categories:
 layout: default
 title:    "Belgian Man Records"
 slug:       "belgianman"
-year:    "2007—present"
+year:    "2007&ndash;present"
 date: 2014-12-31
 github: "//github.com/belgianman"
 website:  "http://www.belgianman.com"

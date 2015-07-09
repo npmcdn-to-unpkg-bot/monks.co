@@ -4,13 +4,9 @@
   {% else %}
     <a href="{{include.thing.url}}">{{include.thing.title}}</a>
   {% endif %}
-  {% if include.thing.github %}
-    <span class="small">
-      <a href="{{ include.thing.github }}">
-        <img src="/images/github.png" alt="github" />
-      </a>
-    </span>
-  {% endif %}
+  <span class="small">
+    {% include post-icons.html thing=include.thing %}
+  </span>
 </h1>
 
 

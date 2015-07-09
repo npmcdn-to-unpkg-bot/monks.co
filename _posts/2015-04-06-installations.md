@@ -2,6 +2,7 @@
 categories:
   - project
   - website
+  - physical
 layout:   default
 title:    "Installations"
 slug:     "installations"

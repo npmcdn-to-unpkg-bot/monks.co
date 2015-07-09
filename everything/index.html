@@ -5,6 +5,6 @@ title: all posts
 <h2>Everything!! <span class="small">{{ site.posts | size }} posts</span></h2>
 <ul>
   {% for post in site.posts %}
-    <li>{{post.year}} | <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% include post-li.html post=post %}
   {% endfor %}
 </ul>

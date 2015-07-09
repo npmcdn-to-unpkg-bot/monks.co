@@ -1,0 +1,10 @@
+{% case include.category %}
+  {% when 'project' %} Featured
+  {% when 'website' %} Websites
+  {% when 'writing' %} Writing
+  {% when 'howto' %} How-To
+  {% when 'physical' %} Physical
+  {% when 'graphic' %} Graphics
+  {% when 'music' %} Audio
+  {% when 'video' %} Video
+{% endcase %}

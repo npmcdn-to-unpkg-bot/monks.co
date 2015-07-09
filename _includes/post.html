@@ -1,5 +1,5 @@
 <article>
-  {% include metadata.html thing=include.thing %}
+  {% include post-metadata.html thing=include.thing %}
   {% if page.shorten %}
     {{ include.thing.excerpt | markdownify }}
     {% if post.content contains '<!--more-->' %}
