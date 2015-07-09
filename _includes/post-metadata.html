@@ -4,19 +4,14 @@
   {% else %}
     {{ include.thing.title }}
   {% endif %}
-  <span class="small hidden-xs">
-    {% include post-icons.html thing=include.thing %}
-  </span>
+  {% include post-icons.html thing=include.thing %}
 </h1>
 
-<h5>
-  {% if include.thing.tagline %}
+{% if include.thing.tagline %}
+  <h5>
     {{ include.thing.tagline | markdownify | remove: '<p>' | remove: '</p>' }}
-  {% endif %}
-  <span class="small hidden-sm hidden-md hidden-lg">
-    {% include post-icons.html thing=include.thing %}
-  </span>
-</h5>
+  </h5>
+{% endif %}
 
 {% if include.thing.image %}
   {% if include.thing.website %}
