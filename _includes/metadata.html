@@ -32,6 +32,10 @@
   {% include vimeo.html vimeo=include.thing.vimeo 16by9=include.thing.16by9 %}
 {% endif %}
 
+{% if include.thing.bandcamp %}
+  {% include bandcamp.html bandcamp=include.thing.bandcamp %}
+{% endif %}
+
 {% if include.thing.images %}
   {% include carousel.html images=include.thing.images %}
 {% endif %}

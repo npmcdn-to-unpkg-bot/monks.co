@@ -4,16 +4,12 @@
 @import "bootstrap";
 @import "highlight";
 
+// center footer
 #bottom {
   text-align: center;
 }
 
-p img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
+// fix info pane left on larger-than-phones
 @media (min-width: $screen-sm-min) {
   #info {
     position: fixed;
@@ -22,15 +18,41 @@ p img {
   }
 }
 
+// space below posts
 article {
   margin-bottom: 4em;
 }
 
+// center images in carousels
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
 
+// make code blocks scroll
 pre code {
   word-wrap: normal;
   white-space: pre;
 }
+
+// images in posts
+p img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// bandcamp embed styling
+.bandcamp {
+  iframe {
+    border: 0;
+  }
+}
+.bandcamp-wrapper {
+  max-width: 700px;
+}
+
+// Modifier class for square aspect ratio
+.embed-responsive-square {
+  padding-bottom: 100%;
+}
+
