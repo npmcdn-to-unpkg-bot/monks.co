@@ -1,5 +1,8 @@
 ---
-category: project
+categories:
+  - project
+  - writing
+  - website
 layout: default
 title:  "The Gentleman's Standard"
 slug:     "standard"

@@ -5,7 +5,11 @@
   <!-- TODO: add threejs fallback -->
   <!-- <h1 id="me">{{ site.name }}</h1> -->
 
-  {{ site.bio | markdownify }}
+  <div class="hidden-xs">
+    {{ site.bio | markdownify }}
+  </div>
+
+  {% include nav.html %}
 
   {% include address.html %}
 </div>
