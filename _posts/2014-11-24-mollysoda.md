@@ -2,9 +2,7 @@
 category: writing
 layout: default
 title:  Karaoke with Molly Soda
-slug:     mollysoda
 year: 2014
-date: 2014-11-24
 tagline: Art.
 ---
 When I walk into the auditorium, a minute or so after 6:00PM, there's a 'Sexy Crushing' video playing off YouTube. My companion and I sit down in the second row. I'd previously been introduced to the fetish/phenomenon of 'sexy crushing' during an artist talk by Jennifer Chan, last year. The videos depict women, usually faceless and shown from the knees down, crushing objects underneath high heeled shoes. Apparently they're very popular. The video ends, and someone behind me shouts, 'Play another!' Molly Soda, whom I now identify standing behind the lecturn says, 'No'. Now we'll watch women getting pied. She types 'girls getting pied compilation' into the search field, waits for the results, and chooses a favorite video from the ones listed. It is now about 6:10. The video description reads,

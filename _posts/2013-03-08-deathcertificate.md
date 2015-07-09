@@ -2,9 +2,7 @@
 category: writing
 layout: default
 title:  "Death Certificate"
-slug:     "icecube"
 year: "2013"
-date: 2013-03-08
 tagline:    "Some thoughts on Ice Cube's *Death Certificate*"
 ---
 Ice Cube released his hugely successful second album, *Death Certifcate*, in 1991. The album combines hard gangster rap with angry, highly politicized themes. The album debuted at number two on the Billboard 200 in 1991, following Ice Cube’s split from N.W.A and before his first solo album, *AmeriKKKa’s Most Wanted*, was released and then certified platinum two months later. Ice Cube’s highly offensive, politically divisive content sparked immediate outrage and controversy, notably for anti-Korean themes only months before the 1992 Los Angeles riots. (The album was divided into two sides: *The Light Side*’s gangsta posturing and violence represent Cube’s perception of American culture of the day, while *The Death Side* explores his view for the future, featuring angry and political topics. By merging the dissatisfaction and desire for change of conscious rap with gangsta rap perspective, Cube managed to funnel his powerful ingrained contempt into a complex hip-hop epic, seizing the public eye.

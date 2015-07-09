@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  Witch Bizness
-slug:     driftingapart
-date: 2011-07-28
 year: 2011
 categories:
   - graphic

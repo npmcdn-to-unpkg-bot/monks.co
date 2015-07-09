@@ -4,9 +4,7 @@ categories:
   - website
 layout: default
 title:  "Yung Future"
-slug:     "yungfuture"
 year: "2013"
-date: 2013-09-26
 github: "https://github.com/amonks/yungfuture.com"
 website:    "http://yungfuture.com"
 tagline:    "Net.Art exploration"

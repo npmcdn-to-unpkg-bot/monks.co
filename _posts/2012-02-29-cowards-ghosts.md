@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  Cowards &amp; Ghosts
-slug:     cowards-ghosts
-date: 2012-02-29
 year: 2012
 category: graphic
 bandcamp: 3185434507

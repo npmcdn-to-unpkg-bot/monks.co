@@ -2,9 +2,7 @@
 category: writing
 layout: default
 title:  "Respiration"
-slug:     "blackstar"
 year: "2014"
-date: 2014-1-29
 tagline:    "Some thoughts on Black Star's *Respiration*"
 image:
   url: http://i118.photobucket.com/albums/o116/oldnangry/skeme-crime_in_the_city-lrg.jpg

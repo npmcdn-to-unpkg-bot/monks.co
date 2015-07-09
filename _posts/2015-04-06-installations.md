@@ -5,9 +5,7 @@ categories:
   - physical
 layout:   default
 title:    "Installations"
-slug:     "installations"
 year:     "2015"
-date: 2015-04-06
 image:
   url: "http://installation.monks.co/water.png"
 github:   "https://github.com/amonks/installations-2015"

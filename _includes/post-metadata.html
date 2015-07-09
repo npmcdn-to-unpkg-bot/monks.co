@@ -2,7 +2,7 @@
   {% if include.thing.website %}
     <a href="{{ include.thing.website }}">{{include.thing.title}}</a>
   {% else %}
-    <a href="{{include.thing.url}}">{{include.thing.title}}</a>
+    {{include.thing.title}}
   {% endif %}
   <span class="small">
     {% include post-icons.html thing=include.thing %}

@@ -2,9 +2,7 @@
 category: writing
 layout: default
 title:  "Gold Soul Theory"
-slug:     "underachievers"
 year: "2014"
-date: 2014-02-20
 tagline:    "Some thoughts on The Underachievers's *Gold Soul Theory*"
 ---
 *Gold Soul Theory* was the second song released released off of Broklyn duo The Underachievers' debut mixtape, *Indigoism*. The beat, by Rich Flyer, features a super crafty use of the first few seconds of *El Manana*, by Gorillaz, chopped and repitched along with electronic drum arrangement. The mixtape was released for free download by *Brainfeeder* a year ago, on February 1st, 2013.

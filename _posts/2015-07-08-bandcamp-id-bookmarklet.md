@@ -4,9 +4,7 @@ categories:
   - fluff
 layout: default
 title:  "Bandcamp ID Bookmarklet"
-slug:     "bandcamp-id-bookmarklet"
 year: "2015"
-date: 2015-07-08
 ---
 I often find myself looking for the ID of an album on Bandcamp, usually to make an embed.
 

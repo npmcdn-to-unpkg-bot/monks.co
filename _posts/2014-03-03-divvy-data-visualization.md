@@ -4,9 +4,7 @@ categories:
   - website
 layout: default
 title:  "Divvy Data Visualization"
-slug:     "divvy"
 year: "2014"
-date: 2014-03-03
 github: "https://github.com/amonks/divvy-json"
 website:    "http://divvy.needsyourhelp.org"
 tagline:    "Good Lookin' Bike Theft"

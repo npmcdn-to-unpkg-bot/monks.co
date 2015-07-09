@@ -2,9 +2,7 @@
 category: writing
 layout: default
 title:  "Straight Outta Compton"
-slug:     "NWA"
 year: "2014"
-date: 2014-02-25
 tagline:    "Some thoughts on NWA's *Straight Outta Compton*"
 ---
 

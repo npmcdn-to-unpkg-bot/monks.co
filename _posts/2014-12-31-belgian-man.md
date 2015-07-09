@@ -2,11 +2,11 @@
 categories:
   - project
   - website
+  - physical
+  - music
 layout: default
 title:    "Belgian Man Records"
-slug:       "belgianman"
 year:    "2007&ndash;present"
-date: 2014-12-31
 github: "//github.com/belgianman"
 website:  "http://www.belgianman.com"
 tagline:    "Experimental Record Label"

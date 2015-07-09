@@ -2,9 +2,7 @@
 category: writing
 layout: default
 title:  "Follow The Leader"
-slug:     "Rakim"
 year: "2014"
-date: 2014-02-04
 tagline:    "Some thoughts on Eric B and Rakim's *Follow The Leader*"
 ---
 ## Eric B's Part

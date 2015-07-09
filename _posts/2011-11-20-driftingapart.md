@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  The Science Of Drifting Apart
-slug:     driftingapart
-date: 2011-11-20
 year: 2011
 category: graphic
 bandcamp: "220805373"

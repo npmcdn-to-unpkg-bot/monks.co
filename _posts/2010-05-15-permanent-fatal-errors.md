@@ -1,9 +1,7 @@
 ---
 layout: default
 title:  "Permanent Fatal Errors"
-slug:     "pfe"
 year: "2009&ndash;2010"
-date: 2010-05-15
 tagline:    "The theatre of text"
 category: project
 image:

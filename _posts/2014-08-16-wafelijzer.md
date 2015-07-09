@@ -4,9 +4,7 @@ categories:
   - website
 layout:   default
 title:    "Wafelijzer"
-slug:     "wafelijzer"
 year:     "2014"
-date: 2014-08-16
 image:
   url: "http://wafelijzer.belgianman.com/public/logo-white.png"
 github:   "http://github.com/belgianman/wafelijzer"

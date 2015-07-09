@@ -6,9 +6,7 @@ categories:
   - physical
 layout: default
 title:  "The Gentleman's Standard"
-slug:     "standard"
 year: "2009&ndash;2010"
-date: 2010-12-01
 github: "https://github.com/amonks/thestandard"
 website:    "http://gentleman.so"
 tagline:    "Satirical print magazine"

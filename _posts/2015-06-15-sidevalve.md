@@ -2,9 +2,7 @@
 category: project
 layout:   default
 title:    "Sidevalve"
-slug:     "sidevalve"
 year:     "2015"
-date: 2015-06-15
 image:
   url: "/images/sidevalve.png"
 github:   "https://github.com/sidevalve"

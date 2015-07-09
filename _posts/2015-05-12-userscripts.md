@@ -4,9 +4,7 @@ categories:
   - howto
 layout: default
 title:  "User Scripts"
-slug:     "userscripts"
 year: "2015"
-date: 2015-05-12
 tagline:    "Intro To User Scripting"
 ---
 ```javascript

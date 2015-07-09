@@ -2,9 +2,7 @@
 category: howto
 layout: default
 title:  "Embed a Gist"
-slug:     "gist"
 year: "2015"
-date: 2015-07-07
 ---
 Embedding gists is easy! But poorly documented.
 

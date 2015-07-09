@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  KANYEFACTORY//beta_shit
-slug:     driftingapart
-date: 2011-09-22
 year: 2011
 categories:
   - graphic

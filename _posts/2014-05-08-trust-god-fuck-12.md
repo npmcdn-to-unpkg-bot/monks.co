@@ -2,9 +2,7 @@
 category: writing
 layout: default
 title:  "Trust God Fuck 12"
-slug:     "young-thug"
 year: "2014"
-date: 2014-05-18
 tagline: "Some thoughts on Gucci Mane and Rich Homie Quan's *Trust God Fuck 12*, plus some additional thoughts on Young Thug."
 ---
 
@@ -18,7 +16,7 @@ It's not his most popular release: it wasn't even included in his discography on
 
 What else has The Big Homie Gucci been up to lately? Tom Breihan at *Stereogum* summarized it better than I could:
 
->	"Things haven’t been going so great for the troubled rap genius Gucci Mane lately. He recently alienated a ton of industry friends in a deranged Twitter rant, admitted to a codeine addiction, lost his label deal, and got sentenced to six months of prison on a probation violation. And he’s still cranking out music."
+>   "Things haven’t been going so great for the troubled rap genius Gucci Mane lately. He recently alienated a ton of industry friends in a deranged Twitter rant, admitted to a codeine addiction, lost his label deal, and got sentenced to six months of prison on a probation violation. And he’s still cranking out music."
 
 That's right. He released it from jail. "Robert A Deyton Detention Facility Radric Davis PO Box 730 Lovejoy GA 30250", to be more specific (he recently solicited fan letters on Twitter).Wikipedia states that, "according to the federal prosecutor, Mane was in possession of two different loaded guns between 12 and 14 September 2013, and can be sentenced to up to 20 years in prison."
 

@@ -4,9 +4,7 @@ categories:
   - website
 layout: default
 title:  "CTA Ridership Visualizations"
-slug:     "cta"
 year: "2014"
-date: 2014-02-17
 github: "https://github.com/amonks/ctadailyridership"
 website:    "http://amonks.github.io/ctadailyridership"
 tagline:    "Seeing Traffic"

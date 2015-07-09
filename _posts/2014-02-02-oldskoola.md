@@ -2,9 +2,7 @@
 category: project
 layout: default
 title:  "Oldskoola Bookmarklet"
-slug:     "oldskoola"
 year: "2014"
-date: 2014-02-22
 github: "https://github.com/amonks/oldskoola.js"
 tagline:    "Exploring the oldernet"
 image:
