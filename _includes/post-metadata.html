@@ -1,18 +1,22 @@
 <h1>
   {% if include.thing.website %}
-    <a href="{{ include.thing.website }}">{{include.thing.title}}<!-- {% include icon.html icon="long-arrow-right" %} --></a>
+    <a href="{{ include.thing.website }}">{{ include.thing.title }}<!-- {% include icon.html icon="long-arrow-right" %} --></a>
   {% else %}
-    {{include.thing.title}}
+    {{ include.thing.title }}
   {% endif %}
-  <span class="small">
+  <span class="small hidden-xs">
     {% include post-icons.html thing=include.thing %}
   </span>
 </h1>
 
-
-{% if include.thing.tagline %}
-  <h5>{{ include.thing.tagline | markdownify }}</h5>
-{% endif %}
+<h5>
+  {% if include.thing.tagline %}
+    {{ include.thing.tagline | markdownify | remove: '<p>' | remove: '</p>' }}
+  {% endif %}
+  <span class="small hidden-sm hidden-md hidden-lg">
+    {% include post-icons.html thing=include.thing %}
+  </span>
+</h5>
 
 {% if include.thing.image %}
   {% if include.thing.website %}

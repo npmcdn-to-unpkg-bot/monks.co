@@ -1,7 +1,9 @@
 <article>
   {% include post-metadata.html thing=include.thing %}
   {% if page.shorten %}
-    {{ include.thing.excerpt | markdownify }}
+    {% if include.thing.excerpt %}
+      {{ include.thing.excerpt | markdownify }}
+    {% endif %}
     {% if post.content contains '<!--more-->' %}
       <a href="{{include.thing.url}}">read more...</a>
     {% endif %}
