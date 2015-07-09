@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Transmission
+title:  Transmission cover
 year: 2012
 category: graphic
 bandcamp: 3191646589
