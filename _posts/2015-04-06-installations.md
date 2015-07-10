@@ -1,6 +1,5 @@
 ---
 categories:
-  - project
   - website
   - physical
 layout:   default

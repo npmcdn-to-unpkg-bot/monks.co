@@ -1,6 +1,5 @@
 ---
 categories:
-  - project
   - website
 layout: default
 title: Choom Gang

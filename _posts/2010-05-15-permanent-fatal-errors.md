@@ -3,7 +3,9 @@ layout: default
 title:  "Permanent Fatal Errors"
 year: "2009&ndash;2010"
 tagline:    "The theatre of text"
-category: project
+categories:
+  - project
+  - writing
 image:
   url: "/images/pfe.jpg"
   title: "Photo by David R. Gammons"

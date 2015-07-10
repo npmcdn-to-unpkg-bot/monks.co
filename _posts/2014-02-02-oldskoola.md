@@ -1,10 +1,10 @@
 ---
-category: project
+category: fluff
 layout: default
 title:  "Oldskoola Bookmarklet"
 year: "2014"
 github: "https://github.com/amonks/oldskoola.js"
-tagline:    "Exploring the oldernet"
+tagline: "Exploring the oldernet"
 image:
   url: "/images/oldskoola.png"
 ---

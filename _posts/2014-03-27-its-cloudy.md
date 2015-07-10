@@ -1,5 +1,5 @@
 ---
-category: project
+category: fluff
 layout: default
 title:  "It's Cloudy?"
 year: "2014"
