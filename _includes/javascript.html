@@ -9,5 +9,8 @@
   });
   var ntypediv = document.getElementById("ntype");
   var ntype = new NType(ntypediv);
-  ntype.begin("monks");
+    var options = {
+      matrix: ["xz", "zw", "yz"],
+    };
+    ntype.begin("monks", options);
 </script>
