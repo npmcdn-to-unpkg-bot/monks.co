@@ -7,7 +7,7 @@ media:
   -
     type: bandcamp
     id: 3191646589
-    bandcamp-type: track
+    bandcamp-type: album
 tagline: Cover Art
 ---
 I made the album cover for this single by [Scrvb MC](//blgn.mn/scrub).
