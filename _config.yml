@@ -23,3 +23,6 @@ bio: |+
 
 footer: |+
   &laquo; &there4;&int;&there4;&int;&there4;&int;&there4;&int;&diams;&int;&there4;&int;&there4;&int;&there4;&int;&there4; &raquo;
+
+media:
+  image-class: img-responsive

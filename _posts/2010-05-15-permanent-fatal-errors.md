@@ -6,9 +6,11 @@ tagline:    "The theatre of text"
 categories:
   - project
   - writing
-image:
-  url: "/images/pfe.jpg"
-  title: "Photo by David R. Gammons"
+media:
+  -
+    type: image
+    url: "/images/pfe.jpg"
+    title: "Photo by David R. Gammons"
 ---
 Permanent Fatal Errors was an experimental theatre production, created and performed by the Permanent Fatal Errors Company, of which I was one of twelve members. The work was conceived and directed by David R. Gammons.
 

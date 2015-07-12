@@ -10,8 +10,10 @@ year:    "2007&ndash;present"
 github: "//github.com/belgianman"
 website:  "http://www.belgianman.com"
 tagline:    "Experimental Record Label"
-image:
-  url: "/images/belgianman.png"
+media:
+  -
+    type: image
+    url: "/images/belgianman.png"
 ---
 <a href="http://belgianman.com/">Belgian Man Records</a> is a record label I started in 2007.
 

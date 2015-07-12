@@ -3,8 +3,10 @@ category: website
 layout: default
 title: "Sidevalve"
 year: "2015"
-image:
-  url: "/images/sidevalve.png"
+media:
+  -
+    type: image
+    url: "/images/sidevalve.png"
 github: "https://github.com/sidevalve"
 website: "http://github.com/sidevalve"
 tagline: "CYOA Game Engine"

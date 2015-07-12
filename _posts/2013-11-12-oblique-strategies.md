@@ -8,8 +8,10 @@ year: "2013"
 github: "https://github.com/amonks/oblique-strategies-api"
 website:    "http://brianeno.needsyourhelp.org"
 tagline:    "API.ART"
-image:
-  url: "/images/obliquestrategies.png"
+media:
+  -
+    type: image
+    url: "/images/obliquestrategies.png"
 ---
 <a href="http://brianeno.needsyourhelp.org">The Oblique Strategies API</a> brings modern web standards and open data practices to <a href="http://en.wikipedia.org/wiki/Brian_Eno">Brian Eno</a> and <a href="http://en.wikipedia.org/wiki/Peter_Schmidt_(artist)">Peter Schmidt&#8127;s</a> classic Oblique Strategies.
 

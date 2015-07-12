@@ -5,8 +5,10 @@ categories:
 layout:   default
 title:    "Wafelijzer"
 year:     "2014"
-image:
-  url: "http://wafelijzer.belgianman.com/public/logo-white.png"
+media:
+  -
+    type: image
+    url: "http://wafelijzer.belgianman.com/public/logo-white.png"
 github:   "http://github.com/belgianman/wafelijzer"
 website:  "http://wafelijzer.belgianman.com"
 tagline:  "Easily make a record label website"

@@ -4,8 +4,10 @@ layout: default
 title:  "Respiration"
 year: "2014"
 tagline:    "Some thoughts on Black Star's *Respiration*"
-image:
-  url: http://i118.photobucket.com/albums/o116/oldnangry/skeme-crime_in_the_city-lrg.jpg
+media:
+  -
+    type: image
+    url: http://i118.photobucket.com/albums/o116/oldnangry/skeme-crime_in_the_city-lrg.jpg
 ---
 Black Star's classic single *Respiration* deals with city life, both in New York, as told my Mos Def and Talib Kweli, and in Chicago, as told by Common. Like the other classics on *…Are Black Star*, Respiration was produced by Hi-Tek using a sample from *The Fox*, by Don Randi.
 
@@ -32,15 +34,15 @@ The gentleman in *Yo Yeah* brings ironic attention to a division in the black co
 
 *Yo Yeah* cuts directly to the beginning of *Respiration*, which opens with a sample from the seminal hip hop film, *Style Wars*
 
->	"What'd you do last night?" /
->	"We did umm, two whole cars
->	It was me, Dez, and Main Three right?
->	And on the first car in small letters it said
->	'All you see is..' and then you know
->	Big, big, you know some block silver letters
->	That said '..crime in the city' right?" /
->	"It just took up the whole car?" /
->	"Yeah yeah, it was a whole car and shit..."
+>   "What'd you do last night?" /
+>   "We did umm, two whole cars
+>   It was me, Dez, and Main Three right?
+>   And on the first car in small letters it said
+>   'All you see is..' and then you know
+>   Big, big, you know some block silver letters
+>   That said '..crime in the city' right?" /
+>   "It just took up the whole car?" /
+>   "Yeah yeah, it was a whole car and shit..."
 
 In this clip, Skeme, a pioneer in New York's graffiti scene, speaks about his piece *Crime In The City*, pictured above. Like the best vocal samples, Skeme's poignant words here signify a great deal more than they may initially appear to. In *Crime*, Skeme has created a double meaning: the piece can be read to mean something like 'all the city has to offer is crime', but it can also be read to mean something like 'when *you* see the city, *you* miss the beauty for the crime'.
 
@@ -56,14 +58,14 @@ From the *Style Wars* sample, the track moves on to the hook, which begins with 
 
 The rest of the hook continues the pulmonary analogy:
 
->	So much on my mind that I can't recline /
->	Blastin' holes in the night 'till she bled sunshine /
->	Breathe in, inhale vapors from bright stars that shine /
->	Breathe out, weed smoke retrace the skyline /
->	Heard the bass ride out like an ancient mating call /
->	I can't take it y'all, I can feel the city breathin' /
->	Chest heavin', against the flesh of the evenin' /
->	Sigh before we die like the last train leavin'
+>   So much on my mind that I can't recline /
+>   Blastin' holes in the night 'till she bled sunshine /
+>   Breathe in, inhale vapors from bright stars that shine /
+>   Breathe out, weed smoke retrace the skyline /
+>   Heard the bass ride out like an ancient mating call /
+>   I can't take it y'all, I can feel the city breathin' /
+>   Chest heavin', against the flesh of the evenin' /
+>   Sigh before we die like the last train leavin'
 
 By anthropomorphizing the city like this, it becomes more human. This allows it to have a confused, confusing morality (like the ones humans have), and furthermore it allows the rappers to use the rich language normally reserved for describing people. Mos Def and Talib don't end up employing that very much, but Common's verse does.
 
@@ -73,8 +75,8 @@ Mos Def's verse seems somewhat paradoxical: he says a bunch of depressing shit a
 
 ## Talib's Verse
 
->	Look in the skies for God, what you see besides the smog /
->	Is broken dreams flying away on the wings of the obscene
+>   Look in the skies for God, what you see besides the smog /
+>   Is broken dreams flying away on the wings of the obscene
 
 Damn. Nuff said.
 
@@ -87,7 +89,7 @@ Common's verse deals with the huge class disparity present in Chicago. The verse
 
 Commons' is also the verse that takes the living-breathing-city analogy the farthest, with the line, "knew my friend was gone for good / Threw dirt on the casket, the hurt, I couldn't mask it." He seals the deal in the last four lines, switching references from "the city" to "my man".
 
->	It's deep, I heard the city breathe in its sleep /
->	Of reality I touch, but for me it's hard to keep /
->	Deep, I heard my man breathe in his sleep /
->	Of reality I touch, but for me it's hard to keep
+>   It's deep, I heard the city breathe in its sleep /
+>   Of reality I touch, but for me it's hard to keep /
+>   Deep, I heard my man breathe in his sleep /
+>   Of reality I touch, but for me it's hard to keep

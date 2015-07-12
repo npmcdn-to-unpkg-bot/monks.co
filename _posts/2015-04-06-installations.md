@@ -5,8 +5,10 @@ categories:
 layout:   default
 title:    "Installations"
 year:     "2015"
-image:
-  url: "http://installation.monks.co/water.png"
+media:
+  -
+    type: image
+    url: "http://installation.monks.co/water.png"
 github:   "https://github.com/amonks/installations-2015"
 website:  "http://installation.monks.co"
 tagline:  "Various Installation Thoughts"

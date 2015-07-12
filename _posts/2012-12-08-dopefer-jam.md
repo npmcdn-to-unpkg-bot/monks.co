@@ -3,9 +3,11 @@ layout: default
 title: Doepfer Jam
 year: 2012
 tagline: Modular Synthesizer Session
-soundcloud:
-  id: 214017667
-  type: track
+media:
+  -
+    type: soundcloud
+    id: 214017667
+    soundcloud-type: track
 categories:
   - music
 ---

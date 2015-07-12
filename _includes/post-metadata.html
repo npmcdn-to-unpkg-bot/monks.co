@@ -13,28 +13,6 @@
   </h5>
 {% endif %}
 
-{% if include.thing.image %}
-  {% if include.thing.website %}
-    <a href="{{ include.thing.website }}">
-      {% include image.html url=include.thing.image.url alt=include.thing.title %}
-    </a>
-  {% else %}
-    {% include image.html url=include.thing.image.url alt=include.thing.title %}
-  {% endif %}
-{% endif %}
-
-{% if include.thing.vimeo %}
-  {% include vimeo.html vimeo=include.thing.vimeo 16by9=include.thing.16by9 %}
-{% endif %}
-
-{% if include.thing.bandcamp %}
-  {% include bandcamp.html bandcamp=include.thing.bandcamp %}
-{% endif %}
-
-{% if include.thing.soundcloud %}
-  {% include soundcloud.html soundcloud=include.thing.soundcloud %}
-{% endif %}
-
-{% if include.thing.images %}
-  {% include carousel.html images=include.thing.images %}
+{% if include.thing.media %}
+  {% include media/media.html media=include.thing.media %}
 {% endif %}
