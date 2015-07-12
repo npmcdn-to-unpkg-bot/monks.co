@@ -21,12 +21,12 @@ It's used on this very website.
 Here's how you can include a media list within a theme:
 
     {% if post.media %}
-      {% include media.html media=post.media %}
+      {% include jekyll-media/media.html media=post.media %}
     {% endif %}
 
 If you want to include a single media object, you can use medium.html:
 
-    {% include medium.html media=post.image %}
+    {% include jekyll-media/medium.html media=post.image %}
 
 
 ### yaml frontmatter
@@ -62,3 +62,8 @@ media embeds will show up in the order in which they're listed here
           -
             alt: Collage 3
             url: /images/collage/3.jpg
+
+### _config.yml
+
+    media:
+      image-class: img-responsive
