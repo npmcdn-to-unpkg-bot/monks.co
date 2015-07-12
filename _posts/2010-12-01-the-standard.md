@@ -10,8 +10,10 @@ year: "2009&ndash;2010"
 github: "https://github.com/amonks/thestandard"
 website:    "http://gentleman.so"
 tagline:    "Satirical print magazine"
-image:
-  url: "/images/standard.png"
+media:
+  -
+    type: image
+    url: "/images/standard.png"
 ---
 <a href="http://gentleman.so">The Gentleman&#8217;s Standard De l&#8217;Acad&eacute;mie</a> is a print magazine I co-founded with Andrew Zarins, Dante Pilkington, and Alex Milona. The concept was to include a variety of essays, discussing current events, politics, memoir, and fiction, all written from the hypothetical perspective of extremely conservative (by modern standards) aristocratic 19th century gentlemen.
 

@@ -8,8 +8,10 @@ year: "2013"
 github: "https://github.com/amonks/yungfuture.com"
 website:    "http://yungfuture.com"
 tagline:    "Net.Art exploration"
-image:
-  url: "/images/yungfuture.png"
+media:
+  -
+    type: image
+    url: "/images/yungfuture.png"
 ---
 <a href="http://yungfuture.com/">Yung Future</a> is an online gallery of experimental single-serving net.arts. The pieces explore themes including growth, polarity, decay, and digitality.
 I continuously keep the gallery updated with new work.

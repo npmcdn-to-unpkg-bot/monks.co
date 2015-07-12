@@ -7,8 +7,11 @@ layout: default
 title: "Hardware Hacking"
 year: "2014"
 tagline: "Audio! Video! Improvisation!"
-vimeo: 114189921
-16by9: true
+media:
+  -
+    type: vimeo
+    id: 114189921
+    16by9: true
 ---
 Wow! Live performance! Audio! Video! Improvisation!
 

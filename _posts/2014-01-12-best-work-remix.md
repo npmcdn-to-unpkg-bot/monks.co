@@ -3,9 +3,11 @@ layout: default
 title: Best Work DUBIOUSLY HYPHY ALGORAVE REMIX
 year: 2014
 tagline: Generative Remix
-soundcloud:
-  id: 214014828
-  type: track
+media:
+  -
+    type: soundcloud
+    soundcloud-type: track
+    id: 214014828
 categories:
   - music
 ---

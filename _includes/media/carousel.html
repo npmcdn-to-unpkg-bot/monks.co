@@ -1,9 +1,9 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    {% for image in include.images %}
+    {% for image in include.medium.images %}
       <div class="item {% if forloop.first %}active{% endif %}">
-        <img src="{{ image.url }}" alt="{{ image.title }}">
+        <img src="{{ image.url }}" alt="{{ image.alt }}">
         <div class="carousel-caption">
           {{ image.caption }}
         </div>
