@@ -4,11 +4,9 @@
 
 <body>
   <div class="container-fluid">
-    {% include section-info.html %}
-      {% include info.html %}
-    </section>
+    {% include info.html %}
 
-    {% include section-main.html %}
+    {% include content.html %}
       <h1>{% include category-title.html category=page.category %} <span class="small">{{ site.categories.[page.category] | size }} posts</span></h1>
       <ul>
         {% for post in site.categories.[page.category] %}
@@ -16,7 +14,7 @@
         {% endfor %}
       </ul>
       {% include bottom.html %}
-    </section>
+    </div>
   </div>
   {% include javascript.html %}
 </body>

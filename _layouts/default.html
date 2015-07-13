@@ -4,14 +4,12 @@
 
 <body>
   <div class="container-fluid">
-    {% include section-info.html %}
-      {% include info.html %}
-    </section>
+    {% include info.html %}
 
-    {% include section-main.html %}
+    {% include content.html %}
       {% include post.html thing=page %}
       {% include bottom.html %}
-    </section>
+    </div>
   </div>
   {% include javascript.html %}
 </body>
