@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+  <div class="container-fluid">
+    <div class="col-xs-12 col-sm-7 col-sm-offset-3 col-lg-5 col-lg-offset-4">
+      {{ content }}
+      {% include footer.html %}
+    </div>
+  </div>
+  {% include javascript.html %}
+</body>
+</html>
