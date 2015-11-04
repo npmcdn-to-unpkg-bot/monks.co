@@ -3,6 +3,7 @@ layout: index
 title: Andrew Monks
 shorten: true
 ---
+<div id="ntype" style="width: 100%; height: 350px;"></div>
 
 ## Hi! I'm Andrew Monks.
 
