@@ -8,6 +8,8 @@ shorten: true
 
 I make websites and computer programs, build communities, and sometimes VJ.
 
+{% include contact.html %}
+
 * * *
 
 Here are some of my favorite things I've done:
