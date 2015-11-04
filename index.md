@@ -6,7 +6,7 @@ shorten: true
 
 ## Hi! I'm Andrew Monks.
 
-I make websites and computer programs, build communities, and sometimes VJ.
+I make arts, websites and computer programs, build communities, and sometimes VJ.
 
 {% include contact.html %}
 
