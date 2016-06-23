@@ -6,11 +6,7 @@ layout: nil
     {
       "title": "{{ post.title }}",
       {% for hash in post %}
-        {% for tag in hash %}
-          "tag": "{{ tag }}",
-          "tag[0]": "{{ tag[0] }}",
           "hash": "{{ hash }}",
-        {% endfor %}
       {% endfor %}
     }
     {% if forloop.last %}{% else %},{% endif %}
