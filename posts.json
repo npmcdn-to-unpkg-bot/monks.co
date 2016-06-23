@@ -11,7 +11,6 @@ layout: nil
           "tag[0]": "{{ tag[0] }}",
           "hash": "{{ hash }}",
         {% endfor %}
-        {% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
     }
     {% if forloop.last %}{% else %},{% endif %}
