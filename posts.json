@@ -6,11 +6,15 @@ layout: nil
     {
       "title": "{{ post.title }}",
       {% for hash in post %}
-        "hash": "{{ hash }}",
         {% for tag in hash %}
           "tag": "{{ tag }}",
-          "{{ tag[0] }}": "{{ tag[1] }}"
-          "{{ hash[0] }}": "{{ hash[1] }}"
+          "tag[0]": "{{ tag[0] }}",
+          "tag[1]": "{{ tag[1] }}",
+          "tag[2]": "{{ tag[2] }}",
+          "hash": "{{ hash }}",
+          "hash[0]": "{{ hash[0] }}",
+          "hash[1]": "{{ hash[1] }}",
+          "hash[2]": "{{ hash[2] }}",
         {% endfor %}
         {% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
