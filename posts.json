@@ -8,6 +8,10 @@ layout: nil
       "tags": "{{ post.tags }}",
       {% for hash in post %}
         "hash": "{{ hash }}",
+        {% for tag in hash %}
+          "tag": "{{ tag }}",
+          "{{ tag[0] }}": "{{ tag[1] }}"
+          {% if forloop.last %}{% else %},{% endif %}
         "hash.tags": "{{ hash.tags }}",
         "{{ hash[0] }}": "{{ hash[1] }}"
         {% if forloop.last %}{% else %},{% endif %}
