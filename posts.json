@@ -9,7 +9,6 @@ layout: nil
         "hash": "{{ hash }}",
         {% for tag in hash %}
           "tag": "{{ tag }}",
-          "{{ tag[0] }}": "{{ tag[1] }}"
         {% endfor %}
         "hash.tags": "{{ hash.tags }}",
         "{{ hash[0] }}": "{{ hash[1] }}"
