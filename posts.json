@@ -4,7 +4,7 @@ layout: nil
 [
   {% for post_hash in site.posts %}
     {
-      {% for hash in post_hash %}
+      {% for hash in post_hash.tags %}
         "hash": "{{ hash }}",
         "{{ hash[0] }}": "{{ hash[1] }}"
         {% if forloop.last %}{% else %},{% endif %}
@@ -13,3 +13,4 @@ layout: nil
     {% if forloop.last %}{% else %},{% endif %}
   {% endfor %}
 ]
+
