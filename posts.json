@@ -2,9 +2,10 @@
 layout: nil
 ---
 [
-  {% for post_hash in site.posts %}
+  {% for post in site.posts %}
     {
-      {% for hash in post_hash.tags %}
+      "tags": "{{ post.tags }}",
+      {% for hash in post.tags %}
         "hash": "{{ hash }}",
         "{{ hash[0] }}": "{{ hash[1] }}"
         {% if forloop.last %}{% else %},{% endif %}
