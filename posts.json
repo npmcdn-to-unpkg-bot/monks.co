@@ -4,6 +4,7 @@ layout: nil
 [
   {% for post in site.posts %}
     {
+      "title": "{{ post.title }}",
       {% for hash in post %}
         "{{ hash[0] }}": "{{ hash[1] }}"
         {% if forloop.last %}{% else %},{% endif %}
