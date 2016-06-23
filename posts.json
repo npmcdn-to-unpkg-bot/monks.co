@@ -10,8 +10,8 @@ layout: nil
         {% for tag in hash %}
           "tag": "{{ tag }}",
           "{{ tag[0] }}": "{{ tag[1] }}"
+          "{{ hash[0] }}": "{{ hash[1] }}"
         {% endfor %}
-        "{{ hash[0] }}": "{{ hash[1] }}"
         {% if forloop.last %}{% else %},{% endif %}
       {% endfor %}
     }
