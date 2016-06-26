@@ -15,7 +15,7 @@ media:
 ---
 <a href="http://brianeno.needsyourhelp.org">The Oblique Strategies API</a> brings modern web standards and open data practices to <a href="http://en.wikipedia.org/wiki/Brian_Eno">Brian Eno</a> and <a href="http://en.wikipedia.org/wiki/Peter_Schmidt_(artist)">Peter Schmidt's</a> classic Oblique Strategies.
 
-First published in 1975, the <a href="http://en.wikipedia.org/wiki/Oblique_Strategies">Oblique Strategies</a> are a collection of brief aphorisms meant to stimulate creativity. Such as &ldquo;Give way to your worst impulse,&rdquo; &ldquo;Question the heroic approach,&rdquo; and &ldquo;Work at a different speed.&rdquo;
+First published in 1975, the <a href="http://en.wikipedia.org/wiki/Oblique_Strategies">Oblique Strategies</a> are a collection of brief aphorisms meant to stimulate creativity. Such as "Give way to your worst impulse," "Question the heroic approach," and "Work at a different speed."
 
 By making these strategies accessible in a machine-readable form, the Oblique Strategies JSON API makes it possible for programmers to readily include these Oblique Strategies in their work.
 

@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title= page.title
+  body
+    header monks.co
+    main
+      article
+        header
+          h1= page.title
+          dl
+            dt year
+            dd= page.year
+            dt tagline
+            dd= page.tagline
+          if page.categories
+            h2 topics
+            ul
+              each topic in page.categories
+                li= topic
+          if page.category
+            h3 topic
+            = page.category
+        != contents
+    footer monks.co
+

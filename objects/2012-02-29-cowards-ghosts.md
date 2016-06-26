@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Cowards &amp; Ghosts cover
+title:  'Cowards & Ghosts cover'
 year: 2012
 category: graphic
 media:

@@ -10,7 +10,7 @@ media:
     type: image
     url: "/images/oldskoola.png"
 ---
-With physical documents, we have an ingrained cultural language of visual artifacts that show &lsquo;oldness&rsquo;: weathering, print techniques, type of paper, style. But in the internet era of constantly-updating content, what does &lsquo;old&rsquo; look like? &lt;blink&gt; tags?
+With physical documents, we have an ingrained cultural language of visual artifacts that show 'oldness': weathering, print techniques, type of paper, style. But in the internet era of constantly-updating content, what does 'old' look like? &lt;blink&gt; tags?
 
 <a href='javascript:var bodyTag = document.getElementsByTagName("body")[0];var script = document.createElement("script");script.src = "//raw.github.com/amonks/oldskoola.js/master/oldskoola.min.js";bodyTag.appendChild(script);script.onload = script.onreadystatechange = function() {oldskoola();};'>Oldskoola!</a>
 

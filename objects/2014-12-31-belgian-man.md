@@ -6,7 +6,7 @@ categories:
   - music
 layout: default
 title:    "Belgian Man Records"
-year:    "2007&ndash;present"
+year:    "2007–present"
 github: "//github.com/belgianman"
 website:  "http://www.belgianman.com"
 tagline:    "Experimental Record Label"
