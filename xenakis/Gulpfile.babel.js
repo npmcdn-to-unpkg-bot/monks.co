@@ -1,31 +1,38 @@
 import gulp from 'gulp'
+import data from 'gulp-data'
 import debug from 'gulp-debug'
 import clean from 'gulp-clean'
 import frontmatter from 'gulp-front-matter'
 import markdown from 'gulp-markdown'
 import layout from 'gulp-layout'
 import typography from 'gulp-typogr'
-import annotate from './lib/annotate'
 import filter from 'gulp-filter'
 import prettify from 'gulp-jsbeautifier'
-import include from 'gulp-include'
 import rename from 'gulp-rename'
 import jade from 'gulp-jade'
 import sequence from 'gulp-sequence'
 
+import path from 'path'
+
+import riot from './lib/riot'
+import annotate from './lib/annotate'
+
 const conf = {
-  resource_paths: './resources/**/*',
-  output_dir: './target',
-  object_paths: './objects/**/*',
-  annotation_path: 'data.json',
-  jade_paths: './includes/**/*.jade',
-  include_from: './tmp/includes',
-  include_paths: ['./includes/**/*.md', './includes/**/*.html']
+  resource_paths: '../resources/**/*',
+  output_dir: '../target',
+  object_paths: '../objects/**/*',
+  layout_path: '../layouts',
+  tag_paths: '../tags/**/*.tag',
+  annotation_path: 'data.json'
 }
 
 gulp.task('clean', () => {
-  return gulp.src([conf.include_from, conf.output_dir], {read: false})
-    .pipe(clean())
+  return gulp.src(
+    [
+      conf.output_dir,
+      './tmp'
+    ], {read: false})
+    .pipe(clean({force: true}))
 })
 
 gulp.task('resources', () => {
@@ -35,7 +42,6 @@ gulp.task('resources', () => {
 
 gulp.task('annotate', () => {
   return gulp.src(conf.object_paths)
-    .pipe(debug({title: 'annotating object'}))
     .pipe(frontmatter({
       property: 'frontmatter'
     }))
@@ -49,49 +55,66 @@ gulp.task('annotate', () => {
 })
 
 const specifyFiletype = (type) => {
-  const f = ['**/*.' + type]
+  const f = ['../**/*.' + type]
   console.log('filter', f)
   return filter(f, {restore: true})
 }
 
-gulp.task('posts', ['includes', 'annotate'], () => {
-  const annotation = require('./target/data.json')
+gulp.task('posts', ['annotate'], () => {
+  const annotation = require(path.join(conf.output_dir, '/data.json'))
+
   const markdownObjects = specifyFiletype('md')
   const jadeObjects = specifyFiletype('jade')
+  const tagObjects = specifyFiletype('tag')
+
   return gulp.src(conf.object_paths)
     .pipe(debug({title: 'rendering object'}))
+
     .pipe(frontmatter({
       property: 'frontmatter'
     }))
-    .pipe(include({
-      includePaths: [conf.include_from]
+
+    .pipe(data((file) => {
+      return Object.assign({}, annotation, {
+        layout: path.join(conf.layout_path, (file.frontmatter.layout || 'default') + '.jade'),
+        page: file.frontmatter
+      })
     }))
+
+    .pipe(tagObjects)
+    .pipe(riot({
+      tag_paths: conf.tag_paths
+    }))
+    .pipe(tagObjects.restore)
+
+    // TODO: use consolidate.js instead of routes by filetype
 
     .pipe(markdownObjects)
     .pipe(markdown())
     .pipe(markdownObjects.restore)
 
     .pipe(jadeObjects)
-    .pipe(jade({
-      basedir: conf.include_paths
-    })))
+    .pipe(jade())
     .pipe(jadeObjects.restore)
 
-    .pipe(layout((file) => {
-      console.log('frontmatter', file.frontmatter)
-      return Object.assign({}, annotation, {
-        layout: './layout/' + (file.frontmatter.layout || 'default') + '.jade',
-        page: file.frontmatter
-      })
-    }))
+    .pipe(layout((file) => { return file.data }))
+
+    // TODO: only do riot if there's a tags file
+    .pipe(prettify())
+
     .pipe(typography())
+
     .pipe(rename((path) => {
       if (path.basename[0] === '2') {
         path.dirname = path.basename.split('-').slice(3).join('-')
         path.basename = 'index'
       }
     }))
+
     .pipe(prettify())
+
+    .pipe(debug({title: 'rendered object'}))
+
     .pipe(gulp.dest(conf.output_dir))
 })
 

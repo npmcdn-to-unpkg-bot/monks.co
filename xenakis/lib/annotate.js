@@ -12,8 +12,8 @@ const addCategory = (category, post) => {
   }
 }
 
-module.exports = (conf) => {
-  const output = through.obj((file, encoding, cb) => {
+export default (conf) => {
+  return through.obj((file, encoding, callback) => {
     // each file
     const frontmatter = file[conf.key || 'frontMatter']
     objects.push(frontmatter)
@@ -25,24 +25,19 @@ module.exports = (conf) => {
         addCategory(category, frontmatter)
       }
     }
-    cb(null, file)
+    callback(null, file)
   },
-  function (cb) {
+  function (callback) {
     // stream over
     const output = {
       objects: objects,
       categories: categories
     }
     this.push(new File({
-      path: 'all_posts.html',
-      contents: new Buffer(JSON.stringify([]))
-    }))
-    this.push(new File({
       path: conf.path,
       contents: new Buffer(JSON.stringify(output))
     }))
-    cb()
+    callback()
   })
-  return output
 }
 
