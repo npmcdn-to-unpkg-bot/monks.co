@@ -1,10 +1,9 @@
 import gulp from 'gulp'
 import data from 'gulp-data'
-import debug from 'gulp-debug'
 import clean from 'gulp-clean'
 import frontmatter from 'gulp-front-matter'
 import markdown from 'gulp-markdown'
-import layout from 'gulp-layout'
+import layout from './lib/riot-layout.js'
 import typography from 'gulp-typogr'
 import filter from 'gulp-filter'
 import prettify from 'gulp-jsbeautifier'
@@ -18,6 +17,7 @@ import riot from './lib/riot'
 import annotate from './lib/annotate'
 
 const conf = {
+  tmp_dir: './tmp',
   resource_paths: '../resources/**/*',
   output_dir: '../target',
   object_paths: '../objects/**/*',
@@ -33,6 +33,19 @@ gulp.task('clean', () => {
       './tmp'
     ], {read: false})
     .pipe(clean({force: true}))
+})
+
+gulp.task('object-tags', () => {
+  return gulp.src(conf.object_paths + '.tag')
+    .pipe(frontmatter({
+      remove: true
+    }))
+    .pipe(gulp.dest(conf.tmp_dir))
+})
+
+gulp.task('tags', ['object-tags'], () => {
+  return gulp.src(conf.tag_paths)
+    .pipe(gulp.dest(conf.tmp_dir))
 })
 
 gulp.task('resources', () => {
@@ -60,7 +73,7 @@ const specifyFiletype = (type) => {
   return filter(f, {restore: true})
 }
 
-gulp.task('posts', ['annotate'], () => {
+gulp.task('posts', ['tags', 'annotate'], () => {
   const annotation = require(path.join(conf.output_dir, '/data.json'))
 
   const markdownObjects = specifyFiletype('md')
@@ -68,8 +81,6 @@ gulp.task('posts', ['annotate'], () => {
   const tagObjects = specifyFiletype('tag')
 
   return gulp.src(conf.object_paths)
-    .pipe(debug({title: 'rendering object'}))
-
     .pipe(frontmatter({
       property: 'frontmatter'
     }))
@@ -83,11 +94,9 @@ gulp.task('posts', ['annotate'], () => {
 
     .pipe(tagObjects)
     .pipe(riot({
-      tag_paths: conf.tag_paths
+      tag_paths: path.join(conf.tmp_dir, '**', '*.tag')
     }))
     .pipe(tagObjects.restore)
-
-    // TODO: use consolidate.js instead of routes by filetype
 
     .pipe(markdownObjects)
     .pipe(markdown())
@@ -97,7 +106,10 @@ gulp.task('posts', ['annotate'], () => {
     .pipe(jade())
     .pipe(jadeObjects.restore)
 
-    .pipe(layout((file) => { return file.data }))
+    .pipe(layout({
+      dataFn: (file) => { return file.data },
+      tags_path: conf.tmp_dir
+    }))
 
     // TODO: only do riot if there's a tags file
     .pipe(prettify())
@@ -112,8 +124,6 @@ gulp.task('posts', ['annotate'], () => {
     }))
 
     .pipe(prettify())
-
-    .pipe(debug({title: 'rendered object'}))
 
     .pipe(gulp.dest(conf.output_dir))
 })

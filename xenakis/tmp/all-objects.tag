@@ -1,6 +1,3 @@
----
-title: all objects
----
 <all-objects>
   <ul>
     <list-object each={opts.objects} object={this} />
