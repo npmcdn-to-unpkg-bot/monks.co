@@ -1,7 +1,8 @@
 ---
 categories:
   - website
-layout: default
+  - javascript
+
 title:  "Divvy Data Visualization"
 year: "2014"
 github: "https://github.com/amonks/divvy-json"

@@ -1,7 +1,8 @@
 ---
 categories:
   - website
-layout: default
+  - javascript
+
 title:  "CTA Ridership Visualizations"
 year: "2014"
 github: "https://github.com/amonks/ctadailyridership"

@@ -1,7 +1,9 @@
 ---
 categories:
   - website
-layout: default
+  - ruby
+  - joke
+
 title: "Personal non-random number generator."
 year: "2013"
 github: "//github.com/amonks/personal-number-generator"

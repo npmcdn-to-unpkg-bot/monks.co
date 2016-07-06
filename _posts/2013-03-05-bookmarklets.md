@@ -1,6 +1,8 @@
 ---
-category: howto
-layout: default
+categories:
+  - howto
+  - javascript
+
 title:  "How to make a bookmarklet"
 year: "2013"
 ---

@@ -2,7 +2,8 @@
 categories:
   - writing
   - howto
-layout: default
+  - javascript
+
 title:  "User Scripts"
 year: "2015"
 tagline:    "Intro To User Scripting"

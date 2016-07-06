@@ -1,9 +1,9 @@
 ---
-layout: default
 title: KANYEFACTORY//beta_shit
 year: 2011
 categories:
   - graphic
+  - bmr
   - music
 media:
   -

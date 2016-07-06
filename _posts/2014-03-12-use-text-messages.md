@@ -1,5 +1,5 @@
 ---
-layout: default
+
 title: how to develop things that use text messages
 category: howto
 year: 2014

@@ -1,6 +1,11 @@
-{% for category in include.thing.categories %}
-  {% include category-link.html category=category %}
-{% endfor %}
+{% if include.thing.categories %}
+  {% for category in include.thing.categories %}
+    {% include category-link.html category=category %}
+  {% endfor %}
+{% endif %}
+{% if include.thing.category %}
+  {% include category-link.html category=thing.category %}
+{% endif %}
 {% if include.thing.github %}
   <a href="{{ include.thing.github }}">
     {% include icon.html icon="github" %}

@@ -1,8 +1,8 @@
 ---
 categories:
   - website
-  - physical
-layout:   default
+  - experience
+
 title:    "Installations"
 year:     "2015"
 media:

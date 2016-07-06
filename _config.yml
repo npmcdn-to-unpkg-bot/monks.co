@@ -1,28 +1,44 @@
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://monks.co" # the base hostname & protocol for your site
-
+baseurl: ""
+url: "http://monks.co"
 permalink: "/:title"
-
-name: "Andrew Monks"
-
-excerpt_separator: <!--more-->
-
-# Build settings
-markdown:    redcarpet
-highlighter: pygments
-gems:
-  - jemoji
-
-sass:
-  sass_dir: _sass
-
-paginate: 3
-
-bio: |+
-  I try to make technology less frightening.
-
-footer: |+
-  &laquo; &there4;&int;&there4;&int;&there4;&int;&there4;&int;&diams;&int;&there4;&int;&there4;&int;&there4;&int;&there4; &raquo;
-
+excerpt_separator: "<!--more-->"
+markdown: "kramdown"
 media:
-  image-class: img-responsive
+  image-class: "w-100"
+sass:
+  sass_dir: "_sass"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
+cats:
+  3d: "3d"
+  game: "games"
+  aws: "aws"
+  bmr: "belgian man records"
+  clojure: "clojure"
+  code: "code"
+  experience: "experiential"
+  featured: "featured"
+  graphic: "graphics"
+  hardware: "hardware"
+  howto: "how-tos"
+  interaction: "interaction"
+  javascript: "javascript"
+  joke: "jokes"
+  music: "music"
+  of: "open frameworks"
+  physical: "physical"
+  print: "print"
+  ruby: "ruby"
+  stage: "performance"
+  video: "video"
+  website: "website"
+  writing: "writing"

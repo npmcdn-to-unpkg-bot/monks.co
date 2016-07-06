@@ -1,6 +1,6 @@
 ---
 category: writing
-layout: default
+
 title:  "Trust God Fuck 12"
 year: "2014"
 tagline: "Some thoughts on Gucci Mane and Rich Homie Quan's *Trust God Fuck 12*, plus some additional thoughts on Young Thug."

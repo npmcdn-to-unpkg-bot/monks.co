@@ -1,8 +1,8 @@
 ---
 categories:
   - howto
-  - fluff
-layout: default
+  - javasrcipt
+
 title:  "Bandcamp ID Bookmarklet"
 year: "2015"
 ---

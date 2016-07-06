@@ -1,10 +1,11 @@
 ---
-layout: default
 title:  "Permanent Fatal Errors"
 year: "2009&ndash;2010"
 tagline:    "The theatre of text"
 categories:
   - project
+  - music
+  - performance
   - writing
 media:
   -

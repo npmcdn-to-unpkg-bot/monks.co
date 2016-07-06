@@ -1,8 +1,10 @@
 ---
 categories:
-  - project
+  - featured
+  - ruby
+  - javascript
   - website
-layout:   default
+
 title:    "Wafelijzer"
 year:     "2014"
 media:

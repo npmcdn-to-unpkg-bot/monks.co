@@ -1,6 +1,6 @@
 ---
 category: howto
-layout: default
+
 title:  "Embed a Gist"
 year: "2015"
 ---

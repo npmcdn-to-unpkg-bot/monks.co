@@ -1,6 +1,6 @@
 ---
 category: writing
-layout: default
+
 title:  "Respiration"
 year: "2014"
 tagline:    "Some thoughts on Black Star's *Respiration*"

@@ -1,7 +1,7 @@
 ---
 categories:
+  - joke
   - website
-layout: default
 title: Choom Gang
 year: 2011
 github: https://github.com/amonks/choomgang

@@ -1,8 +1,9 @@
 ---
-layout: default
 title:  Transmission cover
 year: 2012
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: bandcamp

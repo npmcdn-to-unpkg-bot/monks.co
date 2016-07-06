@@ -1,6 +1,6 @@
 ---
 category: writing
-layout: default
+
 title:  "Gold Soul Theory"
 year: "2014"
 tagline:    "Some thoughts on The Underachievers's *Gold Soul Theory*"

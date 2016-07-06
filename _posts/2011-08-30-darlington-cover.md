@@ -1,8 +1,9 @@
 ---
-layout: default
 title:  Darlington cover
 year: 2011
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: bandcamp

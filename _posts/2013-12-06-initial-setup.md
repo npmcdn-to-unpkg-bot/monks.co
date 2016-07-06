@@ -1,7 +1,9 @@
 ---
-layout: default
+
 title: Raspberry Pi Setup
-category: howto
+categories:
+  - howto
+  - hardware
 year: 2013
 ---
 ## image

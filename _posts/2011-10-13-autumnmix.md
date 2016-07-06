@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Autumn Mix cover
 year: 2011
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: bandcamp

@@ -1,8 +1,10 @@
 ---
-layout: default
+
 title:  Imma Let You Finish poster
 year: 2012
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: image

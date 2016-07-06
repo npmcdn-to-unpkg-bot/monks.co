@@ -1,6 +1,6 @@
 ---
 category: writing
-layout: default
+
 title:  "Follow The Leader"
 year: "2014"
 tagline:    "Some thoughts on Eric B and Rakim's *Follow The Leader*"

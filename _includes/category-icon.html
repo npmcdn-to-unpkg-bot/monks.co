@@ -1,10 +1,4 @@
-{% case include.category %}
-  {% when 'project' %} {% include icon.html class=include.class icon="star" %}
-  {% when 'website' %} {% include icon.html class=include.class icon="laptop" %}
-  {% when 'writing' %} {% include icon.html class=include.class icon="pencil" %}
-  {% when 'howto' %} {% include icon.html class=include.class icon="question" %}
-  {% when 'physical' %} {% include icon.html class=include.class icon="cube" %}
-  {% when 'graphic' %} {% include icon.html class=include.class icon="camera" %}
-  {% when 'music' %} {% include icon.html class=include.class icon="music" %}
-  {% when 'video' %} {% include icon.html class=include.class icon="video-camera" %}
-{% endcase %}
+{% if include.category %}
+  {% assign icon=site['cats'][include.category]['icon'] %}
+  {% include icon.html icon=icon %}
+{% endif %}

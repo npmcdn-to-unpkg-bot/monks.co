@@ -1,6 +1,9 @@
 ---
-category: website
-layout: default
+categories:
+  - website
+  - javascript
+  - game
+
 title: "Sidevalve"
 year: "2015"
 media:

@@ -1,0 +1,12 @@
+<p>Here are a couple projects I'm working on right now:</p>
+
+{% assign wip_count = 0 %}
+{% for post in site.posts %}
+  {% if post.wip %}
+    {% assign wip_count = wip_count | plus: 1 %}
+    {% if wip_count <= include.count %}
+      {% include post-card.html thing=post %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+<p><a href="/wip/">See more in-progress projects</a></p>

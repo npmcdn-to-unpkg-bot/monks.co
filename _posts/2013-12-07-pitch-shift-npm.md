@@ -1,10 +1,11 @@
 ---
-layout: default
+
 title: Using pitch-shift.js ++ what's NPM?
 github: https://github.com/amonks/pitch-shift-installation
 categories:
   - howto
   - writing
+  - javascript
 year: 2013
 ---
 The problem with pitch-shift is the examples. The super-bare-bones minimal example they provide doesn't actually play any audio, so it's hard to tell if it works.

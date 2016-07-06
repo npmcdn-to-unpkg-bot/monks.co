@@ -1,24 +1,10 @@
-<li>
-  {% include category-link.html text=true class="fa-li" category="project" %}
-</li>
-<li>
-  {% include category-link.html text=true class="fa-li" category="website" %}
-</li>
-<li>
-  {% include category-link.html text=true class="fa-li" category="writing" %}
-</li>
-<li>
-  {% include category-link.html text=true class="fa-li" category="howto" %}
-</li>
-<li>
-  {% include category-link.html text=true class="fa-li" category="physical" %}
-</li>
-<li>
-  {% include category-link.html text=true class="fa-li" category="graphic" %}
-</li>
-<li>
-  {% include category-link.html text=true class="fa-li" category="music" %}
-</li>
-<li>
-  {% include category-link.html text=true class="fa-li" category="video" %}
-</li>
+<ul class='fa-ul'>
+  {% for category in site.cats %}
+    {% assign slug=category[0] %}
+    {% assign title=category[1] %}
+    <li>
+      {% include category-link.html category=slug %}
+    </li>
+  {% endfor %}
+</ul>
+

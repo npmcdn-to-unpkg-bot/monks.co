@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <main id="page" class="pa5 cf">
+    <div class="ph3">
+      {% include header.html %}
+
+      {% include post.html thing=page %}
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+  {% include javascript.html %}
+</body>
+
+</html>

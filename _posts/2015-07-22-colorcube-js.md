@@ -1,6 +1,8 @@
 ---
-category: fluff
-layout: default
+categories:
+  - javascript
+  - graphics
+
 title: colorcube.js
 github: "https://github.com/amonks/colorcube-js"
 website: "http://amonks.github.io/colorcube-js/"

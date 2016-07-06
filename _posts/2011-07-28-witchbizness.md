@@ -1,10 +1,11 @@
 ---
-layout: default
 title: Witch Bizness
 year: 2011
 categories:
   - graphic
   - music
+  - bmr
+  - joke
 media:
   -
     type: bandcamp

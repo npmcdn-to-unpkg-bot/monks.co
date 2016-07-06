@@ -1,7 +1,9 @@
 ---
-layout: default
+
 title: Start Something At Login on Linux with init.d
-category: howto
+categories:
+  - howto
+  - linux
 year: 2014
 ---
 

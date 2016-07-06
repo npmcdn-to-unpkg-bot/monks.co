@@ -1,0 +1,9 @@
+<p>Here are some things I've posted recently:</p>
+
+{% assign count = 0 %}
+{% for post in site.posts %}
+  {% assign count = count | plus: 1 %}
+  {% if count <= include.count %}
+    {% include post-card.html thing=post %}
+  {% endif %}
+{% endfor %}

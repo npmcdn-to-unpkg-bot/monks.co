@@ -1,8 +1,10 @@
 ---
-layout: default
+
 title:  Belgian Man Poster
 year: 2012
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: image

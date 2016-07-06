@@ -1,8 +1,8 @@
 ---
-layout: default
 title:  Exit The King poster
 year: 2011
-category: graphic
+categories:
+  - graphic
 media:
   -
     type: images

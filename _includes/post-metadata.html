@@ -1,18 +1,9 @@
-<h1>
-  {% if include.thing.website %}
-    <a href="{{ include.thing.website }}">{{ include.thing.title }}<!-- {% include icon.html icon="long-arrow-right" %} --></a>
-  {% else %}
-    {{ include.thing.title }}
-  {% endif %}
-  {% include post-icons.html thing=include.thing %}
-</h1>
+<header>
+  {% include post-title.html thing=include.thing %}
 
-{% if include.thing.tagline %}
-  <h5>
+  {% if include.thing.tagline %}
     {{ include.thing.tagline | markdownify | remove: '<p>' | remove: '</p>' }}
-  </h5>
-{% endif %}
+  {% endif %}
 
-{% if include.thing.media %}
-  {% include jekyll-media/media.html media=include.thing.media %}
-{% endif %}
+  {% include post-icons.html thing=include.thing %}
+</header>

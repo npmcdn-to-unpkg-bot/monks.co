@@ -1,6 +1,8 @@
 ---
-category: fluff
-layout: default
+categories:
+  - joke
+  - graphic
+
 title:  "This is my Dream Tattoo"
 year: "2014"
 tagline:    "Body Art"

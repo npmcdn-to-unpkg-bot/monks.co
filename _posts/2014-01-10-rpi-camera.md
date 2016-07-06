@@ -1,7 +1,9 @@
 ---
-layout: default
+
 title: Stream video with the RaspberryPi Camera
-category: howto
+categories:
+  - howto
+  - linux
 year: 2014
 ---
 The [raspberry pi camera](http://www.raspberrypi.org/camera) is a cheap (though not compared to the pi itself...) camera addon for the pi. I'm using it to make a front-door for my apartment, so I can see who's buzzing my buzzer. Here's how.

@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 {% include head.html %}
 
 <body>
-  <div class="container-fluid" id="page">
-    <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-4 col-lg-offset-4">
-      {{ content }}
-      {% include footer.html %}
+  <main id="page" class="pa5 cf">
+    <h1 class="f-subheadline">Hi! I'm
+      <a href="/">Andrew Monks</a>
+    </h1>
+
+    <div class="pb3">
+      {% include contact.html %}
     </div>
-  </div>
+
+    <div class="measure lh-copy pv3">
+      {% capture intro %}{% include intro.md %}{% endcapture %}
+      {{ intro | markdownify }}
+    </div>
+
+    <div class="pt5 pb3">Here's a <a href="/everything/">big list of everything</a> on this website.</div>
+
+    <div class="cf"></div>
+
+    <div class="fl-ns w-33-ns pr4-ns">
+      {% include featured.html count=8 %}
+    </div>
+
+    <div class="fl-ns w-33-ns pr4-ns">
+      {% include new.html count=8 %}
+    </div>
+
+    <div class="fl-ns w-33-ns pr4-ns">
+      {% include wip.html count=8 %}
+    </div>
+  </main>
+
+  {% include footer.html %}
+
   {% include javascript.html %}
 </body>
+
 </html>
+

@@ -1,7 +1,11 @@
 ---
-layout: default
+
 title: make a raspberrypi respond to a button
-category: howto
+categories:
+  - code
+  - howto
+  - hardware
+  - linux
 year: 2013
 ---
 In [talk to an API](/rpi-talk-to-api) we used a script to record voice input and send it out to Google's speech to text API.

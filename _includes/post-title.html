@@ -1,0 +1,15 @@
+<h1 class="pv2 ph3 f6 ttu tracked db lh-solid">
+  {% if include.thing.website %}
+    <a href="{{ include.thing.website }}" class="link">
+  {% endif %}
+
+  {{ include.thing.title }}
+
+  {% if include.thing.website %}
+      {% include icon.html icon="arrow" %}
+    </a>
+  {% endif %}
+
+  <div class="black-50">{{ include.thing.year }}</div>
+</h1>
+

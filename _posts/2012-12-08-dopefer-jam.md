@@ -1,5 +1,5 @@
 ---
-layout: default
+
 title: Doepfer Jam
 year: 2012
 tagline: Modular Synthesizer Session
@@ -10,6 +10,8 @@ media:
     soundcloud-type: track
 categories:
   - music
+  - hardware
+  - performance
 ---
 This is a recording of a quick jam session on a collection of mostly-Doepfer modules.
 

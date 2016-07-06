@@ -1,5 +1,4 @@
 ---
-layout: default
 title: iPhone Alert Sounds in ChucK
 year: 2012
 github: https://github.com/amonks/Ding
@@ -11,6 +10,7 @@ media:
     id: 123694262
 categories:
   - music
+  - code
 ---
 Here are some pretty rad phone sounds I generated using [ChucK](http://chuck.cs.princeton.edu/).
 

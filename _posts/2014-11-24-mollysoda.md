@@ -1,6 +1,6 @@
 ---
 category: writing
-layout: default
+
 title:  Karaoke with Molly Soda
 year: 2014
 tagline: Art.

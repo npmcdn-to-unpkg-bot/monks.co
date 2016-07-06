@@ -2,8 +2,9 @@
 categories:
   - music
   - video
-  - physical
-layout: default
+  - hardware
+  - performance
+
 title: "Hardware Hacking"
 year: "2014"
 tagline: "Audio! Video! Improvisation!"

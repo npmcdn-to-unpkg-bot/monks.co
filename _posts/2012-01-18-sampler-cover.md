@@ -1,8 +1,9 @@
 ---
-layout: default
 title:  Belgian Man Sampler Mix cover
 year: 2012
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: bandcamp

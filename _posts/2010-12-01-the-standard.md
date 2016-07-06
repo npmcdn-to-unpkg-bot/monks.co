@@ -1,10 +1,12 @@
 ---
 categories:
-  - project
+  - print
+  - joke
+  - graphic
+  - performance
   - writing
   - website
   - physical
-layout: default
 title:  "The Gentleman's Standard"
 year: "2009&ndash;2010"
 github: "https://github.com/amonks/thestandard"
@@ -20,4 +22,3 @@ media:
 Through this lens, we were able to exercise our creative writing skills and satirize modern political conservatives in a light-hearted humorous way.
 
 In addition to writing editorial pieces for the magazine, my primary function was to serve as art director and graphic designer. I was responsible for layout, typesetting, and the website.
-

@@ -1,7 +1,7 @@
 ---
 categories:
   - writing
-layout: default
+
 title: Phantasmagoria
 year: 2013
 tagline: Some Thoughts

@@ -1,6 +1,10 @@
 ---
-category: fluff
-layout: default
+categories:
+  - website
+  - javascript
+  - interaction
+  - joke
+
 title:  "It's Cloudy?"
 year: "2014"
 github: "https://github.com/amonks/weather"

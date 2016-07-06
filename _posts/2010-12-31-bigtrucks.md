@@ -1,9 +1,10 @@
 ---
-layout: default
 title:  The Big Trucks
 year: 2010
 categories:
   - music
+  - performance
+  - bmr
   - writing
 media:
   -

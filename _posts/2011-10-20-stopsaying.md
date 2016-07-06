@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Stop Saying Words Then Don't Stop Stopping Saying Them cover
 year: 2011
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: bandcamp

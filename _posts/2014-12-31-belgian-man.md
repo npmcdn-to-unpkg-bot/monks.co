@@ -1,19 +1,18 @@
 ---
 categories:
-  - project
-  - website
-  - physical
-  - music
-layout: default
-title:    "Belgian Man Records"
-year:    "2007&ndash;present"
-github: "//github.com/belgianman"
-website:  "http://www.belgianman.com"
-tagline:    "Experimental Record Label"
+  - featured
+  - community
+  - bmr
+
+title: Belgian Man Records
+year: 2007–2015
+github: https://github.com/belgianman
+website: http://www.belgianman.com
+tagline: Experimental Record Label
 media:
   -
     type: image
-    url: "/images/belgianman.png"
+    url: /images/belgianman.png
 ---
 <a href="http://belgianman.com/">Belgian Man Records</a> is a record label I started in 2007.
 

@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 {% include head.html %}
 
 <body>
-  <div class="container-fluid" id="page">
-    {% include info.html %}
+  <main id="page" class="pa5 cf">
+    {% include header.html %}
 
-    {% include content.html %}
-      {{ content }}
-      {% include bottom.html %}
+    <div class="ph3">
+      {{ page.content }}
     </div>
-  </div>
+  </main>
+
+  {% include footer.html %}
+
   {% include javascript.html %}
 </body>
+
 </html>
+

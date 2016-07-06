@@ -1,6 +1,6 @@
 ---
 category: writing
-layout: default
+
 title:  "Death Certificate"
 year: "2013"
 tagline:    "Some thoughts on Ice Cube's *Death Certificate*"

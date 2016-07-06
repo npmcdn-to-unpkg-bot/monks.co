@@ -1,10 +1,11 @@
 ---
-layout: page
 title: all posts
+shorten: true
 ---
 <h1>Everything!! <span class="small">{{ site.posts | size }} posts</span></h1>
-<ul>
+
+<div class="w-33-ns">
   {% for post in site.posts %}
-    {% include post-li.html post=post %}
+    {% include post-card.html thing=post %}
   {% endfor %}
-</ul>
+</div>

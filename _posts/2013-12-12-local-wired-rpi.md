@@ -1,7 +1,9 @@
 ---
-layout: default
+
 title: Connect to your raspberrypi directly using ethernet
-category: howto
+categories:
+  - howto
+  - linux
 year: 2013
 ---
 At SAIC today, I needed to connect my RPI to my laptop with as much throughput as possible. Normally I would turn on internet sharing my laptop's wifi over ethernet, and then plug the pi into that.

@@ -1,8 +1,8 @@
 ---
 categories:
-  - project
+  - ruby
   - website
-layout: default
+
 title:  "Oblique Strategies API"
 year: "2013"
 github: "https://github.com/amonks/oblique-strategies-api"

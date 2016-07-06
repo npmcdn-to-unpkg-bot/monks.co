@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Make Noise Then Don't Stop Making It cover
 year: 2011
-category: graphic
+categories:
+  - graphic
+  - bmr
 media:
   -
     type: bandcamp

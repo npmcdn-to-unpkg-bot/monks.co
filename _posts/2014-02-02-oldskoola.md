@@ -1,6 +1,8 @@
 ---
-category: fluff
-layout: default
+categories:
+  - joke
+  - javascript
+
 title:  "Oldskoola Bookmarklet"
 year: "2014"
 github: "https://github.com/amonks/oldskoola.js"

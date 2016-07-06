@@ -1,7 +1,10 @@
 ---
-layout: default
+
 title: CLI video control on RPI
-category: howto
+categories:
+  - hardware
+  - howto
+  - video
 year: 2013
 ---
 I often like to watch movies on a projector, but I don't always want to commit to keeping my laptop plugged in. So, I load up the video on a [hfs+ usb stick](/rpi-hfs), and control the video via ssh.

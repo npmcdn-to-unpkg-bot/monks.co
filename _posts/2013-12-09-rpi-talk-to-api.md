@@ -1,9 +1,11 @@
 ---
-layout: default
+
 title: talk to an api from raspberry pi
 categories:
   - howto
-  - writing
+  - ruby
+  - linux
+  - code
 year: 2013
 ---
 I'm pretty into web development, so I'm really excited by using the rpi to connect data from physical sensors to a server.

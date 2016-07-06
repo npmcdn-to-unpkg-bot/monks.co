@@ -1,7 +1,9 @@
 ---
-layout: default
+
 title: Change hostname on RaspberryPi
-category: howto
+categories:
+  - howto
+  - linux
 year: 2014
 ---
 If you have more than one Pi, and they all try to identify themselves on the network as raspberrypi.local, shit will get weird.

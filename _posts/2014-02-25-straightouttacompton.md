@@ -1,6 +1,6 @@
 ---
 category: writing
-layout: default
+
 title:  "Straight Outta Compton"
 year: "2014"
 tagline:    "Some thoughts on NWA's *Straight Outta Compton*"

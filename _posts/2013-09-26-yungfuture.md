@@ -1,8 +1,10 @@
 ---
 categories:
-  - graphic
+  - javascript
   - website
-layout: default
+  - graphic
+  - 3d
+
 title:  "Yung Future"
 year: "2013"
 github: "https://github.com/amonks/yungfuture.com"
