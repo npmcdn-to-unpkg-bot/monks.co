@@ -2,6 +2,8 @@
 categories:
   - website
   - javascript
+  - ruby
+  - postgres
 
 title:  "Divvy Data Visualization"
 year: "2014"
