@@ -1,0 +1,6 @@
+{% for image in include.medium.images %}
+  <img src="{{ image.url }}" alt="{{ image.alt }}">
+  <div class="carousel-caption">
+    {{ image.caption }}
+  </div>
+{% endfor %}
