@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "monksco";
-  src:url("fonts/monksco.eot");
-  src:url("fonts/monksco.eot?#iefix") format("embedded-opentype"),
-    url("fonts/monksco.woff") format("woff"),
-    url("fonts/monksco.ttf") format("truetype"),
-    url("fonts/monksco.svg#monksco") format("svg");
+  src:url("../fonts/monksco.eot");
+  src:url("../fonts/monksco.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/monksco.woff") format("woff"),
+    url("../fonts/monksco.ttf") format("truetype"),
+    url("../fonts/monksco.svg#monksco") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -25,8 +25,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="i-"]:before,
-[class*=" i-"]:before {
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
   font-family: "monksco" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -38,96 +38,93 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.i-graphic:before {
+.icon-graphic:before {
   content: "\61";
 }
-.i-javascript:before {
+.icon-javascript:before {
   content: "\62";
 }
-.i-linux:before {
+.icon-linux:before {
   content: "\63";
 }
-.i-ruby:before {
+.icon-ruby:before {
   content: "\64";
 }
-.i-postgres:before {
+.icon-postgres:before {
   content: "\65";
 }
-.i-bootstrap:before {
+.icon-aws:before {
   content: "\66";
 }
-.i-aws:before {
+.icon-writing:before {
   content: "\67";
 }
-.i-heroku:before {
+.icon-featured:before {
   content: "\68";
 }
-.i-writing:before {
+.icon-website:before {
   content: "\69";
 }
-.i-featured:before {
+.icon-howto:before {
   content: "\6a";
 }
-.i-website:before {
+.icon-print:before {
   content: "\6b";
 }
-.i-howto:before {
+.icon-physical:before {
   content: "\6c";
 }
-.i-print:before {
+.icon-music:before {
   content: "\6d";
 }
-.i-physical:before {
+.icon-redis:before {
   content: "\6e";
 }
-.i-music:before {
+.icon-clojure:before {
   content: "\6f";
 }
-.i-redis:before {
+.icon-docker:before {
   content: "\70";
 }
-.i-clojure:before {
+.icon-stage:before {
   content: "\71";
 }
-.i-docker:before {
+.icon-joke:before {
   content: "\72";
 }
-.i-stage:before {
+.icon-hardware:before {
   content: "\73";
 }
-.i-joke:before {
+.icon-video:before {
   content: "\74";
 }
-.i-hardware:before {
+.icon-of:before {
   content: "\75";
 }
-.i-video:before {
+.icon-bmr:before {
   content: "\76";
 }
-.i-of:before {
+.icon-react:before {
   content: "\77";
 }
-.i-bmr:before {
+.icon-arrow:before {
   content: "\78";
 }
-.i-react:before {
+.icon-link:before {
   content: "\79";
 }
-.i-arrow:before {
+.icon-3d:before {
   content: "\7a";
 }
-.i-link:before {
+.icon-game:before {
   content: "\41";
 }
-.i-3d:before {
+.icon-interaction:before {
   content: "\42";
 }
-.i-game:before {
+.icon-code:before {
   content: "\43";
 }
-.i-interaction:before {
-  content: "\47";
-}
-.i-code:before {
+.icon-github:before {
   content: "\44";
 }

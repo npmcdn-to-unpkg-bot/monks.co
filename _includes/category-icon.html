@@ -1,4 +1,5 @@
-{% if include.category %}
-  {% assign icon=site['cats'][include.category]['icon'] %}
-  {% include icon.html icon=icon %}
-{% endif %}
+<a href="/everything#{{ include.category }}" class="link">
+  {% assign text = site.cats[include.category] %}
+  {% include tooltip-icon.html text=text icon=include.category %}
+</a>
+

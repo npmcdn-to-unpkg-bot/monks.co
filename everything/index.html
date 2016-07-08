@@ -4,6 +4,8 @@ shorten: true
 ---
 <h1>Everything!! <span class="small">{{ site.posts | size }} posts</span></h1>
 
+{% include category-links.html %}
+
 <div class="w-33-ns">
   {% for post in site.posts %}
     {% include post-card.html thing=post %}

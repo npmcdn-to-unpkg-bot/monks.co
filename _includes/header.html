@@ -1,5 +1,16 @@
-<header class="ph3">
-  <a href="/">
-    <h1 class="f-subheadline">Andrew Monks</h1>
-  </a>
+<header>
+  <h1><a href="/">monks.co</a></h1>
+
+  <h1 class="f-headline tracked ttu">
+    {% if page.title %}
+      {{page.title}}
+    {% else %}
+      <a href="/">Andrew Monks</a>
+    {% endif %}
+  </h1>
+  {% if page.tagline %}
+    <h2 class="f-subheadline i black-80">
+      {{page.tagline}}
+    </h2>
+  {% endif %}
 </header>

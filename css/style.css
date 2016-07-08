@@ -1,0 +1,7 @@
+@import url('/css/monksco.css');
+@import url('/css/highlight.css');
+
+.copy p {
+  max-width: 30em;
+  line-height: 1.6;
+}

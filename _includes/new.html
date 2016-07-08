@@ -2,8 +2,10 @@
 
 {% assign count = 0 %}
 {% for post in site.posts %}
-  {% assign count = count | plus: 1 %}
-  {% if count <= include.count %}
-    {% include post-card.html thing=post %}
+  {% if post.wip != true %}
+    {% assign count = count | plus: 1 %}
+    {% if count <= include.count %}
+      {% include post-card.html thing=post %}
+    {% endif %}
   {% endif %}
 {% endfor %}

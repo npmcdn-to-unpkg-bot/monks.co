@@ -1,18 +1,22 @@
 <article class="mv4 ba grow cf">
-  {% include post-title.html thing=include.thing %}
-
-  <div class="pa3">
-    {% include post-icons.html thing=include.thing %}
-    <a href="{{include.thing.url}}">permalink</a>
+  <div class="ph3">
+    <div class="pb3">
+      {% include post-title.html thing=include.thing %}
+    </div>
+    <div class="pv3">
+      {% include post-icons.html thing=include.thing %}
+      <a href="{{include.thing.url}}">permalink</a>
+    </div>
   </div>
 
   {% if include.thing.media %}
     {% include jekyll-media/media.html media=include.thing.media %}
-    <div class="pa3">
-      {% if include.thing.tagline %}
-        <h2 class="f7">{{include.thing.tagline}}</h2>
-      {% endif %}
+    <div class="ph3">
+      {% include post-tagline.html thing=include.thing %}
     </div>
   {% endif %}
-  {% include post-body.html thing=include.thing %}
+
+  <div class="ph3">
+    {% include post-body.html thing=include.thing %}
+  </div>
 </article>

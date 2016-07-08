@@ -1,9 +1,5 @@
-<header>
-  {% include post-title.html thing=include.thing %}
-
+<h2>
   {% if include.thing.tagline %}
     {{ include.thing.tagline | markdownify | remove: '<p>' | remove: '</p>' }}
   {% endif %}
-
-  {% include post-icons.html thing=include.thing %}
-</header>
+</h2>
