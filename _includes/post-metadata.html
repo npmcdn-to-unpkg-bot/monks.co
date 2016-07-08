@@ -1,0 +1,14 @@
+<ul class="list f6 pl0">
+  {% if include.thing.github %}
+    <li>
+      <a href="{{ include.thing.github }}" class="link">
+        {% include tooltip-icon.html text="github" icon="github" %} source code
+      </a>
+    </li>
+  {% endif %}
+  <li>
+    <a href="{{ include.thing.url }}" class="link">
+      {% include icon.html icon="link" %} permalink
+    </a>
+  </li>
+</ul>

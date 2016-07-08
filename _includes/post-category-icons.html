@@ -1,0 +1,9 @@
+{% if include.thing.categories %}
+  {% for category in include.thing.categories %}
+    {% include category-icon.html category=category %}
+  {% endfor %}
+{% endif %}
+{% if include.thing.category %}
+  {% include category-icon.html category=thing.category %}
+{% endif %}
+

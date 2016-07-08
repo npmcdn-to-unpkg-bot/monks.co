@@ -10,6 +10,9 @@
     </a>
   {% endif %}
 
-  <div class="black-50">{{ include.thing.year }}</div>
+  <div class="black-50">
+    {{ include.thing.year }}
+    {% include post-icons.html thing=include.thing %}
+  </div>
 </h1>
 

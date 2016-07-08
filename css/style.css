@@ -1,7 +1,14 @@
 @import url('/css/monksco.css');
 @import url('/css/highlight.css');
+@import url('/css/tooltip.css');
+@import url('/css/aspect-ratio.css');
 
 .copy p {
   max-width: 30em;
   line-height: 1.6;
 }
+
+img {
+  max-width: 100%;
+}
+

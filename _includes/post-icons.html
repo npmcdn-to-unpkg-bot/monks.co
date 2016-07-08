@@ -1,13 +1,2 @@
-{% if include.thing.categories %}
-  {% for category in include.thing.categories %}
-    {% include category-icon.html category=category %}
-  {% endfor %}
-{% endif %}
-{% if include.thing.category %}
-  {% include category-icon.html category=thing.category %}
-{% endif %}
-{% if include.thing.github %}
-  <a href="{{ include.thing.github }}" class="link">
-    {% include tooltip-icon.html text="github" icon="github" %}
-  </a>
-{% endif %}
+{% include post-category-icons.html %}
+
