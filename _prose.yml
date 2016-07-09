@@ -22,49 +22,50 @@ prose:
           label: "categories"
           placeholder: "Choose Categories"
           options:
-            - value: "three":
+            - value: "three"
               name: "3d"
-            - value: "game":
+            - value: "game"
               name: "games"
-            - value: "aws":
+            - value: "aws"
               name: "aws"
-            - value: "bmr":
+            - value: "bmr"
               name: "belgian man records"
-            - value: "clojure":
+            - value: "clojure"
               name: "clojure"
-            - value: "code":
+            - value: "code"
               name: "code"
-            - value: "experience":
+            - value: "experience"
               name: "experiential"
-            - value: "featured":
+            - value: "featured"
               name: "featured"
-            - value: "graphic":
+            - value: "graphic"
               name: "graphics"
-            - value: "hardware":
+            - value: "hardware"
               name: "hardware"
-            - value: "howto":
+            - value: "howto"
               name: "how-tos"
-            - value: "interaction":
+            - value: "interaction"
               name: "interaction"
-            - value: "javascript":
+            - value: "javascript"
               name: "javascript"
-            - value: "joke":
+            - value: "joke"
               name: "jokes"
-            - value: "music":
+            - value: "music"
               name: "music"
-            - value: "of":
+            - value: "of"
               name: "open frameworks"
-            - value: "physical":
+            - value: "physical"
               name: "physical"
-            - value: "print":
+            - value: "print"
               name: "print"
-            - value: "ruby":
+            - value: "ruby"
               name: "ruby"
-            - value: "stage":
+            - value: "stage"
               name: "performance"
-            - value: "video":
+            - value: "video"
               name: "video"
-            - value: "website":
+            - value: "website"
               name: "website"
-            - value: "writing":
+            - value: "writing"
               name: "writing"
+
