@@ -6,6 +6,6 @@ node_js:
 install: npm install
 script: npm start
 env:
-  matrix:
-  - secure: npsS8l4ESUEoB9sm2eGgp4ig9gW+Xjoo4AdG0rbwB7/utxh1jNJI4gZGT90TqJ6rDjO9d/vbvRuUL7udzbUFevta/P1JsQH1h0uE5ECOmYOAuXkPw86wVLtwSc+OxxoqFmEVO37R/UNI/J2yeGPUVdMUxEUPHwKw819r+U0U/yU=
-  - secure: oCajm2G3G4m+hgOBnf7EFOlEc4Y878i8SxLuOEZIT9dEUh/nU+jLcn/cBtbepBZFE+b67Y2+0g1seqGLCCYsBjULoMN/vLPK4m9bHN6alYKzTOEZVKWeKVPYUSIHrFeBB3+Hyf/uli07+o8e1/CJioDYX4DmwqngDx1UD9+ekII=
+  global:
+  - secure: rUVwShnmmXN59Si1Qcbrget8xhNpIGdwXfgYW/YX01rCqhBGOaeSz3LL474L9J2kx9pU6ABk6BjzuyTvdcy1vP+XC6edeA0UuTPnS5pZnLYRVdkk8GkMvRPRAICCSQ/cnU4dEUT2jS/5KKAClLpFj69MF0Sf55IZbkXY+WEtR8k=
+  - secure: QjvDXg5MZ+mkTdo4+n1XXj6XnL3yBYK8yMYaJNZFlQP9zsdZs79HaZiAfVE3y0n/yQ5oFrpIFD1laDYmmNxlta8ZDvSKvcCO/qoGhkbBOyAIRujYRzFjEJTy5uLyoKItkMdqjkL2L0PWdhs0m3Yx3MzJb3mlsNBDKCBclSRCmt8=
