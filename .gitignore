@@ -1,4 +1,5 @@
 .DS_Store
+.awspublish-monks.co
 target
 jekyll/_site
 node_modules
