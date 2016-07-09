@@ -1,4 +1,5 @@
-<a href="/everything/{{ include.category }}" class="link">
+<a href="{{ include.prefix }}#{{ include.category }}" class="link">
+  {% assign title = site.cats[include.category] %}
   {% include icon.html icon=include.category %}
-  {{include.category }}
+  {{ title }}
 </a>

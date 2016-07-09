@@ -19,7 +19,7 @@ defaults:
     values:
       layout: "post"
 cats:
-  3d: "3d"
+  three: "3d"
   game: "games"
   aws: "aws"
   bmr: "belgian man records"

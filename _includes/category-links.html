@@ -1,9 +1,11 @@
-<ul class="fa-ul list pl0">
+<ul class="list pl0 f4" data-turbolinks="false">
   {% for category in site.cats %}
     {% assign slug=category[0] %}
+    {% assign post_count=site.categories[slug] | size %}
     {% assign title=category[1] %}
     <li>
-      {% include category-link.html category=slug %}
+      {% include category-link.html prefix="" category=slug %}
+      <span class="black-50 f6">{{post_count}} posts</span
     </li>
   {% endfor %}
 </ul>

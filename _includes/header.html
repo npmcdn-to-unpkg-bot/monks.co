@@ -1,16 +1,15 @@
 <header>
-  <h1><a href="/">monks.co</a></h1>
-
-  <h1 class="f-headline tracked ttu">
-    {% if page.title %}
-      {{page.title}}
+  <h1 class="f-headline-l f-1 tracked ttu">
+    {% if include.thing.title %}
+      {{include.thing.title}}
     {% else %}
       <a href="/">Andrew Monks</a>
     {% endif %}
   </h1>
-  {% if page.tagline %}
-    <h2 class="f-subheadline i black-80">
-      {{page.tagline}}
+  {% if include.thing.tagline %}
+    <h2 class="f-subheadline-l f-2 i black-80">
+      {{include.thing.tagline}}
     </h2>
   {% endif %}
 </header>
+

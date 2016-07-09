@@ -1,9 +1,11 @@
 <article class="cf pv3">
+  {% include header.html thing=include.thing %}
+
   <div class="pv3">
     {% include post-icons.html thing=include.thing %}
   </div>
 
-  <div class="w-50-ns">
+  <div class="w-50-l">
     {% if include.thing.media %}
       {% include jekyll-media/media.html media=include.thing.media %}
     {% endif %}

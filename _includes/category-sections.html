@@ -1,0 +1,11 @@
+{% for category in site.cats %}
+  {% assign slug=category[0] %}
+  {% assign title=category[1] %}
+  <div id="{{slug}}">
+    {% assign posts = site.categories[slug] %}
+    {% for post in posts %}
+      {% include post.html thing=post %}
+    {% endfor %}
+  </div>
+{% endfor %}
+

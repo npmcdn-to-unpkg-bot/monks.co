@@ -1,0 +1,13 @@
+---
+layout: nil
+---
+
+{% for category in site.cats %}
+  {% assign slug=category[0] %}
+  #{{slug}}:not(:target) {
+    display: none;
+  }
+  #{{slug}}:target {
+    display: block;
+  }
+{% endfor %}
