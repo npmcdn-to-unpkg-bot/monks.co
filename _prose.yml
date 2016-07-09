@@ -1,0 +1,66 @@
+prose:
+  rooturl: 'jekyll/_posts'
+  media: 'resources'
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "year"
+        field:
+          element: "text"
+          label: "year"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "categories"
+          placeholder: "Choose Categories"
+          options:
+            - value: "three":
+              name: "3d"
+            - value: "game":
+              name: "games"
+            - value: "aws":
+              name: "aws"
+            - value: "bmr":
+              name: "belgian man records"
+            - value: "clojure":
+              name: "clojure"
+            - value: "code":
+              name: "code"
+            - value: "experience":
+              name: "experiential"
+            - value: "featured":
+              name: "featured"
+            - value: "graphic":
+              name: "graphics"
+            - value: "hardware":
+              name: "hardware"
+            - value: "howto":
+              name: "how-tos"
+            - value: "interaction":
+              name: "interaction"
+            - value: "javascript":
+              name: "javascript"
+            - value: "joke":
+              name: "jokes"
+            - value: "music":
+              name: "music"
+            - value: "of":
+              name: "open frameworks"
+            - value: "physical":
+              name: "physical"
+            - value: "print":
+              name: "print"
+            - value: "ruby":
+              name: "ruby"
+            - value: "stage":
+              name: "performance"
+            - value: "video":
+              name: "video"
+            - value: "website":
+              name: "website"
+            - value: "writing":
+              name: "writing"
+
