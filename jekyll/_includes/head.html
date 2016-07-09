@@ -4,4 +4,6 @@
   <title>{{page.title}}</title>
   <link rel="stylesheet" href="https://npmcdn.com/tachyons@4.0.1/css/tachyons.min.css">
   <link rel="stylesheet" href="/css/style.css">
+  {% capture url %}{% include post-url.html thing=page %}{% endcapture %}
+  <link rel="canonical" href="{{ url | strip }}">
 </head>
