@@ -2,11 +2,15 @@ prose:
   rooturl: 'jekyll/_posts'
   media: 'resources'
   metadata:
-    _posts:
+    jekyll/_posts:
       - name: "title"
         field:
           element: "text"
           label: "title"
+      - name: "tagline"
+        field:
+          element: "text"
+          label: "tagline"
       - name: "year"
         field:
           element: "text"
