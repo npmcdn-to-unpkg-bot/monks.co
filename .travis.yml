@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+- 2.1
+node_js:
+- '6'
+install: npm install
+script: npm start
+env:
+  matrix:
+  - secure: l+XaS6H8vIWYZ0Kb+qZ7eeQUmfspUEQblBbaVO7MJaqqjrBf1X8+8mPpRZUd9165A+v+HeEBxHt8dwdozKG9ZXxziIt+Pu18sZX+tfwhIY7PfSfMCDA0Jlk/NOElAnGKObyN/PTSI1qccf02qFlqiC28m6/NRNqfQVHWlBVEabc=
+  - secure: iR4qsgMjC0hCkn1Utw2FV8pn84NFpPmIfoEoiY6p6ABVEo1j/heaDk3LfjhXcAmNxbhXimLzRyoEsGVBTarI8l/DlvQcv8T1asEk74ya3d+EHJEdfTae+MG0X+1wSp8kOAjOLP7ZCngcG0VEmLz3WF+RV25uBPfgbq8/jm+2zqw=
