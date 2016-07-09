@@ -4,21 +4,21 @@
 {% include head.html %}
 
 <body>
-  <main class="pa5-ns pa0 cf">
-    <h1 class="f-headline ph2 ph0-ns">Hi! I'm
+  <main class="pa5-ns pa0">
+    <h1 class="f-headline ph2 ph0-ns mb1">Hi! I'm
       <a href="/">Andrew Monks</a>
     </h1>
 
-    <div class="pb3 ph2 ph0-ns">
+    <div class="mb5 ph2 ph0-ns">
       {% include contact.html %}
     </div>
 
-    <div class="measure lh-copy pv3 ph2 ph0-ns">
+    <div class="mv5 measure lh-copy ph2 ph0-ns">
       {% capture intro %}{% include intro.md %}{% endcapture %}
       {{ intro | markdownify }}
     </div>
 
-    <div class="pt5 pb3 ph2 ph0-ns">Here's a <a href="/everything/">big list of everything</a> on this website.</div>
+    <div class="mv5 ph2 ph0-ns">Here's a <a href="/everything/">big list of everything</a> on this website.</div>
 
     <div class="cf"></div>
 
@@ -33,9 +33,13 @@
     <div class="fl-l w-33-l pr4-l">
       {% include wip.html count=8 %}
     </div>
-  </main>
 
-  {% include footer.html %}
+    <div class="cf"></div>
+
+    <div class="pv5">
+      {% include footer.html %}
+    </div>
+  </main>
 
   {% include javascript.html %}
 </body>

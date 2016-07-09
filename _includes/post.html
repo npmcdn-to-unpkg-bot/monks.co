@@ -1,8 +1,14 @@
-<article class="cf pv3">
-  {% include header.html thing=include.thing %}
+<article class="cf pv6">
+  <header class="pb5">
+    {% include header.html thing=include.thing %}
+  </header>
 
-  <div class="pv3">
+  <div class="f3 pb3">
     {% include post-icons.html thing=include.thing %}
+  </div>
+
+  <div class="pb5">
+    {% include post-metadata.html thing=include.thing %}
   </div>
 
   <div class="w-50-l">
@@ -12,5 +18,6 @@
   </div>
 
   {% include post-body.html thing=include.thing %}
+
 </article>
 

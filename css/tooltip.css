@@ -6,6 +6,7 @@ dfn {
 
 dfn::after {
   content: attr(data-info);
+  width: 30em;
   position: absolute;
   top: 0; left: 0;
   opacity: 0;
