@@ -1,5 +1,6 @@
 prose:
   rooturl: 'jekyll/_posts'
+  siteurl: 'https://monks.co'
   media: 'resources'
   metadata:
     jekyll/_posts:
@@ -67,4 +68,3 @@ prose:
               name: "website"
             - value: "writing":
               name: "writing"
-
