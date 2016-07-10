@@ -16,6 +16,14 @@ prose:
         field:
           element: "text"
           label: "year"
+      - name: "website"
+        field:
+          element: "text"
+          label: "website"
+      - name: "github"
+        field:
+          element: "text"
+          label: "github"
       - name: "categories"
         field:
           element: "multiselect"
