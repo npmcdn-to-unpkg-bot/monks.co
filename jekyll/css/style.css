@@ -3,6 +3,7 @@
 @import url('/css/tooltip.css');
 @import url('/css/categories.css');
 @import url('/css/aspect-ratio.css');
+@import url('/css/grow.css');
 
 .copy p {
   max-width: 30em;
