@@ -1,7 +1,7 @@
 prose:
   rooturl: 'jekyll/_posts'
   siteurl: 'https://monks.co'
-  media: 'resources'
+  media: 'resources/images'
   metadata:
     jekyll/_posts:
       - name: "title"
