@@ -1,7 +1,7 @@
 prose:
   rooturl: 'jekyll/_posts'
   siteurl: 'https://monks.co'
-  media: 'resources'
+  media: 'resources/images'
   metadata:
     jekyll/_posts:
       - name: "title"
@@ -16,6 +16,14 @@ prose:
         field:
           element: "text"
           label: "year"
+      - name: "website"
+        field:
+          element: "text"
+          label: "website"
+      - name: "github"
+        field:
+          element: "text"
+          label: "github"
       - name: "categories"
         field:
           element: "multiselect"
@@ -68,4 +76,3 @@ prose:
               name: "website"
             - value: "writing"
               name: "writing"
-
