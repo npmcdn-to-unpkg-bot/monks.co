@@ -24,10 +24,6 @@ prose:
         field:
           element: "text"
           label: "github"
-      - name: "media"
-        field:
-          element: "textarea"
-          label: "media"
       - name: "categories"
         field:
           element: "multiselect"
