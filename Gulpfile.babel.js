@@ -1,10 +1,13 @@
 import gulp from 'gulp'
 
+import autoprefixer from 'autoprefixer'
 import clean from 'gulp-clean'
 import cloudfront from 'gulp-cloudfront-invalidate-aws-publish'
+import cssimport from 'postcss-import'
 import entities from 'gulp-html-entities'
 import htmlmin from 'gulp-htmlmin'
 import parallelize from 'concurrent-transform'
+import postcss from 'gulp-postcss'
 import prettify from 'gulp-jsbeautifier'
 import publish from 'gulp-awspublish'
 import shell from 'gulp-shell'
@@ -35,9 +38,13 @@ gulp.task('finalize', ['copy'], () => {
 })
 
 gulp.task('css', ['copy'], () => {
-  return gulp.src('./target/**/*.css')
-    .pipe(prettify())
-    .pipe(gulp.dest('./target'))
+  const processors = [
+    cssimport({ from: './target/css/style.css' }),
+    autoprefixer({ browsers: ['last 1 version'] })
+  ]
+  return gulp.src('./target/css/style.css')
+    .pipe(postcss(processors))
+    .pipe(gulp.dest('./target/css'))
 })
 
 gulp.task('html', ['copy'], () => {

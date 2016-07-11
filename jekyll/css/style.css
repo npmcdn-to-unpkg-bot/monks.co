@@ -1,9 +1,10 @@
-@import url('/css/monksco.css');
-@import url('/css/highlight.css');
-@import url('/css/tooltip.css');
-@import url('/css/categories.css');
-@import url('/css/aspect-ratio.css');
-@import url('/css/grow.css');
+@import url('https://npmcdn.com/tachyons@4.0.1/css/tachyons.min.css')
+@import url('monksco.css');
+@import url('highlight.css');
+@import url('tooltip.css');
+@import url('categories.css');
+@import url('aspect-ratio.css');
+@import url('grow.css');
 
 .copy p {
   max-width: 30em;
