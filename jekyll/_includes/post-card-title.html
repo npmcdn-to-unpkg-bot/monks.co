@@ -3,7 +3,7 @@
     <a href="{{ include.thing.website }}" class="link">
   {% endif %}
 
-  {{ include.thing.title }}
+  <span class="p-name">{{ include.thing.title }}</span>
 
   {% if include.thing.website %}
       {% include icon.html icon="arrow" %}
@@ -11,7 +11,7 @@
   {% endif %}
 
   <div class="black-50">
-    {{ include.thing.year }}
+    {% include post-time.html thing=include.thing %}
     {% include post-icons.html thing=include.thing %}
   </div>
 </h1>

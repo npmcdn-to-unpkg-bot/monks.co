@@ -3,13 +3,13 @@
   <div class="pv3 copy">
     {% if page.shorten %}
       {% if include.thing.excerpt %}
-        {{ include.thing.excerpt | markdownify }}
+        <div class="p-summary">{{ include.thing.excerpt | markdownify }}</div>
       {% endif %}
       {% if post.content contains '<!--more-->' %}
         <a href="{{include.thing.url}}">read more...</a>
       {% endif %}
     {% else %}
-      {{ include.thing.content | markdownify }}
+      <div class="e-content">{{ include.thing.content | markdownify }}</div>
     {% endif %}
   </div>
 {% endif %}

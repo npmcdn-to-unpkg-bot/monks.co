@@ -1,6 +1,6 @@
-<article class="overflow-x-scroll mv4 ba-ns grow-ns cf">
+<article class="overflow-x-scroll mv4 ba-ns grow-ns cf h-entry">
   <div class="ph3-ns ph2">
-    {% include post-title.html thing=include.thing %}
+    {% include post-card-title.html thing=include.thing %}
   </div>
 
   {% if include.thing.media %}
@@ -9,7 +9,7 @@
     </div>
   {% endif %}
 
-  <div class="ph3-ns ph2">
+  <div class="ph3-ns ph2 e-content">
     {% include post-body.html thing=include.thing %}
   </div>
 

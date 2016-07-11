@@ -8,7 +8,7 @@
   {% endif %}
   <li>
     {% capture url %}{% include post-url.html thing=include.thing %}{% endcapture %}
-    <a href="{{ url | strip }}" class="link">
+    <a href="{{ url | strip }}" class="link u-url">
       {% include icon.html icon="link" %} permalink
     </a>
   </li>
