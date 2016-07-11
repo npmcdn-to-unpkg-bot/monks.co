@@ -1,6 +1,10 @@
 language: ruby
 rvm:
 - 2.1
+cache:
+  bundler: true
+  directories:
+    - node_modules
 env:
   global:
     - TRAVIS_NODE_VERSION="6"
