@@ -5,6 +5,7 @@
 @import url('categories.css');
 @import url('aspect-ratio.css');
 @import url('grow.css');
+@import url('caps.css');
 
 .copy p {
   max-width: 30em;
