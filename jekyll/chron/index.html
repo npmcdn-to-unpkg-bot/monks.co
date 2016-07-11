@@ -1,0 +1,9 @@
+---
+title: all posts
+---
+<ul class="pv6 list">
+  {% for post in site.posts %}
+    {% include post-li.html thing=post %}
+  {% endfor %}
+</ul>
+
