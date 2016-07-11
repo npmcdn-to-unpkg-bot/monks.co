@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
 
 cd jekyll;
-jekyll build;
+bundle exec jekyll build;
 
