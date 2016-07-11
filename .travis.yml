@@ -2,12 +2,12 @@ language: ruby
 rvm:
 - 2.1
 env:
-  - global:
+  global:
     - TRAVIS_NODE_VERSION="6"
-    - secure: "rUVwShnmmXN59Si1Qcbrget8xhNpIGdwXfgYW/YX01rCqhBGOaeSz3LL474L9J2kx9pU6ABk6BjzuyTvdcy1vP+XC6edeA0UuTPnS5pZnLYRVdkk8GkMvRPRAICCSQ/cnU4dEUT2jS/5KKAClLpFj69MF0Sf55IZbkXY+WEtR8k="
-    - secure: "QjvDXg5MZ+mkTdo4+n1XXj6XnL3yBYK8yMYaJNZFlQP9zsdZs79HaZiAfVE3y0n/yQ5oFrpIFD1laDYmmNxlta8ZDvSKvcCO/qoGhkbBOyAIRujYRzFjEJTy5uLyoKItkMdqjkL2L0PWdhs0m3Yx3MzJb3mlsNBDKCBclSRCmt8="
+    - secure: rUVwShnmmXN59Si1Qcbrget8xhNpIGdwXfgYW/YX01rCqhBGOaeSz3LL474L9J2kx9pU6ABk6BjzuyTvdcy1vP+XC6edeA0UuTPnS5pZnLYRVdkk8GkMvRPRAICCSQ/cnU4dEUT2jS/5KKAClLpFj69MF0Sf55IZbkXY+WEtR8k=
+    - secure: QjvDXg5MZ+mkTdo4+n1XXj6XnL3yBYK8yMYaJNZFlQP9zsdZs79HaZiAfVE3y0n/yQ5oFrpIFD1laDYmmNxlta8ZDvSKvcCO/qoGhkbBOyAIRujYRzFjEJTy5uLyoKItkMdqjkL2L0PWdhs0m3Yx3MzJb3mlsNBDKCBclSRCmt8=
 install:
-  - rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && echo 'INSTALLING !!!!!!!!!!!!!' && nvm install $TRAVIS_NODE_VERSION
+  - rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION
   - npm install
 script: npm start
 
