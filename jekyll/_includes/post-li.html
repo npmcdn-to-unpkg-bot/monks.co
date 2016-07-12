@@ -1,6 +1,6 @@
 <li>
-  <em>{{include.post.year}}</em>
-  <a href="{{ include.post.url }}">{{ include.post.title }}</a>
-  {% if include.post.tagline %}<em>{{include.post.tagline}}</em>{% endif %}
-  <span>{% include post-icons.html thing=include.post %}</span>
+  <em>{{include.thing.year}}</em>
+  <a href="{{ include.thing.url }}">{{ include.thing.title }}</a>
+  {% if include.thing.tagline %}<em>{{include.thing.tagline}}</em>{% endif %}
+  <span>{% include post-icons.html thing=include.thing %}</span>
 </li>
