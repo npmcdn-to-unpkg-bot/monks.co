@@ -3,9 +3,11 @@
 {% assign count = 0 %}
 {% for post in site.posts %}
   {% if post.wip != true %}
-    {% assign count = count | plus: 1 %}
-    {% if count <= include.count %}
-      {% include post-card.html thing=post %}
-    {% endif %}
+    {% unless post.categories contains "featured" %}
+      {% assign count = count | plus: 1 %}
+      {% if count <= include.count %}
+        {% include post-card.html thing=post %}
+      {% endif %}
+    {% endunless %}
   {% endif %}
 {% endfor %}
