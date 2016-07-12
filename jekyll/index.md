@@ -4,14 +4,11 @@ shorten: true
 layout: index
 ---
 
-Here are some of my favorite things I've done:
+I love the web.
 
-* [Belgian Man Records](/belgian-man/), an experimental record label
-* [sellf.org](/sellf/), a parafictional company about online personal data
-* [Where At?](/where-at/), a tool for drawing on Google Maps and sharing them
-* [Line Describing The Body](/fog/), a piece of interactive Light+Space art
-* [Love](/love/), an augmented reality hands-free game
-* [Lyric Generator](/lyrics/), a markov-chain generator inspired by Lil B
+I'm interested in data, surveillance, the Internet of Things, technological literacy, and the growing ubiquity of Web.
+
+I really like writing things like [this explanation of testing](/testing/) that help people understand
 
 * * *
 

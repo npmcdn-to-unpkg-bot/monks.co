@@ -17,8 +17,7 @@
     </div>
 
     <div class="mv5 measure lh-copy ph2 ph0-ns">
-      {% capture intro %}{% include intro.md %}{% endcapture %}
-      {{ intro | markdownify }}
+      {{ page.content | markdownify }}
     </div>
 
     <div class="mv5 ph2 ph0-ns">Here's a <a href="/everything/">big list of everything</a> on this website.</div>

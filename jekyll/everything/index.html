@@ -1,8 +1,12 @@
 ---
 title: all posts
 ---
-<div class="pv6">
-  <a href="#chron">Chronological List</a>
+{% assign post_count=site.posts | size %}
+<div class="pv6 f4">
+  <a href="#chron" class="link">
+    Chronological List
+    <span class="black-50 f6">{{post_count}} posts</span>
+  </a>
   {% include category-links.html %}
   <div id="chron">{% include post-list.html posts=site.posts %}</div>
   {% include category-sections.html %}
