@@ -17,3 +17,6 @@ img {
   max-width: 100%;
 }
 
+#resume:not(:target) { display: none; }
+#resume:target { display: block; }
+
