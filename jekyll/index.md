@@ -14,5 +14,5 @@ If you need the web to work for you, but you don't yet have the skills to make i
 
 * * *
 
-Here's [a huge list of everything](/everything/).
+Here's [a huge, sorted list of all the projects on this website](/everything/).
 
