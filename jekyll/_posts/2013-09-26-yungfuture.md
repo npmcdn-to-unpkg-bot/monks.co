@@ -3,7 +3,7 @@ categories:
   - javascript
   - website
   - graphic
-  - 3d
+  - three
 
 title:  "Yung Future"
 year: "2013"
