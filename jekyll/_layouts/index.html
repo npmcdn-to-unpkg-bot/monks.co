@@ -16,6 +16,11 @@
       </div>
     </div>
 
+    <div id="resume" class="mw7 ba-ns ph3 mv4">
+      {% capture resume %}{% include resume.md %}{% endcapture %}
+      <div class="measure lh-copy">{{ resume | markdownify }}</div>
+    </div>
+
     <div class="mv5 measure lh-copy ph2 ph0-ns">
       {{ page.content | markdownify }}
     </div>

@@ -1,6 +1,5 @@
 ---
 categories:
-  - featured
   - ruby
   - javascript
   - website

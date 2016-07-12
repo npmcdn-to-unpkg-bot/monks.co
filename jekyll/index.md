@@ -3,14 +3,6 @@ title: Andrew Monks
 shorten: true
 layout: index
 ---
-<div id="resume">
-I've been doing full stack web development for more than ten years now.
-
-I enjoy programming using functional paradigms. Especially in Clojure and Javascript. I used to write a lot of Ruby.
-
-I know a great deal about Amazon's AWS cloud infrastructure.
-</div>
-
 <div class="f4">
 I love the web.
 </div>
