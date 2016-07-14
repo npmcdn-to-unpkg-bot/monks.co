@@ -20,3 +20,7 @@ img {
 #resume:not(:target) { display: none; }
 #resume:target { display: block; }
 
+pre {
+  overflow-x: scroll;
+}
+

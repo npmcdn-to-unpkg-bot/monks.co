@@ -16,11 +16,11 @@ I enjoy programming using functional paradigms. Especially in Clojure and Javasc
 
 ### GIFBOOTH
 
-GIFBOOTH provides animated gif photobooths at events like New York Fashion Week for brands like Red Bull, Neimann Marcus, and Jill Stewart.
+GIFBOOTH provides animated gif photobooths at events for brands like Red Bull, Neimann Marcus, and New York Fashion Week.
 
-I built the server-side database and transcoding infrastructure, which scales to handle huge spikes in traffic. I also built the single-page web application.
+I built the server-side database and transcoding system, which scales to handle huge spikes in traffic. I also built the single-page web application.
 
 ### SAIC BFA
 
-I have a BFA in Art and Technology from the School of the Art Institute of Chicago. I took classes ranging from *Algorithms & Artificial Intelligence* and *Human Computer Interaction* to *Programming for Drawing*, *Data Visualisation*, and *Realtime Systems*.
+I have a BFA in Art and Technology from the School of the Art Institute of Chicago. I took classes ranging from *Algorithms & Artificial Intelligence* and *Human Computer Interaction* to *Programming for Drawing*, *Data Visualisation*, and *Networked Objects*.
 
