@@ -3,6 +3,9 @@ url: "http://monks.co"
 permalink: "/:title"
 excerpt_separator: "<!--more-->"
 markdown: "kramdown"
+collections:
+  letters:
+    output: true
 media:
   image-class: "w-100"
 sass:
@@ -13,6 +16,12 @@ defaults:
       path: ""
     values:
       layout: "page"
+  -
+    scope:
+      path: "_letters"
+    values:
+      layout: "letter"
+      permalink: ":title/index.html"
   -
     scope:
       path: "_posts"

@@ -4,8 +4,12 @@
   </header>
 
   <div class="f3 pb3 ph2">
-    {% include post-date.html thing=include.thing %}
-    {% include post-category-icons.html thing=include.thing %}
+    <span class="f3">
+      {% include post-date.html thing=include.thing %}
+    </span>
+    <span class="f4">
+      {% include post-category-icons.html thing=include.thing %}
+    </span>
   </div>
 
   <div class="pb5 ph2">

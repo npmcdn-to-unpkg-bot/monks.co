@@ -1,6 +1,6 @@
 {% assign content = include.thing.content | strip_newlines %}
 {% if content != "" %}
-  <div class="pv3 copy">
+  <div class="pv3 ph2 copy">
     {% if page.shorten %}
       {% if include.thing.excerpt %}
         <div class="p-summary">{{ include.thing.excerpt | markdownify }}</div>

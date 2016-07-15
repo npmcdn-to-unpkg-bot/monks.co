@@ -11,30 +11,28 @@
         <a class="p-name p-url" href="https://monks.co">Andrew Monks</a>
       </h1>
 
-      {% include contact.html with_resume=true %}
+      {% include contact.html %}
     </div>
 
     <div class="mv5 measure lh-copy ph2 ph0-ns">
       {{ page.content | markdownify }}
     </div>
 
-    <div class="f4 mv5 ph2 ph0-ns">Here's a <a href="/everything/">big sorted list of everything</a> on this website.</div>
+    {% include resume.html %}
 
-    <div class="cf"></div>
+    <div class="f3 mt6 mb5 mh2">Here are some other relevant projects I've worked on:</div>
 
-    <div class="fl-l w-33-l pr4-l">
-      {% include featured.html count=8 %}
-    </div>
-
-    <div class="fl-l w-33-l pr4-l">
-      {% include new.html count=8 %}
-    </div>
-
-    <div class="fl-l w-33-l pr4-l">
-      {% include wip.html count=8 %}
-    </div>
-
-    <div class="cf"></div>
+    {% if page.posts %}
+      <div class="mw8">
+        {% for slug in page.posts %}
+          {% for post in site.posts %}
+            {% if post.slug == slug %}
+              {% include post-card.html thing=post %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
     {% include footer.html %}
   </main>
