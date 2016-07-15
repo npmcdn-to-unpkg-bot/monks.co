@@ -1,5 +1,6 @@
 <a href="{{ include.prefix }}#{{ include.category }}" class="link">
   {% assign title = site.cats[include.category] %}
   {% include icon.html icon=include.category %}
+  <span class="three-per-em-space"></span>
   {{ title }}
 </a>

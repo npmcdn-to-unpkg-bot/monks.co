@@ -26,7 +26,7 @@ cats:
   bmr: "belgian man records"
   clojure: "clojure"
   code: "code"
-  experience: "experiential"
+  # experience: "experiential"
   featured: "featured"
   graphic: "graphics"
   hardware: "hardware"

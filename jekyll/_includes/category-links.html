@@ -1,11 +1,11 @@
 <div class="f4" data-turbolinks="false">
-  <div>
+  <div class="mb3">
     <a href="#chron" class="link">
       Chronological List
       {% assign post_count=site.posts | size %}
     </a>
     <span class="black-50 f6">{{post_count}} posts</span>
-    <ul id="chron" class="list">
+    <ul id="chron" class="list pl0 lh-title">
       {% for post in site.posts %}
         {% include post-li.html thing=post %}
       {% endfor %}
@@ -15,10 +15,10 @@
   {% for category in site.cats %}
     {% assign slug=category[0] %}
     {% assign post_count=site.categories[slug] | size %}
-    <div>
+    <div class="mb3">
       {% include category-link.html prefix="" category=slug %}
       <span class="black-50 f6">{{post_count}} posts</span>
-      <ul id="{{slug}}" class="list">
+      <ul id="{{slug}}" class="list pl0 lh-copy">
         {% assign posts = site.categories[slug] %}
         {% for post in posts %}
           {% include post-li.html thing=post %}

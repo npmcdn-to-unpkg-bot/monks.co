@@ -1,4 +1,4 @@
-<a href="/everything#{{ include.category }}" class="link">
+<a href="/everything#{{ include.category }}" class="link" data-turbolinks="false">
   {% assign text = site.cats[include.category] %}
   {% include tooltip-icon.html text=text icon=include.category %}
 </a>

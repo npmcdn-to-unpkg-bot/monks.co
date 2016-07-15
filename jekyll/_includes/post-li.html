@@ -1,6 +1,21 @@
-<li>
-  <em>{{include.thing.year}}</em>
-  <a href="{{ include.thing.url }}">{{ include.thing.title }}</a>
-  {% if include.thing.tagline %}<em>{{include.thing.tagline}}</em>{% endif %}
-  <span>{% include post-icons.html thing=include.thing %}</span>
+<li class="cf mv4 mv3-ns">
+  <div class="fl-ns">
+    <year class="f6 black-50">{{include.thing.year}}</year>
+    <span class="en-space"></span>
+    <a href="{{ include.thing.url }}" class="f6 link tracked ttu">{{ include.thing.title }}</a>
+    <span class="dn di-ns">
+      <span class="three-per-em-space"></span>
+    </span>
+  </div>
+  <div class="fl-ns">
+    {% if include.thing.tagline %}
+      {{include.thing.tagline}}
+      <span class="dn di-ns">
+        <span class="three-per-em-space"></span>
+      </span>
+    {% endif %}
+  </div>
+  <div class="fl-ns">
+    <span class="f6">{% include post-category-icons.html thing=include.thing %}</span>
+  </div>
 </li>
