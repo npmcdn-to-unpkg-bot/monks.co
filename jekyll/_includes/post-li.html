@@ -2,7 +2,7 @@
   <div class="fl-ns">
     <year class="f6 black-50">{{include.thing.year}}</year>
     <span class="en-space"></span>
-    <a href="{{ include.thing.url }}" class="f6 link tracked ttu">{{ include.thing.title }}</a>
+    <a href="{{ include.thing.url | remove: "index.html" }}" class="f6 link tracked ttu">{{ include.thing.title }}</a>
     <span class="dn di-ns">
       <span class="three-per-em-space"></span>
     </span>
