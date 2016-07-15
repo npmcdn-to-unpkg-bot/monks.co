@@ -40,6 +40,8 @@
     "postcss-discard-comments": "^2.0.4",
     "postcss-import": "^8.1.2",
     "postcss-import-url": "^2.1.0",
-    "postcss-prettify": "^0.3.4"
+    "postcss-prettify": "^0.3.4",
+    "postcss-uncss": "^0.14.0",
+    "uncss": "^0.14.0"
   }
 }
