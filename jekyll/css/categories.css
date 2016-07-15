@@ -4,10 +4,14 @@ layout: nil
 
 {% for category in site.cats %}
   {% assign slug=category[0] %}
+  /* uncss:ignore */
   #{{slug}}:not(:target) { display: none; }
+  /* uncss:ignore */
   #{{slug}}:target { display: block; }
 {% endfor %}
 
+/* uncss:ignore */
 #chron:not(:target) { display: none; }
+/* uncss:ignore */
 #chron:target { display: block; }
 

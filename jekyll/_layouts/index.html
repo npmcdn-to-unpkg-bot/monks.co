@@ -4,7 +4,7 @@
 
 {% include head.html %}
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden bg-yellow">
   <main class="pa5-ns pa0 overflow-x-hidden">
     <div class="h-card">
       <h1 class="f-headline-l f1 ph2 ph0-ns mb1">Hi! I'm
@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div id="resume" class="mw7 ba-ns ph3 mv4">
+    <div id="resume" class="pv1 mw7 ba-ns ph3 mv4 bg-white">
       {% capture resume %}{% include resume.md %}{% endcapture %}
       <div class="measure lh-copy">{{ resume | markdownify }}</div>
     </div>
