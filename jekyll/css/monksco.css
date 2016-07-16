@@ -86,7 +86,7 @@
 .icon-docker:before {
   content: "\70";
 }
-.icon-stage:before {
+.icon-performance:before {
   content: "\71";
 }
 .icon-joke:before {
@@ -127,4 +127,7 @@
 }
 .icon-github:before {
   content: "\44";
+}
+.icon-amp:before {
+  content: "\26";
 }
