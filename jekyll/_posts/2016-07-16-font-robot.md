@@ -8,6 +8,9 @@ github: 'https://github.com/amonks/font-robot'
 categories:
   - graphic
   - javascript
+media:
+  - type: image
+    url: /images/graph.png
 ---
 A couple months ago, Jon Gold wrote a [fascinating article](http://www.jon.gold/2016/05/robot-design-school/) about his work at The-Grid creating "a system that can understand, select & apply typography with the nuance of an expert human designer."
 
