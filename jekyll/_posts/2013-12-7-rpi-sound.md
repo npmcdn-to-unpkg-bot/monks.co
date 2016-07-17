@@ -1,13 +1,13 @@
 ---
 published: true
-
 layout: default
 title: rapsberry pi sound
 categories:
   - howto
   - linux
 group: raspberry-pi
-
+tagline: Pi Guide
+year: '2013'
 ---
 
 # 	sound on raspberrypi
