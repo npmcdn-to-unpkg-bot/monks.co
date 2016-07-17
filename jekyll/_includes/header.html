@@ -1,6 +1,6 @@
 <div class="f3 ma0 mb1 ttu tracked lh-title">
   {% if include.thing.title %}
-    <span class="p-name">{{include.thing.title}}</span>
+    {% include post-website-title.html thing=include.thing %}
   {% else %}
     <a class="p-author h-card" href="/">Andrew Monks</a>
   {% endif %}

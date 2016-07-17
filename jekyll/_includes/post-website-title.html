@@ -1,0 +1,11 @@
+{% if include.thing.website %}
+  <a href="{{ include.thing.website }}" class="link">
+{% endif %}
+
+<span class="p-name">{{ include.thing.title }}</span>
+
+{% if include.thing.website %}
+    {% include icon.html icon="arrow" %}
+  </a>
+{% endif %}
+
