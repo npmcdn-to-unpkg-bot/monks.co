@@ -1,14 +1,11 @@
 ---
 published: true
-layout: default
 title: install pure data on raspberry pi
 categories:
   - howto
   - linux
-group: raspberry-pi
 year: '2013'
 tagline: Pi Guide
-truth: true
 ---
 download and installmost recent raspberrian package
 

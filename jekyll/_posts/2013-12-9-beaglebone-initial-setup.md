@@ -1,12 +1,10 @@
 ---
 published: true
-layout: default
 title: initial beaglebone black setup
 categories:
   - hardware
   - howto
   - linux
-group: beaglebone
 year: '2013'
 tagline: Pi Guide
 ---

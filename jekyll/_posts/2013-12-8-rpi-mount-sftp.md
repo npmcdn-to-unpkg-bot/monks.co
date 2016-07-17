@@ -1,11 +1,9 @@
 ---
 published: true
-layout: default
 title: mount your mac via sftp on raspberry pi
 categories:
   - howto
   - linux
-group: raspberry-pi
 tagline: Pi Guide
 year: '2013'
 ---

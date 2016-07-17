@@ -3,14 +3,8 @@ published: true
 categories:
   - howto
   - linux
-
-layout: default
 title: mosh tmux
-group: general
-
 ---
-
-
 # mosh; tmux
 
 ## install

@@ -1,13 +1,9 @@
 ---
 published: false
-
-layout: default
 title: RPI Hardware
 categories:
   - howto
   - hardware
-group: raspberry-pi
-
 ---
 
 # rpi hardware

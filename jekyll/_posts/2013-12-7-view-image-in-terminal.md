@@ -1,11 +1,9 @@
 ---
 published: true
-layout: default
 title: view images inside a terminal
 categories:
   - howto
   - linux
-group: general
 year: '2013'
 tagline: Pi Guide
 ---

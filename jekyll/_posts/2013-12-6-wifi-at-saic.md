@@ -1,11 +1,9 @@
 ---
 published: true
-layout: default
 title: Wifi at SAIC
 categories:
   - howto
   - linux
-group: raspberry-pi
 tagline: Student How-To
 year: '2013'
 ---

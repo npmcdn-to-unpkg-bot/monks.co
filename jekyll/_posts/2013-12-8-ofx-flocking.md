@@ -1,11 +1,9 @@
 ---
 published: true
-layout: default
 title: Flocking in OpenFrameworks
 categories:
   - of
   - graphics
-group: open-frameworks
 tagline: Like Birds
 github: 'http://github.com/amonks/ofxFlocking'
 year: '2013'
