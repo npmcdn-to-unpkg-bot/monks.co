@@ -1,12 +1,12 @@
 ---
 published: true
-
 layout: default
 title: Convert multiple .xls files to .csv
 categories:
   - ruby
 group: general
-
+year: '2014'
+tagline: Quick Script
 ---
 
 # Convert multiple `.xls` files to `.csv`
