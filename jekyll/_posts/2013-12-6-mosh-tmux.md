@@ -1,5 +1,7 @@
 ---
 published: true
+year: 2013
+tagline: Pi Guide
 categories:
   - howto
   - linux
