@@ -1,4 +1,8 @@
 ---
+categories:
+  - howto
+  - linux
+published: true
 slug: gh-pages
 title: Migrate to gh-pages
 category: howto

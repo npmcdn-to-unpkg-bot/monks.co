@@ -1,10 +1,11 @@
 ---
+published: true
 
 layout: default
 title: flocking in openframeworks
-tags:
-- guide
-- ofx
+categories:
+  - of
+  - graphics
 group: open-frameworks
 
 ---
@@ -12,8 +13,6 @@ group: open-frameworks
 # ofxFlocking
 
 I updated ofxFlocking to work on mavericks in openFrameworks 0.8.0
-
-[website](http://endurativemod.es/ofx-flocking)
 
 [github](https://github.com/amonks/ofxFlocking)
 
@@ -27,11 +26,11 @@ to make the example project, I used the project generator to create a project an
 
 ### testapp.h
 
-In the blank project, I added 
+In the blank project, I added
 
 	#include "ofxFlocking.h"
 
-to the beginning of `testApp.h`, and added 
+to the beginning of `testApp.h`, and added
 
 	ofxFlocking flock;
 

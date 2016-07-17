@@ -1,10 +1,11 @@
 ---
+published: true
 
 layout: default
 title: Wifi at SAIC
-tags: 
-- rpi
-- guide
+categories:
+  - howto
+  - linux
 group: raspberry-pi
 
 ---
@@ -19,7 +20,7 @@ a lot of this page is directly copy-and-pasted from an email from Chris Baker. P
 
 Several notes about my setup:
 
-1.  I used an Edimax (http://www.amazon.com/EW-7811UN-IEEE-802-11n-draft-USB/dp/B005CLMJLU) USB wireless interface.  I tried other wireless interfaces (even some that claimed to use the same realtek chipset) and they did not work.  Other interfaces with compatible chipsets should work as well.  Check the http://elinux.org/RPi_VerifiedPeripherals for ideas. 
+1.  I used an Edimax (http://www.amazon.com/EW-7811UN-IEEE-802-11n-draft-USB/dp/B005CLMJLU) USB wireless interface.  I tried other wireless interfaces (even some that claimed to use the same realtek chipset) and they did not work.  Other interfaces with compatible chipsets should work as well.  Check the http://elinux.org/RPi_VerifiedPeripherals for ideas.
 
 2. Plugging the wireless interface into a powered USB hub did not work.  The wireless interface had to be plugged directly into the PI.  Everything else (keyboard, etc) was plugged into a powered usb hub.  I'm assuming this was a power issue, but it could have been anything including interference, etc.
 

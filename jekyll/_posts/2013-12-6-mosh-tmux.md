@@ -1,10 +1,11 @@
 ---
+published: true
+categories:
+  - howto
+  - linux
 
 layout: default
 title: mosh tmux
-tags: 
-- rpi
-- guide
 group: general
 
 ---

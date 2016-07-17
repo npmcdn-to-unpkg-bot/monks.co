@@ -1,11 +1,11 @@
 ---
+published: true
 
 layout: default
 title: rapsberry pi sound
-tags: 
-- rpi
-- guide
-- sound
+categories:
+  - howto
+  - linux
 group: raspberry-pi
 
 ---
@@ -22,17 +22,17 @@ navigate with arrow keys.
 
 I'm using a [cheap usb audio interface](http://www.amazon.com/gp/product/B001MSS6CS/) for a crappy mic input. it works.
 
-To use a usb soundcard by default, edit `/etc/modprobe.d/alsa-base.conf`. The last line should be 
+To use a usb soundcard by default, edit `/etc/modprobe.d/alsa-base.conf`. The last line should be
 
 	options snd-usb-audio index=-2
 
-Change the index to 0, making it 
+Change the index to 0, making it
 
 	options snd-usb-audio index=0
 
 and reboot. After rebooting, you can test it with
 
-	aplay /usr/share/scratch/Media/Sounds/Animal/Bird.wav 
+	aplay /usr/share/scratch/Media/Sounds/Animal/Bird.wav
 
 or
 

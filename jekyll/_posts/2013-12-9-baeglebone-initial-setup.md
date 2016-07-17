@@ -1,17 +1,19 @@
 ---
+published: true
 
 layout: default
 title: initial beaglebone black setup
-tags:
-- guide
-- rpi
+categories:
+  - howto
+  - hardware
+  - linux
 group: beaglebone
 
 ---
 
 #	beaglebone black setup steps
 
-1.	
+1.
 
 from beagleboard.org/latest-images get the latest sd boot image *not the emmc flasher* (the emmc has so little memory you end up having to use the microsd slot anyway which gets weird)
 
@@ -21,7 +23,7 @@ use Pi Filler http://ivanx.com/raspberrypi/ to put it on a microsd card
 
 3.
 
-plug bbb into ethernet and sd card. Boot while holding down the button 
+plug bbb into ethernet and sd card. Boot while holding down the button
 
 4.
 

@@ -1,10 +1,11 @@
 ---
+published: false
 
 layout: default
 title: RPI Hardware
-tags:
-- guide
-- rpi
+categories:
+  - howto
+  - hardware
 group: raspberry-pi
 
 ---

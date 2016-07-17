@@ -1,10 +1,12 @@
 ---
+published: true
 slug: markdown-nano
 title: Add markdown syntax highlighting to nano
-category: howto
+categories:
+  - guide
+  - linux
 year: 2013
 ---
-
 
 # add markdown syntax highlighting to nano
 
