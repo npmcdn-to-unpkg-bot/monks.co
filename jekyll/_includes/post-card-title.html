@@ -1,9 +1,12 @@
-<h1 class="pv2 f6 ttu tracked db lh-solid">
-  {% include post-website-title.html thing=include.thing %}
+<h1 class="pv2 f6 db lh-solid">
+  <div class="ttu tracked">
+    {% include post-website-title.html thing=include.thing %}
 
-  <div class="black-50">
-    {% include post-date.html thing=include.thing %}
-    {% include post-category-icons.html thing=include.thing %}
+    <div class="black-50">
+      {% include post-date.html thing=include.thing %}
+      {% include post-category-icons.html thing=include.thing %}
+    </div>
   </div>
+  {% include post-tagline.html thing=include.thing %}
 </h1>
 

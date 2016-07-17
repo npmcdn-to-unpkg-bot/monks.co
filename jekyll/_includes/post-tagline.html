@@ -1,5 +1,3 @@
-<h2>
-  {% if include.thing.tagline %}
-    {{ include.thing.tagline | markdownify | remove: '<p>' | remove: '</p>' }}
-  {% endif %}
-</h2>
+{% if include.thing.tagline %}
+  {{ include.thing.tagline | markdownify | remove: '<p>' | remove: '</p>' }}
+{% endif %}
