@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: font-robot
 tagline: Analytic Typography
 year: '2016'
