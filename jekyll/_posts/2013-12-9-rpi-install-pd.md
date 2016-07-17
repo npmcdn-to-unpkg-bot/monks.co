@@ -8,6 +8,7 @@ categories:
 group: raspberry-pi
 year: '2013'
 tagline: Pi Guide
+truth: true
 ---
 
 # Mount your mac on your raspberry pi
