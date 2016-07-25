@@ -6,7 +6,6 @@ I've been making websites and applications for more than ten years now. I enjoy 
 
 <h2 class="pv2 f6 ttu tracked db lh-solid">Skills</h2>
 
-- Design systems
 - Scalable, serverless architectures
 - Responsive web design
 - Native applications
@@ -22,3 +21,11 @@ I built the server-side database and transcoding system, which scales to handle 
 
 I have a BFA in Art and Technology from the School of the Art Institute of Chicago. I took classes ranging from *Algorithms & Artificial Intelligence* and *Human Computer Interaction* to *Programming for Drawing*, *Data Visualisation*, and *Networked Objects*.
 
+<h2 class="pv2 f6 ttu tracked db lh-solid">Tools</h2>
+
+- react & redux (/reagent)
+- unity3d
+- ofx
+- max/msp
+- aws
+- vim
