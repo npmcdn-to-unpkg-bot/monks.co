@@ -91,7 +91,9 @@ all sorts of particular tasks, such as:
 
 - the Maybe Monad and the Either Monad, which make it easy to chain functions together that might fail
 
-- the Task/Future monad, which makes it easy to chain functions together that perform long-running or asynchronous tasks - the IO monad, which makes it easy to control exactly when and how a chain of functions interacts with the outside world
+- the Task/Future monad, which makes it easy to chain functions together that perform long-running or asynchronous tasks 
+
+- the IO monad, which makes it easy to control exactly when and how a chain of functions interacts with the outside world
 
 Functions within a program might all return
 different monads. This program has a long-running
