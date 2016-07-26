@@ -6,6 +6,7 @@ posts:
   - presence
   - yungfuture
   - fog
+  - testing
 published: true
 ---
 You need someone who can move between technologies and wear different hats in a fast-paced campaign-driven environment.
