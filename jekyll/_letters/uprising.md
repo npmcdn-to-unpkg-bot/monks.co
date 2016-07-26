@@ -2,11 +2,12 @@
 title: Uprising Creative
 posts:
   - love
+  - radblock
+  - presence
   - yungfuture
   - fog
 published: true
 ---
-
 You need someone who can move between technologies and wear different hats in a fast-paced campaign-driven environment.
 
 I pride myself on my ability to dive into unfamiliar tools and teams and hit the ground running. Less than 24 hours after my first time downloading Node, I shipped production code that is still in use today.
