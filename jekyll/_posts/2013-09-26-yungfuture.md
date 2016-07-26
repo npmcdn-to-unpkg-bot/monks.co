@@ -1,19 +1,20 @@
 ---
 categories:
+  - three
+  - graphic
   - javascript
   - website
-  - graphic
-  - three
-
-title:  "Yung Future"
-year: "2013"
-github: "https://github.com/amonks/yungfuture.com"
-website:    "http://yungfuture.com"
-tagline:    "Net.Art exploration"
+title: Yung Future
+year: '2013'
+github: 'https://github.com/amonks/yungfuture.com'
+website: 'http://yungfuture.com'
+tagline: Net.Art exploration
 media:
-  -
-    type: image
-    url: "/images/yungfuture.png"
+  - type: image
+    url: /images/leaftype-wiggle.png
+  - type: image
+    url: /images/yungfuture.png
+published: true
 ---
 <a href="http://yungfuture.com/">Yung Future</a> is an online gallery of experimental single-serving net.arts. The pieces explore themes including growth, polarity, decay, and digitality.
 I continuously keep the gallery updated with new work.
