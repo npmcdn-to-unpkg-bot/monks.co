@@ -14,7 +14,7 @@ I pride myself on my ability to dive into unfamiliar tools and teams and hit the
 
 I went to art school because it's fast-paced and product-driven. When I have a concept in place, I need to do whatever it takes to ship on time (a half-finished painting is ok, but half-working code is **not art**). That means using the best tool for the job, whether I'm familiar with it or not.
 
-Before art school, I ran a (now-defunct) [record label](http://belgianman.com), where I wore _every_ hat. I made music videos, websites, and album covers, did booking, promotion, and PR, and often even (recorded, produced, and mastered the records.
+Before art school, I ran a (now-defunct) [record label](http://belgianman.com), where I wore _every_ hat. I made music videos, websites, and album covers, did booking, promotion, and PR, and often even recorded, produced, and mastered the records.
 
 I'm proud to say I taught myself everything I know, usually under deadline.
 
