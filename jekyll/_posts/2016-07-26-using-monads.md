@@ -114,6 +114,7 @@ Let's get started.
 
 <!--more-->
 
+```javascript
 // ///////////////////////////////////////////////
 
 /* Imports 
