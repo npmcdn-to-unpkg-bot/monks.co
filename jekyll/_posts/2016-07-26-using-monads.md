@@ -1,6 +1,12 @@
 ---
-published: false
+published: true
 title: Using Monads
+tagline: Functional Usage
+year: '2016'
+website: 'https://tonicdev.com/amonks/578beb1fdb37ac12001d3826'
+categories:
+  - howto
+  - javascript
 ---
 ```javascript
 /* How to work with Monads IRL // Chaining in JavaScript
