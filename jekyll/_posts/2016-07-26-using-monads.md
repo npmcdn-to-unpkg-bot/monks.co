@@ -12,13 +12,17 @@ You can try this code out in your browser on [tonicdev](https://tonicdev.com/amo
 
 Have you ever chained a bunch of functions together?
 
+```javascript
 Math.log(Math.floor(Math.sqrt(Math.random())))
+```
 
 Maybe in jQuery?
 
+```javascript
 $('div').css('color', 'red')
     .slideUp(2000)
     .slideDown(2000)
+```
 
 or with promises or node streams?
 
@@ -47,13 +51,15 @@ These four functions all work with Numbers:
 
 Check out this chain:
 
-    const isEven = x => x % 2 == false
-    
-    [5].map(add(1))
-       .map(multiply(4))
-       .filter(isEven)
-       .map(power(2))
-       [0]
+```javascript
+const isEven = x => x % 2 == false
+
+[5].map(add(1))
+   .map(multiply(4))
+   .filter(isEven)
+   .map(power(2))
+   [0]
+```
 
 Here's a few properties that arrays have that make
 them good for chaining:
