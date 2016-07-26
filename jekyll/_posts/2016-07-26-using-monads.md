@@ -8,12 +8,7 @@ categories:
   - howto
   - javascript
 ---
-```javascript
-/* How to work with Monads IRL // Chaining in JavaScript
- * by Andrew Monks // https://monks.com/monads
- *
- * try it in your browser:
- * https://tonicdev.com/amonks/578beb1fdb37ac12001d3826
+You can try this code out in your browser at https://tonicdev.com/amonks/578beb1fdb37ac12001d3826
 
 Have you ever chained a bunch of functions together?
 
@@ -116,7 +111,8 @@ functions to convert the Maybe and IO monads into
 Task monads.
 
 Let's get started.
-*/
+
+<!--more-->
 
 // ///////////////////////////////////////////////
 
