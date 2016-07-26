@@ -1,5 +1,6 @@
 ---
 published: false
+title: Using Monads
 ---
 ```javascript
 /* How to work with Monads IRL // Chaining in JavaScript
