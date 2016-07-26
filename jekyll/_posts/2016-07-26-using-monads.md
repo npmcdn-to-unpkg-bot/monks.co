@@ -8,7 +8,7 @@ categories:
   - howto
   - javascript
 ---
-You can try this code out in your browser at https://tonicdev.com/amonks/578beb1fdb37ac12001d3826
+You can try this code out in your browser on [tonicdev](https://tonicdev.com/amonks/578beb1fdb37ac12001d3826)
 
 Have you ever chained a bunch of functions together?
 
