@@ -18,4 +18,4 @@ Before art school, I ran a (now-defunct) [record label](http://belgianman.com), 
 
 I'm proud to say I taught myself everything I know, usually under deadline.
 
-I'm out of town until the 4th, but I'd be delighted to hear from you at <a href="mailto:a@monks.co">a@monks.co</a>, or by phone at (978) 254-1779
+<p class="f4">I'm out of town until the 4th, but I'd be delighted to hear from you at <a href="mailto:a@monks.co">a@monks.co</a>, or by phone at (978) 254-1779</p>
