@@ -4,7 +4,7 @@ posts:
   - netcam
   - mixer
   - testing
+published: true
 ---
-## A New Post
+I think I would be a great addition to your team at Resin.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
