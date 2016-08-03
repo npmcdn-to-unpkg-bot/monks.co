@@ -1,6 +1,11 @@
 ---
 published: false
-title: landing pages
+title: Landing Pages
+tagline: Always Be Closing!
+year: '2016'
+categories:
+  - howto
+  - interaction
 ---
 
 The landing page is often a potential customer's first point of engagement with a brand/product. With a good landing page, you can walk them straight from the first impression to a sale. A successful approach is to answer three questions:
