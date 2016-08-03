@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Landing Pages
 tagline: Always Be Closing!
 year: '2016'
@@ -41,4 +41,3 @@ Zocdoc is interesting for a few reasons. First, they have a ton of different typ
 Since patients are the most important audience for the landing page, they alternate between addressing potential patients and the other groups.
 
 I love that if a potential patient is interested enough to get to the bottom of the page, but hasn't been funneled off into booking yet, they provide a phone number for offline sales.
-
