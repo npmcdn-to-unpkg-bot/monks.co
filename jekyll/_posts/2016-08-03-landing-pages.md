@@ -7,7 +7,6 @@ categories:
   - howto
   - interaction
 ---
-
 The landing page is often a potential customer's first point of engagement with a brand/product. With a good landing page, you can walk them straight from the first impression to a sale. A successful approach is to answer three questions:
 
 1. What is this?
@@ -15,7 +14,7 @@ The landing page is often a potential customer's first point of engagement with 
     - for b2b, this means: "How will it help my business make more money?"
 3. How do I buy it?
 
-Here are some landing pages that I think are really good:
+Here are some really good landing pages:
 
 ### [Central Working](http://centralworking.com/)
 
