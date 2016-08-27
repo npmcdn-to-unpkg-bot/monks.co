@@ -1,0 +1,31 @@
+---
+published: false
+title: Two uses of macros
+tagline: lispin'
+year: '2016'
+categories:
+  - code
+  - writing
+---
+Lisp has macros.
+
+Macros are functions you write that operate on that syntax tree during compilation.
+
+It's not obvious at all what they're for.
+
+I'll discuss two ways that macros are used.
+
+* * *
+
+One use of macros is what lispers call "bottom-up development". I think rubyists call it "domain specific language".
+
+Methods like `attr_accessor`, and active record’s `has_many` and `belongs_to` are great examples, implemented in ruby using ruby's facilities for metaprogramming, where you can interact with classes. Lisp code doesn't usually use classes, so you operate directly on the syntax tree, which is easy because your code is a _literally_ a syntax tree literal. Nested lists of functions and argumenmts. 
+
+Ruby's metaprogramming is quite complex, but lisp's macros use the same functions that you use on the other lists and arrays that make up your program.
+
+* * *
+
+Another use of macros relies on the fact that they're executed during compile time, rather than runtime.
+
+When I'm writing lisp, I put my documentation and testing inline. In clojurescript, for example, whenever I define a react component, on the next line I pass it as an argument to a macro, along with maybe some sets of test props. In production, the macro returns no code. In development, it returns code that generates a new set of routes in the app for testing and documentation, including the components docstring, if I've defined one (clojure, like python, uses in-language docstrings rather than comments above functions), and an instance with each set of test props. It would be crazy to build the same thing with babel plugins.
+
