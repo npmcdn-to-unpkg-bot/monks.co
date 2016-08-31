@@ -1,4 +1,4 @@
-@import url('https://npmcdn.com/tachyons@4.0.1/css/tachyons.min.css');
+@import url('https://unpkg.com/tachyons@4.0.1/css/tachyons.min.css');
 @import url('https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css');
 @import url('monksco.css');
 @import url('highlight.css');
